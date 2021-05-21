@@ -79,6 +79,7 @@ Sul display del pannello di controllo (__operation panel__) compare la scritta `
 
 ### Preparare il file
 
+<!-- Niente istruzioni riguardanti Inkscape? -->
 <!-- Aggiungere sezione per prepare il file su CutStudio -->
 
 La Vinyl Cutter durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Per riportare queste misure sul foglio di lavoro seguire il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi l'operazione cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in foto).   
