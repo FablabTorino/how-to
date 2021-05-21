@@ -90,7 +90,7 @@ Per ridurre o aumentare le dimensioni del contorno si può agire sulle frecce ag
 
 ### Parametri di taglio
 <!-- Da rivvedere da qua in poi -->
-In base al materiale è possibile modificare la pressione della lama pannello di controllo (__operation panel__) premendo sul tasto `FORCE`. Quindi modificare i grammi forza con `↑` e `↓` e premere infine `ENTER` per confermare la selezione.
+In base al materiale è possibile modificare la pressione della lama pannello di controllo (__operation panel__) premendo sul tasto `FORCE`. Premere `←` o `→` sulla pulsantiera per sbloccare la selezione, quindi modificare i grammi forza con `↑` e `↓` e premere infine `ENTER` per confermare la selezione.
 ![foto-evidenziare tasti necessari](vinylcut/../img/500x300.png)   
 
 Il __display__ dovrebbe ora indicare la pressione della lama (espressa in gf), ma anche la velocità di taglio e la distanza di Offset. Quest'ultima dipende dalla lama montata ed è importante assicurarsi sempre che l'Offset indicato coincida con quello della lama in utilizzo.     
