@@ -34,6 +34,9 @@ Prima di iniziare assicurati di avere tutto il necessario:
 Per ulteriori informazioni consultare la [scheda tecnica](src/scheda-tecnica.pdf) e il [manuale dell'utente](/vinylcut/src/users-manual-en.pdf)
 
 ### Foglio di vinile
+Il vinile in fogli è un supporto estremamente versatile, disponibile in molti colori e adatto alla stampa, derivante dalla lavorazione del PVC e perciò flessibile e resistente.   
+Un foglio di vinile autoadesivo è sempre accoppiato ad un foglio di carta siliconata protettiva, la quale evita che la colla entri in contatto con superfici o oggetti esterni.   
+Dopo il taglio viene applicato un terzo strato chiamato __Transfer__ che tiene insieme i singoli componenti della grafica dell'adesivo, una volta rimossa la carta protettiva.
 <!-- Inserire breve descrizione di come è fatto -->
 
 ### PC con installato i software necessari
