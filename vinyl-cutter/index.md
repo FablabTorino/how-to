@@ -74,37 +74,38 @@ Spostare i due rulli di fissaggio (__pinch roller__) negli spazi bianchi segnati
 Alzare la leva di caricamento (__loading lever__).   
 ![foto prima e dopo](img/vinylcut-leva-alzata.jpg)   
 
-Sul display del pannello di controllo (__operation panel__) compare la scritta `CARICO FOGLIO`. Scegliere con i tasti `↑` o `↓` il tipo di supporto utilizzato, tra `ROTOLO`, `FOGLIO` o `BORDO`. Premere `ENTER` per confermare.  
+Sul display del pannello di controllo (__operation panel__) compare la scritta `CARICO FOGLIO` seguita subito da `CARICA MEDIA`. Scegliere con i tasti `↑` o `↓` il tipo di supporto utilizzato, tra `ROTOLO`, `FOGLIO` o `BORDO`. Premere `ENTER` per confermare.  
 ![foto-evidenziare tasti necessari+foto completamento azione](img/vinylcut-selezione-media.jpg)
 
 ### Preparare il file
 
 <!-- Niente istruzioni riguardanti Inkscape? -->
-<!-- Aggiungere sezione per prepare il file su CutStudio -->
 
 Avviare Cutstudio, per aprire il file di taglio seguire il percorso _importa_>selezionare il file.   
 ![screen 07-evidenziare tasto importa](img/vinylcut-cutstudio-importa.png)
 
 <!-- da inserire come trasformare i png in contorni? -->
 
-La Vinyl Cutter durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Per riportare queste misure sul foglio di lavoro seguire il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi l'operazione cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in foto).   
+La Vinyl Cutter durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Per riportare queste misure sul foglio di lavoro seguire il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi l'operazione cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in giallo in foto).   
 ![screen 08-modificare inserendo flusso comandi completo](img/vinylcut-cutstudio-get-from-machine.png)   
   
-Utilizzare il comando _spostare_ (in alto a destra) per posizionare i contorni in corrispondenza dell'origine di taglio.   
+Utilizzare il comando _spostare_ per posizionare i contorni in corrispondenza dell'origine di taglio.   
 Per ridurre o aumentare le dimensioni del contorno si può agire sulle frecce agli angoli del file (tieni premuto _SHIFT_ per mantenere le proporzioni) o modificare i valori nella colonna destra (spuntare la casella _Conserva Aspetto_ per mantenere le proporzioni).   
 ![screen 09-evidenziare comando spostare in alto e modifica dimensioni di lato](img/vinylcut-cutstudio-spostare-ridimensionare.png)
 
 ### Parametri di taglio
-<!-- Da rivvedere da qua in poi -->
-In base al materiale è possibile modificare la pressione della lama pannello di controllo (__operation panel__) premendo sul tasto `FORCE`. Premere `←` o `→` sulla pulsantiera per sbloccare la selezione, quindi modificare i grammi forza con `↑` e `↓` e premere infine `ENTER` per confermare la selezione.
-![foto-evidenziare tasti necessari](vinylcut/../img/500x300.png)   
+<!-- Da rivedere da qua in poi -->
+In base al materiale si deve modificare la pressione della lama dal pannello di controllo (__operation panel__) premendo sul tasto `FORCE`. Premere `←` o `→` sulla pulsantiera per sbloccare la selezione, quindi modificare i grammi forza con `↑` e `↓` e premere infine `ENTER` per confermare la selezione.   
+![foto-evidenziare tasti necessari](img/vinylcut-selezione-forza.jpg)   
 
-Il __display__ dovrebbe ora indicare la pressione della lama (espressa in gf), ma anche la velocità di taglio e la distanza di Offset. Quest'ultima dipende dalla lama montata ed è importante assicurarsi sempre che l'Offset indicato coincida con quello della lama in utilizzo.     
-![foto display + in futuro foto dello sticker che indica le caratteristiche della lama](vinylcut/../img/500x300.png)   
+Il __display__ dovrebbe ora indicare la pressione della lama (espressa in gf), ma anche la velocità di taglio e la distanza di Offset. Quest'ultima dipende dalla lama montata ed è importante assicurarsi sempre che l'Offset indicato coincida con quello della lama in utilizzo.   
+![foto display + in futuro foto dello sticker che indica le caratteristiche della lama](img/vinylcut-info-display.jpg) 
 
-Prima di procedere al taglio è buona pratica fare dei test.Tramite i tasti `←` e `→` si posiziona il carrello di taglio (__cutting carriage__) in uno spazio inutilizzato, quindi premere il tasto `TEST` per almeno un secondo.   
-Il taglio è ben fatto se si riesce a spellicolare il cerchio senza rimuovere il quadrato al suo interno e se la superficie dello strato protettivo è segnata.  
-![foto tastierino-evidenziare tasti necessari+foto step del test](vinylcut/../img/500x300.png)
+<!-- qui in futuro si può inserire foto dell'adesivo che riporta le caratteristiche della lama, o simile -->
+
+Prima di procedere al taglio è buona pratica fare dei test.Tramite i tasti `↑`, `↓`, `←` e `→` posizionare il carrello di taglio (__cutting carriage__) in uno spazio inutilizzato, quindi premere il tasto `TEST` per almeno un secondo.   
+Testare quindi il taglio spellicolando il cerchio, ma senza rimuovere il quadrato al suo interno.   
+![foto tastierino-evidenziare tasti necessari+foto test](img/vinylcut-selezione-test.jpg)
 
 
 ### Tagliare
@@ -112,7 +113,7 @@ Prima di avviare il taglio su un rotolo è bene impostare il punto di origine. N
 ![foto tasto origine](vinylcut/../img/500x300.png)
 
 Si può dunque avviare il taglio da Cutstudio, seguendo il percorso _tagliare_>_ok_.     
-![screen 10-evidenziare tasti](vinylcut/../img/500x300.png)
+![screen 10-evidenziare tasti](img/vinylcut-cutstudio-avvio-taglio.png)
 
 Per variare la pressione della lama durante il taglio, è possibile regolarla dallo slider `PEN FORCE`.   
 ![foto tastierino evidenziando pen force+risultato finale taglio](vinylcut/../img/500x300.png) 
