@@ -103,13 +103,13 @@ Il __display__ dovrebbe ora indicare la pressione della lama (espressa in gf), m
 
 <!-- qui in futuro si può inserire foto dell'adesivo che riporta le caratteristiche della lama, o simile -->
 
-Prima di procedere al taglio è buona pratica fare dei test.Tramite i tasti `↑`, `↓`, `←` e `→` posizionare il carrello di taglio (__cutting carriage__) in uno spazio inutilizzato, quindi premere il tasto `TEST` per almeno un secondo.   
+Prima di procedere al taglio è buona pratica fare dei test. Tramite i tasti `↑`, `↓`, `←` e `→` posizionare il carrello di taglio (__cutting carriage__) in uno spazio inutilizzato, quindi premere il tasto `TEST` per almeno un secondo.   
 Testare quindi il taglio spellicolando il cerchio, ma senza rimuovere il quadrato al suo interno.   
 ![foto tastierino-evidenziare tasti necessari+foto test](img/vinylcut-selezione-test.jpg)
 
 
 ### Tagliare
-Nel caso si usi un rotolo può essere utile reimpostare il punto di origine del taglio: spostare il carrello di taglio (__cutting carriage__) nel punto di origine desiderato con i tasti `←`, `→`, `↑` e `↓`. Nella posizione desiderata premere `ORIGIN` sul pannello di controllo (__operation panel__).   
+Nel caso si usi un rotolo può essere utile reimpostare il punto di origine del taglio: spostare il carrello di taglio (__cutting carriage__) nel punto di origine desiderato con i tasti `←`, `→`, `↑` e `↓`. Nella posizione desiderata tenere premuto `ORIGIN` sul pannello di controllo (__operation panel__).   
 ![foto tasto origine](img/vinylcut-selezione-origine.jpg)
 
 Si può dunque avviare il taglio da Cutstudio, seguendo il percorso _tagliare_>_ok_.     
@@ -134,7 +134,7 @@ Espellere la USB dal computer e procedere con lo spegnimento del computer. Per u
 
 ## Post-processing
 
-Per iniziare il post-processing si deve rimuovere l'adesivo in eccesso sia nella parte esterna, sia in quella interna al contorno di taglio.   
+Iniziare il post-processing rimuovendo l'adesivo in eccesso sia nella parte esterna, sia in quella interna al contorno di taglio.   
 ![2 foto+risultato](img/vinylcut-spellicolare.jpg)  
 
 Per poter trasferire l'adesivo dalla carta protettiva alla superficie di applicazione, bisogna usare il [__Transfer__ o pellicola di trasferimento](https://www.necchishop.com/prodotto/pellicola-per-il-trasferimento/). Tagliare dunque un pezzo di __Transfer__ abbastanza grande da coprire tutto lo sticker.   
