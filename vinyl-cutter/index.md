@@ -82,12 +82,17 @@ Sul display del pannello di controllo (__operation panel__) compare la scritta `
 <!-- Niente istruzioni riguardanti Inkscape? -->
 <!-- Aggiungere sezione per prepare il file su CutStudio -->
 
+Avviare Cutstudio, per aprire il file di taglio seguire il percorso _importa_>selezionare il file.   
+![screen 07-evidenziare tasto importa](img/vinylcut-cutstudio-importa.png)
+
+<!-- da inserire come trasformare i png in contorni? -->
+
 La Vinyl Cutter durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Per riportare queste misure sul foglio di lavoro seguire il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi l'operazione cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in foto).   
-![screen 08-modificare inserendo flusso comandi completo](vinylcut/../img/500x300.png)   
+![screen 08-modificare inserendo flusso comandi completo](img/vinylcut-cutstudio-get-from-machine.png)   
   
 Utilizzare il comando _spostare_ (in alto a destra) per posizionare i contorni in corrispondenza dell'origine di taglio.   
 Per ridurre o aumentare le dimensioni del contorno si può agire sulle frecce agli angoli del file (tieni premuto _SHIFT_ per mantenere le proporzioni) o modificare i valori nella colonna destra (spuntare la casella _Conserva Aspetto_ per mantenere le proporzioni).   
-![screen 09-evidenziare comando spostare in alto e modifica dimensioni di lato](vinylcut/../img/500x300.png)
+![screen 09-evidenziare comando spostare in alto e modifica dimensioni di lato](img/vinylcut-cutstudio-spostare-ridimensionare.png)
 
 ### Parametri di taglio
 <!-- Da rivvedere da qua in poi -->
