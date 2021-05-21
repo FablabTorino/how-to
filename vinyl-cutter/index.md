@@ -17,8 +17,8 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 ### Vinyl Cutter Roland CAMM-1 SERVO GX-24
 
-![fronte vinylcut](img/davanti-vinyl.png)  
-![retro vinylcut](img/retro-vinyl.png)  
+![fronte vinylcut](img/vinylcut-fronte.png)  
+![retro vinylcut](img/vinylcut-retro.png)  
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
@@ -54,34 +54,34 @@ Per tagliare i fogli in vinile segui i passaggi illustrati in seguito.
 
 ### Accensione
 
-Accendere computer e schermo e assicurarsi che il cavo USB sia collegato alla vinycut.
-![foto-modificarla evidenziando tasti di accensione](img/accensione-pc.jpg)  
+Accendere computer e schermo e assicurarsi che il cavo USB sia collegato alla vinycut.   
+![foto-modificarla evidenziando tasti di accensione](img/vinylcut-accensione-pc.jpg)  
 
 Accendere il macchinario tramite il tasto `POWER` .   
-![foto-modificarla evidenziando tasti di accensione](img/accensione-vinyl.jpg)
+![foto-modificarla evidenziando tasti di accensione](img/vinylcut-accensione.jpg)
 
 ### Caricare il materiale 
 
-Abbassare la leva di caricamento (__loading lever__) sul retro a sinistra.
-![foto prima e dopo](img/leva-abbassata.jpg)   
+Abbassare la leva di caricamento (__loading lever__) sul retro a sinistra.   
+![foto prima e dopo](img/vinylcut-leva-abbassata.jpg)   
 
 Inserire posteriormente  il materiale facendolo scorrere attraverso la fessura della macchina e, se necessario, appoggiarlo al __portarotolo__. Posizionare il materiale in modo che sia parallelo alle linee guida (__guide lines__) in rilievo alla base del macchinario.   
-![foto allineamento](img/guide-lines.jpg)
+![foto allineamento](img/vinylcut-linee-guida.jpg)
 
-Spostare i due rulli di fissaggio (__pinch roller__) negli spazi bianchi segnati, facendoli scorrere dalla parte posteriore della macchina. 
-![foto-aggiungere frecce spostamento](img/rulli-fissaggio.jpg)   
+Spostare i due rulli di fissaggio (__pinch roller__) negli spazi bianchi segnati, facendoli scorrere dalla parte posteriore della macchina.   
+![foto-aggiungere frecce spostamento](img/vinylcut-rulli-fissaggio.jpg)   
 
 Alzare la leva di caricamento (__loading lever__).   
-![foto prima e dopo](img/leva-alzata.jpg)   
+![foto prima e dopo](img/vinylcut-leva-alzata.jpg)   
 
 Sul display del pannello di controllo (__operation panel__) compare la scritta `CARICO FOGLIO`. Scegliere con i tasti `↑` o `↓` il tipo di supporto utilizzato, tra `ROTOLO`, `FOGLIO` o `BORDO`. Premere `ENTER` per confermare.  
-![foto-evidenziare tasti necessari+foto completamento azione](vinylcut/../img/500x300.png)
+![foto-evidenziare tasti necessari+foto completamento azione](img/vinylcut-selezione-media.jpg)
 
 ### Preparare il file
 
 <!-- Aggiungere sezione per prepare il file su CutStudio -->
 
-La Vinyl Cutte durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Per riportare queste misure sul foglio di lavoro seguire il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi l'operazione cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in foto).   
+La Vinyl Cutter durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Per riportare queste misure sul foglio di lavoro seguire il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi l'operazione cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in foto).   
 ![screen 08-modificare inserendo flusso comandi completo](vinylcut/../img/500x300.png)   
   
 Utilizzare il comando _spostare_ (in alto a destra) per posizionare i contorni in corrispondenza dell'origine di taglio.   
