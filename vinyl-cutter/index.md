@@ -109,20 +109,20 @@ Testare quindi il taglio spellicolando il cerchio, ma senza rimuovere il quadrat
 
 
 ### Tagliare
-Prima di avviare il taglio su un rotolo è bene impostare il punto di origine. Nel caso del rotolo il punto di origine dipende dalla posizione di caricamento ed è quindi utile cambiare il punto di origine del taglio: spostare ilcarrello di taglio (__cutting carriage__) nel punto di origine desiderato con i tasti `←`, `→`, `↑` e `↓`. Nella posizione desiderata premere `ORIGIN` sul pannello di controllo (__operation panel__).   
-![foto tasto origine](vinylcut/../img/500x300.png)
+Nel caso si usi un rotolo può essere utile reimpostare il punto di origine del taglio: spostare il carrello di taglio (__cutting carriage__) nel punto di origine desiderato con i tasti `←`, `→`, `↑` e `↓`. Nella posizione desiderata premere `ORIGIN` sul pannello di controllo (__operation panel__).   
+![foto tasto origine](img/vinylcut-selezione-origine.jpg)
 
 Si può dunque avviare il taglio da Cutstudio, seguendo il percorso _tagliare_>_ok_.     
 ![screen 10-evidenziare tasti](img/vinylcut-cutstudio-avvio-taglio.png)
 
 Per variare la pressione della lama durante il taglio, è possibile regolarla dallo slider `PEN FORCE`.   
-![foto tastierino evidenziando pen force+risultato finale taglio](vinylcut/../img/500x300.png) 
+![foto tastierino evidenziando pen force+risultato finale taglio](img/vinylcut-pen-force.jpg) 
 
-A taglio eseguito si può portare in avanti il materiale con il tasto `↓` del pannello di controllo (__operation panel__) e nel caso si stia utilizzando un rotolo, tagliare il rettangolo lavorato.
-![foto tastierino evidenziando pen force+risultato finale taglio](vinylcut/../img/500x300.png)   
+A taglio eseguito si può portare in avanti il materiale con il tasto `↓` del pannello di controllo (__operation panel__) e nel caso si stia utilizzando un rotolo, tagliare il rettangolo lavorato.   
+![foto tastierino evidenziando pen force+risultato finale taglio](img/vinylcut-fine-taglio.jpg)   
 
-A fine lavorazione o per cambiare il materiale bisogna estrarre il rotolo o il foglio. Questo passaggio è simile alla [fase di caricamento](#caricare-il-materiale) e consiste nell'alzare la leva di caricamento (__loading lever__) ed estrarre il materiale.   
-![caricare il materiale ma al contrario](vinylcut/../img/500x300.png)
+A fine lavorazione bisogna estrarre il rotolo o il foglio, è il passaggio inverso alla [fase di caricamento](#caricare-il-materiale) e consiste nell'abbassare la leva di caricamento (__loading lever__) ed estrarre il materiale.   
+![caricare il materiale ma al contrario](img/vinylcut-leva-abbassata.jpg)
 
 ### Spegnimento 
 A fine utilizzo, spegnere la Vinylcut tenendo premuto il tasto `POWER`.   
