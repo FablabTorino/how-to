@@ -126,26 +126,26 @@ A fine lavorazione bisogna estrarre il rotolo o il foglio, è il passaggio inver
 
 ### Spegnimento 
 A fine utilizzo, spegnere la Vinylcut tenendo premuto il tasto `POWER`.   
-![foto-modificarla evidenziando tasti di accensione](vinylcut/../img/500x300.png)   
+![foto-modificarla evidenziando tasti di accensione](img/vinylcut-accensione.jpg)   
 
 Espellere la USB dal computer e procedere con lo spegnimento del computer. Per ultimo spegnere lo schermo del computer.  
 ![screen 11-12](vinylcut/../img/500x300.png)      
-
+<!-- mettere qui gli screen di rimozione e arresto? -->
 
 ## Post-processing
 
 Per iniziare il post-processing si deve rimuovere l'adesivo in eccesso sia nella parte esterna, sia in quella interna al contorno di taglio.   
-![2 foto+risultato](vinylcut/../img/500x300.png)  
+![2 foto+risultato](img/vinylcut-spellicolare.jpg)  
 
 Per poter trasferire l'adesivo dalla carta protettiva alla superficie di applicazione, bisogna usare il [__Transfer__ o pellicola di trasferimento](https://www.necchishop.com/prodotto/pellicola-per-il-trasferimento/). Tagliare dunque un pezzo di __Transfer__ abbastanza grande da coprire tutto lo sticker.   
-![foto](vinylcut/../img/500x300.png)   
+![foto](img/vinylcut-transfer.jpg)   
 
-Applicare quindi il __Transfer__ assicurandosi di avere un'adesione completa e omogenea allo sticker. Per un'ulteriore prova si può sollevare leggermente il __Transfer__ e controllare che lo sticker vi rimanga attaccato, come mostrato in foto.  
-![foto](vinylcut/../img/500x300.png)   
+Applicare quindi il __Transfer__ assicurandosi di avere un'adesione completa e omogenea allo sticker. Per un'ulteriore prova si può sollevare leggermente il __Transfer__ e controllare che lo sticker vi rimanga attaccato, come mostrato in foto.   
+![foto](img/vinylcut-transfer-test.jpg)   
 
 Finalmente si può applicare lo sticker sulla superficie desiderata!   
 Separare il transfer e l'adesivo dalla carta protettiva, posizionarlo sulla superficie scelta e incollarlo in modo omogeneo.   
-![foto](vinylcut/../img/500x300.png)
+![foto](img/vinylcut-applicazione-finale.jpg)
 
 
 ## FAQ
