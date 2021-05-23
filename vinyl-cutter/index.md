@@ -10,8 +10,8 @@ I materiali più utilizzati sono [vinile](http://www.tosingraf.com/vinili-adesiv
 ## Strumenti, materiali e file
 Prima di iniziare assicurati di avere tutto il necessario:
 - Vinyl Cutter
-- Foglio di vinile
-- PC con installato i software necessari 
+- Foglio o rotolo di vinile
+- PC con installati i software necessari 
 - File da tagliare
 - Accessori (forbici, taglierino, spatola, Transfer)
 
@@ -30,6 +30,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 | Grandezza massima area di taglio   | Larghezza: 584 mm Lunghezza: 25 m        |   
 | Grandezza minima area di taglio    | Larghezza:  Lunghezza:                   |   
 | Precisione di ripetizione          | ±0.1 mm o inferiore                      |      
+<!-- inserire grandezza minima area di taglio -->
 
 Per ulteriori informazioni consultare la [scheda tecnica](src/scheda-tecnica.pdf) e il [manuale dell'utente](src/users-manual-en.pdf)
 
@@ -40,15 +41,15 @@ Dopo il taglio viene applicato un terzo strato chiamato __Transfer__ che tiene i
 
 ### PC con installato i software necessari
 Al Fablab hai la possibilità di utilizzare il computer collegato alla Vinyl Cutter, nel quale sono già presenti i drivers e i software necessari.   
-Il macchinario è compatibile con computer con sistemi operativi successivi a Windows 98 SE, equipaggiati con il software Roland CutStudio. 
+Il macchinario è compatibile con computer con sistemi operativi successivi a Windows 98 SE, equipaggiati con il software __Roland CutStudio__. 
 
 ### File da tagliare
 Il plotter da taglio intaglia la traccia della grafica desiderata seguendo i contoni e le linee con la lama. Per questo motivo il file utilizzato deve contenere un contorno definito e privo di doppie linee e riempimenti.   
-Il software Roland CutStudio supporta file di formato BMP, JPG, STX, AI ed EPS.   
-Per avere una maggiore compatibilità di formati si può utilizzare il software Inkscape che supporta file SVG, STX AI, DXF, CDR, PDF, BMP, JPG, PNG, TIFF e moltri altri.
+Il software __Roland CutStudio__ supporta file di formato BMP, JPG, STX, AI ed EPS.   
+Per avere una maggiore compatibilità di formati si può utilizzare il software __Inkscape__ che supporta file SVG, STX AI, DXF, CDR, PDF, BMP, JPG, PNG, TIFF e moltri altri.
 
 ### Accessori
-Durante la lavorazione si dovrà fare uso anche di oggetti esterni, quali le forbici o il taglierino per separare la superficie intagliata dal resto del materiale. Per la fase di post-processing può essere utile un oggetto con almeno un lato piatto (come una spatola o una carta di credito e simili) che permetta una applicazione dello sticker omogenea e senza bolle d'aria. Infine il [__Transfer__ o pellicola di trasferimento](https://www.necchishop.com/prodotto/pellicola-per-il-trasferimento/) viene utilizzato per facilitare il posizionamento di marchi o scritte sulla superficie.
+Durante la lavorazione si dovrà fare uso anche di oggetti esterni: le forbici o il taglierino per separare la superficie intagliata dal resto del materiale; per la fase di post-processing può essere utile un oggetto con almeno un lato piatto (come una spatola o una carta di credito e simili) che permetta una applicazione dello sticker omogenea e senza bolle d'aria; infine il [__Transfer__ o pellicola di trasferimento](https://www.necchishop.com/prodotto/pellicola-per-il-trasferimento/) viene utilizzato per facilitare il posizionamento dell'adesivo sulla superficie.
 
 ## Processo di taglio
 
@@ -88,16 +89,16 @@ Avviare Cutstudio, per aprire il file di taglio seguire il percorso _importa_>se
 
 <!-- da inserire come trasformare i png in contorni? -->
 
-La Vinyl Cutter durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Per riportare queste misure sul foglio di lavoro seguire il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi l'operazione cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in giallo in foto).   
+La Vinyl Cutter durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Riportare queste misure sul foglio di lavoro seguendo il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in giallo in foto).   
 ![screen 08-modificare inserendo flusso comandi completo](img/vinylcut-cutstudio-get-from-machine.png)   
   
 Utilizzare il comando _spostare_ per posizionare i contorni in corrispondenza dell'origine di taglio.   
-Per ridurre o aumentare le dimensioni del contorno si può agire sulle frecce agli angoli del file (tieni premuto _SHIFT_ per mantenere le proporzioni) o modificare i valori nella colonna destra (spuntare la casella _Conserva Aspetto_ per mantenere le proporzioni).   
+Ridurre o aumentare le dimensioni del contorno agendo sulle frecce agli angoli del file (premere _SHIFT_ per mantenere le proporzioni) o modificando i valori nella colonna destra (spuntare la casella _Conserva Aspetto_ per mantenere le proporzioni).   
 ![screen 09-evidenziare comando spostare in alto e modifica dimensioni di lato](img/vinylcut-cutstudio-spostare-ridimensionare.png)
 
 ### Parametri di taglio
 <!-- Da rivedere da qua in poi -->
-In base al materiale si deve modificare la pressione della lama dal pannello di controllo (__operation panel__) premendo sul tasto `FORCE`. Premere `←` o `→` sulla pulsantiera per sbloccare la selezione, quindi modificare i grammi forza con `↑` e `↓` e premere infine `ENTER` per confermare la selezione.   
+In base al materiale modificare la pressione della lama dal pannello di controllo (__operation panel__) premendo sul tasto `FORCE`. Premere `←` o `→` sulla pulsantiera per sbloccare la selezione, quindi modificare i grammi forza con `↑` e `↓` e premere infine `ENTER` per confermare la selezione.   
 ![foto-evidenziare tasti necessari](img/vinylcut-selezione-forza.jpg)   
 
 Il __display__ dovrebbe ora indicare la pressione della lama (espressa in gf), ma anche la velocità di taglio e la distanza di Offset. Quest'ultima dipende dalla lama montata ed è importante assicurarsi sempre che l'Offset indicato coincida con quello della lama in utilizzo.   
@@ -106,7 +107,7 @@ Il __display__ dovrebbe ora indicare la pressione della lama (espressa in gf), m
 <!-- qui in futuro si può inserire foto dell'adesivo che riporta le caratteristiche della lama, o simile -->
 
 Prima di procedere al taglio è buona pratica fare dei test. Tramite i tasti `↑`, `↓`, `←` e `→` posizionare il carrello di taglio (__cutting carriage__) in uno spazio inutilizzato, quindi premere il tasto `TEST` per almeno un secondo.   
-Testare quindi il taglio spellicolando il cerchio, ma senza rimuovere il quadrato al suo interno.   
+Testare il taglio spellicolando il cerchio, ma senza rimuovere il quadrato al suo interno.   
 ![foto tastierino-evidenziare tasti necessari+foto test](img/vinylcut-selezione-test.jpg)
 
 
@@ -114,16 +115,16 @@ Testare quindi il taglio spellicolando il cerchio, ma senza rimuovere il quadrat
 Nel caso si usi un rotolo può essere utile reimpostare il punto di origine del taglio: spostare il carrello di taglio (__cutting carriage__) nel punto di origine desiderato con i tasti `←`, `→`, `↑` e `↓`. Nella posizione desiderata tenere premuto `ORIGIN` sul pannello di controllo (__operation panel__).   
 ![foto tasto origine](img/vinylcut-selezione-origine.jpg)
 
-Si può dunque avviare il taglio da Cutstudio, seguendo il percorso _tagliare_>_ok_.     
+Avviare il taglio da Cutstudio, seguendo il percorso _tagliare_>_ok_.     
 ![screen 10-evidenziare tasti](img/vinylcut-cutstudio-avvio-taglio.png)
 
 Per variare la pressione della lama durante il taglio, è possibile regolarla dallo slider `PEN FORCE`.   
 ![foto tastierino evidenziando pen force+risultato finale taglio](img/vinylcut-pen-force.jpg) 
 
-A taglio eseguito si può portare in avanti il materiale con il tasto `↓` del pannello di controllo (__operation panel__) e nel caso si stia utilizzando un rotolo, tagliare il rettangolo lavorato.   
+A taglio eseguito portare in avanti il materiale con il tasto `↓` del pannello di controllo (__operation panel__) e nel caso si stia utilizzando un rotolo, tagliare il rettangolo lavorato.   
 ![foto tastierino evidenziando pen force+risultato finale taglio](img/vinylcut-fine-taglio.jpg)   
 
-A fine lavorazione bisogna estrarre il rotolo o il foglio, è il passaggio inverso alla [fase di caricamento](#caricare-il-materiale) e consiste nell'abbassare la leva di caricamento (__loading lever__) ed estrarre il materiale.   
+A fine lavorazione estrarre il rotolo o il foglio, è il passaggio inverso alla [fase di caricamento](#caricare-il-materiale) e consiste nell'abbassare la leva di caricamento (__loading lever__) ed estrarre il materiale.   
 ![caricare il materiale ma al contrario](img/vinylcut-leva-abbassata.jpg)
 
 ### Spegnimento 
@@ -139,10 +140,10 @@ Espellere la USB dal computer e procedere con lo spegnimento del computer. Per u
 Iniziare il post-processing rimuovendo l'adesivo in eccesso sia nella parte esterna, sia in quella interna al contorno di taglio.   
 ![2 foto+risultato](img/vinylcut-spellicolare.jpg)  
 
-Per poter trasferire l'adesivo dalla carta protettiva alla superficie di applicazione, bisogna usare il [__Transfer__ o pellicola di trasferimento](https://www.necchishop.com/prodotto/pellicola-per-il-trasferimento/). Tagliare dunque un pezzo di __Transfer__ abbastanza grande da coprire tutto lo sticker.   
+Per poter trasferire l'adesivo dalla carta protettiva alla superficie di applicazione, bisogna usare il __Transfer__. Tagliare dunque un pezzo di __Transfer__ abbastanza grande da coprire tutto lo sticker.   
 ![foto](img/vinylcut-transfer.jpg)   
 
-Applicare quindi il __Transfer__ assicurandosi di avere un'adesione completa e omogenea allo sticker. Per un'ulteriore prova si può sollevare leggermente il __Transfer__ e controllare che lo sticker vi rimanga attaccato, come mostrato in foto.   
+Applicare il __Transfer__ assicurandosi di avere un'adesione completa e omogenea allo sticker. Per un'ulteriore prova si può sollevare leggermente il __Transfer__ e controllare che lo sticker vi rimanga attaccato, come mostrato in foto.   
 ![foto](img/vinylcut-transfer-test.jpg)   
 
 Finalmente si può applicare lo sticker sulla superficie desiderata!   
@@ -151,3 +152,6 @@ Separare il transfer e l'adesivo dalla carta protettiva, posizionarlo sulla supe
 
 
 ## FAQ
+<!-- quali sono i problemi più frequenti? -->
+__Il computer e il plotter da taglio sono accesi ma non comunicano tra di loro__
+Controllare che i cavi siano tutti inseriti nel modo corretto, come mostrato nella [fase di accensione](#accensione).
