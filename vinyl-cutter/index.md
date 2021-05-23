@@ -13,7 +13,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 - Foglio di vinile
 - PC con installato i software necessari 
 - File da tagliare
-- Accessori (forbici, taglierino, Transfer)
+- Accessori (forbici, taglierino, spatola, Transfer)
 
 ### Vinyl Cutter Roland CAMM-1 SERVO GX-24
 
@@ -45,11 +45,10 @@ Il macchinario è compatibile con computer con sistemi operativi successivi a Wi
 ### File da tagliare
 Il plotter da taglio intaglia la traccia della grafica desiderata seguendo i contoni e le linee con la lama. Per questo motivo il file utilizzato deve contenere un contorno definito e privo di doppie linee e riempimenti.   
 Il software Roland CutStudio supporta file di formato BMP, JPG, STX, AI ed EPS.   
-Per avere una maggiore compatibilità di formati si può utilizzare il software Inkscape che supporta file di formato SVG, STX AI, DXF, CDR, PDF, BMP, JPG, PNG, TIFF e moltri altri.
+Per avere una maggiore compatibilità di formati si può utilizzare il software Inkscape che supporta file SVG, STX AI, DXF, CDR, PDF, BMP, JPG, PNG, TIFF e moltri altri.
 
 ### Accessori
-<!-- Migliorare la descrizione-->
-Forbici per tagliare l'adesivo e taglierino per aiutarsi per il post-processing
+Durante la lavorazione si dovrà fare uso anche di oggetti esterni, quali le forbici o il taglierino per separare la superficie intagliata dal resto del materiale. Per la fase di post-processing può essere utile un oggetto con almeno un lato piatto (come una spatola o una carta di credito e simili) che permetta una applicazione dello sticker omogenea e senza bolle d'aria. Infine il [__Transfer__ o pellicola di trasferimento](https://www.necchishop.com/prodotto/pellicola-per-il-trasferimento/) viene utilizzato per facilitare il posizionamento di marchi o scritte sulla superficie.
 
 ## Processo di taglio
 
