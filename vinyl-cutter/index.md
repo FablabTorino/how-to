@@ -13,7 +13,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 - Foglio di vinile
 - PC con installato i software necessari 
 - File da tagliare
-- Accessori (forbici, taglierino, Transfer.)
+- Accessori (forbici, taglierino, Transfer)
 
 ### Vinyl Cutter Roland CAMM-1 SERVO GX-24
 
@@ -43,8 +43,9 @@ Al Fablab hai la possibilità di utilizzare il computer collegato alla Vinyl Cut
 Il macchinario è compatibile con computer con sistemi operativi successivi a Windows 98 SE, equipaggiati con il software Roland CutStudio. 
 
 ### File da tagliare
-
-<!-- Mettere i formati e le caratteristiche del  file -->
+Il plotter da taglio intaglia la traccia della grafica desiderata seguendo i contoni e le linee con la lama. Per questo motivo il file utilizzato deve contenere un contorno definito e privo di doppie linee e riempimenti.   
+Il software Roland CutStudio supporta file di formato BMP, JPG, STX, AI ed EPS.   
+Per avere una maggiore compatibilità di formati si può utilizzare il software Inkscape che supporta file di formato SVG, STX AI, DXF, CDR, PDF, BMP, JPG, PNG, TIFF e moltri altri.
 
 ### Accessori
 <!-- Migliorare la descrizione-->
