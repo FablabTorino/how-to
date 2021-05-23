@@ -31,7 +31,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 | Grandezza minima area di taglio    | Larghezza:  Lunghezza:                   |   
 | Precisione di ripetizione          | ±0.1 mm o inferiore                      |      
 
-Per ulteriori informazioni consultare la [scheda tecnica](src/scheda-tecnica.pdf) e il [manuale dell'utente](/vinylcut/src/users-manual-en.pdf)
+Per ulteriori informazioni consultare la [scheda tecnica](src/scheda-tecnica.pdf) e il [manuale dell'utente](src/users-manual-en.pdf)
 
 ### Foglio di vinile
 Il vinile in fogli è un supporto estremamente versatile, disponibile in molti colori e adatto alla stampa, derivante dalla lavorazione del PVC e perciò flessibile e resistente.   
