@@ -1,5 +1,5 @@
 # Laser Cutter
-
+Il [Laser Cutter](https://en.wikipedia.org/wiki/Laser_cutting) è un macchinario a controllo numerico che utilizza un laser per tagliare i materiali. Questa tecnologia funziona dirigendo e concentrando un laser ad alta potenza attraverso l'ottica. Il raggio laser focalizzato è diretto verso il materiale, tagliandolo o incidendolo in base alla potenza impiegata, lasciando però una finitura superficiale di alta qualità.
 
 ## Applicazioni
    
