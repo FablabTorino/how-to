@@ -30,8 +30,26 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditore](https://www.ricami.piemonte.it/-/plotter-laser-co2-1300x900mm-wl1390)
 
-### materiale
+### Materiali 
 
+| MATERIALE            |INCISIONE    	    | TAGLIO             |   
+|----------------------|--------------------|--------------------|   
+Legno		           | :heavy_check_mark: | :heavy_check_mark: |   
+Acrilico - Plexiglass  | :heavy_check_mark: | :heavy_check_mark: |   
+Laminati Bicolore	   | :heavy_check_mark: | :heavy_check_mark: |   
+Tessuti e Stoffe       | :heavy_check_mark: | :heavy_check_mark: |   
+Vetro e Cristallo      | :heavy_check_mark: | :x:                |   
+MDF                    | :heavy_check_mark: | :heavy_check_mark: |   
+Ceramica               | :heavy_check_mark: | :x:                |    
+Pelle e Cuoio          | :heavy_check_mark: | :heavy_check_mark: |   
+Marmo e Pietra         | :heavy_check_mark: | :x:                |   
+Carta e Cartone	       | :heavy_check_mark: | :heavy_check_mark: |   
+Gomma                  | :heavy_check_mark: | :heavy_check_mark: |   
+Sughero				   | :heavy_check_mark: | :heavy_check_mark: |   
+Alluminio Anodizzato   | :heavy_check_mark: | :x:                |   
+Metallo Verniciato     | :heavy_check_mark: | :x:                |   
+Plastica               | :heavy_check_mark: | :heavy_check_mark: |   
+Vetroresina	           | :heavy_check_mark: | :heavy_check_mark: |   
 
 ### PC con installato i software necessari
  
