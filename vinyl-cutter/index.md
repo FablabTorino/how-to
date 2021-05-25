@@ -30,7 +30,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 | Grandezza massima area di taglio   | Larghezza: 584 mm Lunghezza: 25 m        |   
 | Grandezza minima area di taglio    | Larghezza:  Lunghezza:                   |   
 | Precisione di ripetizione          | ±0.1 mm o inferiore                      |     
- 
+
 <!-- inserire grandezza minima area di taglio -->
 
 Per ulteriori informazioni consultare la [scheda tecnica](src/scheda-tecnica.pdf) e il [manuale dell'utente](src/users-manual-en.pdf)
@@ -83,12 +83,12 @@ Sul display del pannello di controllo (__operation panel__) compare la scritta `
 
 ### Preparare il file
 
-<!-- Niente istruzioni riguardanti Inkscape? -->
+<!-- Niente istruzioni riguardanti Inkscape? si, da segnare come opzionale-->
 
 Avviare Cutstudio, per aprire il file di taglio seguire il percorso _importa_>selezionare il file.   
 ![screen 07-evidenziare tasto importa](img/vinylcut-cutstudio-importa.png)
 
-<!-- da inserire come trasformare i png in contorni? -->
+<!-- da inserire come trasformare i png in contorni? si -->
 
 La Vinyl Cutter durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Riportare queste misure sul foglio di lavoro seguendo il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in giallo in foto).   
 ![screen 08-modificare inserendo flusso comandi completo](img/vinylcut-cutstudio-get-from-machine.png)   
@@ -154,5 +154,5 @@ Separare il transfer e l'adesivo dalla carta protettiva, posizionarlo sulla supe
 
 ## FAQ
 <!-- quali sono i problemi più frequenti? -->
-__Il computer e il plotter da taglio sono accesi ma non comunicano tra di loro__
+__Il computer e il plotter da taglio sono accesi ma non comunicano tra di loro, perchè?__   
 Controllare che i cavi siano tutti inseriti nel modo corretto, come mostrato nella [fase di accensione](#accensione).
