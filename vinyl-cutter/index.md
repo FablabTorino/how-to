@@ -29,7 +29,8 @@ Prima di iniziare assicurati di avere tutto il necessario:
 | Larghezza del materiale caricabile | Da 50 a 700 mm                           |   
 | Grandezza massima area di taglio   | Larghezza: 584 mm Lunghezza: 25 m        |   
 | Grandezza minima area di taglio    | Larghezza:  Lunghezza:                   |   
-| Precisione di ripetizione          | ±0.1 mm o inferiore                      |      
+| Precisione di ripetizione          | ±0.1 mm o inferiore                      |     
+ 
 <!-- inserire grandezza minima area di taglio -->
 
 Per ulteriori informazioni consultare la [scheda tecnica](src/scheda-tecnica.pdf) e il [manuale dell'utente](src/users-manual-en.pdf)
