@@ -66,6 +66,8 @@ Accendere il macchinario tramite il tasto `POWER` .
 
 ### Caricare il materiale 
 
+<!-- sostituire con immagi -->
+
 Abbassare la leva di caricamento (__loading lever__) sul retro a sinistra.   
 ![foto prima e dopo](img/vinylcut-leva-abbassata.jpg)   
 
@@ -106,6 +108,8 @@ Il __display__ dovrebbe ora indicare la pressione della lama (espressa in gf), m
 ![foto display + in futuro foto dello sticker che indica le caratteristiche della lama](img/vinylcut-info-display.jpg) 
 
 <!-- qui in futuro si può inserire foto dell'adesivo che riporta le caratteristiche della lama, o simile -->
+
+<!-- inserire immagine test da manuale -->
 
 Prima di procedere al taglio è buona pratica fare dei test. Tramite i tasti `↑`, `↓`, `←` e `→` posizionare il carrello di taglio (__cutting carriage__) in uno spazio inutilizzato, quindi premere il tasto `TEST` per almeno un secondo.   
 Testare il taglio spellicolando il cerchio, ma senza rimuovere il quadrato al suo interno.   
