@@ -17,19 +17,18 @@ Prima di iniziare assicurati di avere tutto il necessario:
 ### Laser Cutter inserire modello
 
 ![fronte lasercutter](/)  
+<!-- inserire foto del cono laser, slide marco -->
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
-| Velocità di taglio                 |   |   
-| Pressione della lama               |                         |   
-| Risoluzione del Software           |                           |   
-| Spessore massimo del materiale     |    |   
-| Larghezza del materiale caricabile |                 |   
-| Grandezza massima area di taglio   |        |   
-| Grandezza minima area di taglio    |                 |   
-| Precisione di ripetizione          |                     |      
+| Velocità massima di spostamento    | 1000 mm/sec                              |   
+| Dimensione dello spot focale       | 0,2 mm                                   |   
+| Risoluzione grafica                | 0,0254 mm                                |   
+| Spessore massimo del materiale     | 25 mm                                    |      
+| Grandezza massima area di taglio   | 1200x900 mm                              |   
+| Grandezza minima area di taglio    |                                          |        
 
-Per ulteriori informazioni consultare la [scheda tecnica](/) e il [manuale dell'utente](/)
+Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditore](https://www.ricami.piemonte.it/-/plotter-laser-co2-1300x900mm-wl1390)
 
 ### materiale
 
