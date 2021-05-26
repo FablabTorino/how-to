@@ -15,13 +15,15 @@ Prima di iniziare assicurati di avere tutto il necessario:
 - Accessori (barre per fissare il materiale, fondale rigido)
 
 ### Laser Cutter CO2 WL1390
+![fronte lasercutter](https://via.placeholder.com/600x300) 
 
-![fronte lasercutter](https://via.placeholder.com/600x300)  
+Il laser taglia concentrando un'alta energia in un piccolo spot, sciogliendo, bruciando vaporizzando il materiale che viene poi soffiato via da un getto di aria compressa, lasciando un bordo di taglio di ottima qualità.
 ![schema cono laser](https://via.placeholder.com/600x300) 
 <!-- inserire foto del cono laser, slide marco -->
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
+| Potenza                            | 130 W                                    |
 | Velocità massima di spostamento    | 1000 mm/sec                              |   
 | Dimensione dello spot focale       | 0,2 mm                                   |   
 | Risoluzione grafica                | 0,0254 mm                                |   
@@ -144,3 +146,4 @@ spegnere ciabatta
 
 
 ## FAQ
+__Perchè non posso tagliare il PVC?__
