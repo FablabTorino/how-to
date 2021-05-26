@@ -32,6 +32,9 @@ Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditor
 
 ### Materiali 
 
+In base alla tipologia di Laser Cutter è possibile tagliare e incidere diverse tipologie di materiali.   
+ Il Fablab dispone di un macchinario a CO2, di seguito una lista completa dei materiali lavorabili.   
+
 | MATERIALE              |INCISIONE    	      | TAGLIO             |   
 |------------------------|--------------------|--------------------|   
 | Legno		             | :heavy_check_mark: | :heavy_check_mark: |   
