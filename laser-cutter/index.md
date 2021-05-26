@@ -85,23 +85,50 @@ accendere macchina
 asse in alto a destra   
 ![foto, girare chiave](https://via.placeholder.com/600x300)
 
+### Preparare il file   
+Inserire chiavetta   
+![foto chiavetta?](https://via.placeholder.com/600x300)
+
+Aprire lasercut 6.1   
+![screen schermata iniziale](https://via.placeholder.com/600x300)
+
+importare file   
+![screen, evidenziare percorso](https://via.placeholder.com/600x300)
+
+muovere e scalare file   
+![screen, evidenziare posizione comandi](https://via.placeholder.com/600x300)
+
+colori linee   
+![screen, come comunicarlo?](https://via.placeholder.com/600x300)
+<!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro, -->
+
 ### Caricare il materiale 
-
-
-
-### Preparare il file
-
-
+Inserimento materiale   
+sbarre di ferro e base alveolare   
+controllo stabilità materiale   
+regolazione asse z   
 
 ### Parametri di taglio
-
-
+<!-- questa parte metterla insieme alla preparazione file? -->
+impostare potenza   
+download file   
 
 ### Tagliare
-
+Posizionare testina per test   
+test   
+test punto di inizio   
+accendere aspiratore   
+avvio taglio   
+staccare i pezzi e togliere il materiale
+testina in autohome
 
 ### Spegnimento 
-
+spegnere aspiratore   
+spegnere macchinario
+spegnere chiller
+spegnere pc
+spegnere schermo
+spegnere ciabatta
 
 
 
