@@ -14,20 +14,20 @@ Prima di iniziare assicurati di avere tutto il necessario:
 - File da tagliare
 - Accessori (barre per fissare il materiale, fondale rigido)
 
-### Laser Cutter CO2 WL1390
+### Laser Cutter CO2 WL1290
 ![fronte lasercutter](https://via.placeholder.com/600x300) 
 
 Il laser taglia concentrando un'alta energia in un piccolo spot, sciogliendo, bruciando vaporizzando il materiale che viene poi soffiato via da un getto di aria compressa, lasciando un bordo di taglio di ottima qualità.
-![schema cono laser](https://via.placeholder.com/600x300) 
+![schema cono laser](img/laser-cutter-cono-laser.jpg) 
 <!-- inserire foto del cono laser, slide marco -->
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
 | Potenza                            | 130 W                                    |
-| Velocità massima di spostamento    | 1000 mm/sec                              |   
+| Velocità massima di taglio         | 200 mm/sec                               |   
 | Dimensione dello spot focale       | 0,2 mm                                   |   
 | Risoluzione grafica                | 0,0254 mm                                |   
-| Spessore massimo del materiale     | 25 mm                                    |      
+| Spessore massimo del materiale     | 10 mm                                    |      
 | Grandezza massima area di taglio   | 1200x900 mm                              |   
 | Grandezza minima area di taglio    |                                          |        
 
