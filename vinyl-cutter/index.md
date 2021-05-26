@@ -89,7 +89,7 @@ Sul display del pannello di controllo (__operation panel__) compare la scritta `
 
 <!-- Niente istruzioni riguardanti Inkscape? si, da segnare come opzionale-->
 
-Avviare Cutstudio, per aprire il file di taglio seguire il percorso _importa_>selezionare il file.   
+Inserire la chiavetta USB contenente il file. Avviare Cutstudio, per aprire il file di taglio seguire il percorso _importa_>selezionare il file.   
 ![screen 07-evidenziare tasto importa](img/vinylcut-cutstudio-importa.png)
 
 <!-- da inserire come trasformare i png in contorni? si -->
