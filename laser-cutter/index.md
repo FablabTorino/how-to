@@ -71,19 +71,14 @@ Gli oggetti esterni richiesti da questa lavorazione sono: delle barre di ferro p
 Per tagliare con la Laser Cutter segui i passaggi illustrati di seguito.
 
 ### Accensione
-accendere ciabatta   
-accendere pc   
-accendere schermo   
+Accendere la ciabatta elettrica collegata alla macchina, quindi accendere anche il computer e lo schermo alla destra della Laser Cutter.   
 ![foto, indicare tasti di accensione](https://via.placeholder.com/600x300)
 
-accendere chiller   
+Accendere il refrigeratore (__chiller__) a sinistra della macchina dallo switch posteriore.   
 ![foto, indicare tasto](https://via.placeholder.com/600x300)
 
-controllare piano libero   
-![foto piano?](https://via.placeholder.com/600x300)
-
-accendere macchina   
-asse in alto a destra   
+Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.    
+Accendere quindi la macchina girando in senso orario la chiave sopra il pannello di controllo. Appena dopo l'accensione l'ugello si posizionerà automaticamente nell'angolo in alto a destra del piano, come mostrato in foto.   
 ![foto, girare chiave](https://via.placeholder.com/600x300)
 
 ### Preparare il file   
