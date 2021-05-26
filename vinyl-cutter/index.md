@@ -56,7 +56,7 @@ Durante la lavorazione si dovrà fare uso anche di oggetti esterni: le forbici o
 
 ## Processo di taglio
 
-Per tagliare i fogli in vinile segui i passaggi illustrati in seguito.
+Per tagliare i fogli in vinile segui i passaggi illustrati di seguito.
 
 ### Accensione
 

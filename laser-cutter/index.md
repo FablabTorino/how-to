@@ -16,7 +16,8 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 ### Laser Cutter CO2 WL1390
 
-![fronte lasercutter](/)  
+![fronte lasercutter](https://via.placeholder.com/600x300)  
+![schema cono laser](https://via.placeholder.com/600x300) 
 <!-- inserire foto del cono laser, slide marco -->
 
 | Caratteristiche tecniche           | Valori                                   |   
@@ -32,7 +33,7 @@ Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditor
 
 ### Materiali lavorabili
 In base alla tipologia di Laser Cutter è possibile tagliare e incidere diverse tipologie di materiali.   
- Il Fablab dispone di un macchinario a CO2, di seguito una lista completa dei materiali lavorabili.   
+Il Fablab dispone di un macchinario a CO2, di seguito una lista completa dei [materiali lavorabili](https://www.worklinestore.com/pagina/elenco-materiali).   
 
 | MATERIALE              |INCISIONE    	      | TAGLIO             |   
 |------------------------|--------------------|--------------------|   
@@ -63,11 +64,11 @@ Il software __Lasercut 6.1__ supporta file di formato DXF, AI e JPG.
 <!-- controllare che ai e jpg funzionino, bpm funziona? -->
 
 ### Accessori
-Gli oggetti esterni richiesti da questa lavorazione non sono molti: delle barre di ferro per evitare l'imbarcamento del pezzo da tagliare, un fondale rigido in [metallo alveolare](https://www.cel.eu/it/prodotti/alveolari/alluminio) per supportare i materiali poco rigidi. In alcuni casi potrebbe servire anche un taglierino (o Cutter) per aiutare la separazione dei pezzi.
+Gli oggetti esterni richiesti da questa lavorazione sono: delle barre di ferro per evitare l'imbarcamento del pezzo da tagliare, un fondale rigido in [metallo alveolare](https://www.cel.eu/it/prodotti/alveolari/alluminio) per supportare i materiali poco rigidi. In alcuni casi potrebbe servire anche un taglierino (o Cutter) per aiutare la separazione dei pezzi.
 
 ## Processo di taglio
 
-Per tagliare con la Laser Cutter segui i passaggi illustrati in seguito.
+Per tagliare con la Laser Cutter segui i passaggi illustrati di seguito.
 
 ### Accensione
 accendere ciabatta   
@@ -129,7 +130,7 @@ test punto di inizio
 accendere aspiratore   
 ![foto, evidenziare tasto](https://via.placeholder.com/600x300)
 
-avvio taglio   
+avvio taglio e controllo pressione   
 ![foto tastierino](https://via.placeholder.com/600x300)
 
 staccare i pezzi e togliere il materiale
