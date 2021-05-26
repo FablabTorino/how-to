@@ -105,13 +105,19 @@ colori linee
 ### Caricare il materiale 
 Inserimento materiale   
 sbarre di ferro e base alveolare   
+![foto materiale ben fissato](https://via.placeholder.com/600x300)
+
 controllo stabilità materiale   
 regolazione asse z   
+![foto regolazione](https://via.placeholder.com/600x300)
 
 ### Parametri di taglio
 <!-- questa parte metterla insieme alla preparazione file? -->
 impostare potenza   
+![screen schermata, mettere info per impostazioni base?](https://via.placeholder.com/600x300)
+
 download file   
+![screen, evidenziare percorso](https://via.placeholder.com/600x300)
 
 ### Tagliare
 Posizionare testina per test   
