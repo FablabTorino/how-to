@@ -72,14 +72,14 @@ Per tagliare con la Laser Cutter segui i passaggi illustrati di seguito.
 
 ### Accensione
 Accendere la ciabatta elettrica collegata alla macchina, quindi accendere anche il computer e lo schermo alla destra della Laser Cutter.   
-![foto, indicare tasti di accensione](https://via.placeholder.com/600x300)
+![foto, indicare tasti di accensione](img/laser-cutter-accensione-pc.jpg)
 
 Accendere il refrigeratore (__chiller__) a sinistra della macchina dallo switch posteriore.   
-![foto, indicare tasto](https://via.placeholder.com/600x300)
+![foto, indicare tasto](img/laser-cutter-accensione-chiller.jpg)
 
 Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.    
 Accendere quindi la macchina girando in senso orario la chiave sopra il pannello di controllo. Appena dopo l'accensione l'ugello si posizionerà automaticamente nell'angolo in alto a destra del piano, come mostrato in foto.   
-![foto, girare chiave](https://via.placeholder.com/600x300)
+![foto, girare chiave](img/laser-cutter-accensione-macchina.jpg)
 
 ### Preparare il file   
 Inserire chiavetta   
