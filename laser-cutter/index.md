@@ -78,13 +78,11 @@ Accendere il refrigeratore (__chiller__) a sinistra della macchina dallo switch 
 ![foto, indicare tasto](img/laser-cutter-accensione-chiller.jpg)
 
 Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.    
-Accendere quindi la macchina girando in senso orario la chiave sopra il pannello di controllo. Appena dopo l'accensione l'ugello si posizionerà automaticamente nell'angolo in alto a destra del piano, come mostrato in foto.   
+Accendere quindi la macchina girando in senso orario la chiave dell'__interruttore geneale__, sopra il __pannello di controllo__. Appena dopo l'accensione l'ugello si posizionerà automaticamente nell'angolo in alto a destra del piano, come mostrato in foto.   
 ![foto, girare chiave](img/laser-cutter-accensione-macchina.jpg)
 
 ### Preparare il file   
 Inserire chiavetta   
-![foto chiavetta?](https://via.placeholder.com/600x300)
-
 Aprire lasercut 6.1   
 ![screen schermata iniziale](https://via.placeholder.com/600x300)
 
