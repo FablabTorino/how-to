@@ -139,8 +139,6 @@ A fine utilizzo, spegnere la Vinylcut tenendo premuto il tasto `POWER`.
 ![foto-modificarla evidenziando tasti di accensione](img/vinylcut-accensione.jpg)   
 
 Espellere la USB dal computer e procedere con lo spegnimento del computer. Per ultimo spegnere lo schermo del computer.  
-![screen 11-12](vinylcut/../img/500x300.png)      
-<!-- mettere qui gli screen di rimozione e arresto? -->
 
 ## Post-processing
 
