@@ -100,7 +100,7 @@ muovere e scalare file
 
 colori linee   
 ![screen, come comunicarlo?](https://via.placeholder.com/600x300)
-<!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro, -->
+<!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro -->
 
 ### Caricare il materiale 
 Inserimento materiale   
@@ -123,18 +123,28 @@ download file
 Posizionare testina per test   
 test   
 test punto di inizio   
+![foto tastierino?](https://via.placeholder.com/600x300)
+<!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro -->
+
 accendere aspiratore   
+![foto, evidenziare tasto](https://via.placeholder.com/600x300)
+
 avvio taglio   
+![foto tastierino](https://via.placeholder.com/600x300)
+
 staccare i pezzi e togliere il materiale
 testina in autohome
+![foto tastierino e posizione autohome](https://via.placeholder.com/600x300)
 
 ### Spegnimento 
 spegnere aspiratore   
-spegnere macchinario
-spegnere chiller
-spegnere pc
-spegnere schermo
-spegnere ciabatta
+spegnere macchinario   
+spegnere chiller   
+![foto tasto](https://via.placeholder.com/600x300)
+
+spegnere pc   
+spegnere schermo   
+spegnere ciabatta   
 
 
 
