@@ -73,7 +73,17 @@ Per tagliare con la Laser Cutter segui i passaggi illustrati in seguito.
 accendere ciabatta   
 accendere pc   
 accendere schermo   
+![foto, indicare tasti di accensione](https://via.placeholder.com/600x300)
 
+accendere chiller   
+![foto, indicare tasto](https://via.placeholder.com/600x300)
+
+controllare piano libero   
+![foto piano?](https://via.placeholder.com/600x300)
+
+accendere macchina   
+asse in alto a destra   
+![foto, girare chiave](https://via.placeholder.com/600x300)
 
 ### Caricare il materiale 
 
