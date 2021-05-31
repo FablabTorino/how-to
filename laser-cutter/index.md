@@ -106,23 +106,22 @@ Assicurare quindi il materiale utilizzando le sbarre di ferro (poste a lato dell
 ![foto materiale ben fissato](img/laser-cutter-caricamento.jpg)
 
 La forma conica del laser richiede anche una regolazione dell'asse z.
-Muovere il piano dal pannello di controllo premendo il tasto _Z_ e poi le freccie _su_ e _giu_, posizionandolo il più in alto possibile senza danneggiare il cannone del laser. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo) . La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.  
+Muovere il piano dal pannello di controllo premendo il tasto `Z` e poi le freccie `↑` e `↓`, posizionandolo il più in alto possibile senza danneggiare il cannone del laser. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo) . La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.  
 ![foto regolazione](https://via.placeholder.com/600x300)
 <!-- mancano le foto per questa parte -->
 
 
 ### Tagliare
-Posizionare testina per test   
-test   
-test punto di inizio   
+Prima di procedere al taglio è buona pratica fare dei test. Premere il tasto `Esc` per uscire dalla selezione, poi tramite i tasti `↑`, `↓`, `←` e `→` posizionare la testina contenente il laser sul materiale. Quindi premere il tasto `Test` e osservare se l'area descritta dalla testina rientra completamente nel materiale.
+Per un'ulteriore conferma si può verificare l'esatta posizione del punto di partenza del laser. A coperchio chiuso e testina nella posizione desiderata, premere brevemente il tasto `Laser` per emettere un raggio e segnare il punto di partenza.
 ![foto tastierino?](https://via.placeholder.com/600x300)
 <!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro -->
 
-accendere aspiratore   
-![foto, evidenziare tasto](https://via.placeholder.com/600x300)
+Ricordarsi sempre di accendere l'aspiratore dallo switch posto dietro al computer (in foto).  
+![foto, evidenziare tasto](img/laser-cutter-accensione-aspiratore.jpg)
 
-avvio taglio e controllo pressione   
-![foto tastierino](https://via.placeholder.com/600x300)
+Si può quindi avviare il macchinario premendo il tasto `Start/Pause` sul pannello di controllo. Mentre la Laser Cutter esegue il taglio bisogna controllare che la pressione indicata sia a 2, se necessario modificarla agendo sulla valvola indicata in foto.  
+![foto tastierino](img/laser-cutter-avviamento-macchina.jpg)
 
 staccare i pezzi e togliere il materiale
 testina in autohome
