@@ -80,7 +80,7 @@ Accendere il refrigeratore (__chiller__) a sinistra della macchina dallo switch 
 ![foto, indicare tasto](img/laser-cutter-accensione-chiller.jpg)
 
 Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.    
-Accendere quindi la macchina girando in senso orario la chiave dell'__interruttore geneale__, sopra il __pannello di controllo__. Appena dopo l'accensione l'ugello si posizionerà automaticamente nell'angolo in alto a destra del piano, come mostrato in foto.   
+Accendere quindi la macchina girando in senso orario la chiave dell'__interruttore generale__, sopra il __pannello di controllo__. Appena dopo l'accensione l'ugello si posizionerà automaticamente nell'angolo in alto a destra del piano, come mostrato in foto.   
 ![foto, girare chiave](img/laser-cutter-accensione-macchina.jpg)
 
 ### Preparare il file   
@@ -90,7 +90,7 @@ Inserire la chiavetta USB contenente il file e avviare Lasercut 6.1.
 Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _file_>_importa_>selezionare il file.  
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-importa.png)
 
-È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinirstra raffigurante un rettangolo quotato.  
+È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinistra raffigurante un rettangolo quotato.  
 ![screen, evidenziare posizione comandi](img/laser-cutter-lasercut-move-scale.png)
 
 colori linee e decisione potenza  
@@ -101,41 +101,37 @@ Per inviare il file al macchinario si deve seguire il percorso _download_>_Downl
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)
 
 ### Caricare il materiale 
-Aprire quindi il coperchio del macchinario per inserire il materiale da tagliare e incidere. Assicurarsi che le doghe di ferro del macchinario siano ben disposte e nel caso di un materiale morbido (come il tessuto o la carta) aggiungere il piano in metallo alveolare.
-Assicurare quindi il materiale utilizzando le sbarre di ferro (poste a lato della macchina) come pesi. Assicurarsi infine che il materiale sia stabile, tamburellando lievemente per sentire se ci sono parti imbarcate.   
+Aprire quindi il __coperchio__ del macchinario per inserire il materiale da tagliare e incidere. Assicurarsi che le __doghe__ di ferro del macchinario siano ben disposte e nel caso di un materiale morbido (come il tessuto o la carta) aggiungere il piano in __metallo alveolare__.
+Assicurare quindi il materiale utilizzando le __sbarre di ferro__ (poste a lato della macchina) come pesi. Assicurarsi infine che il materiale sia stabile, tamburellando lievemente per sentire se ci sono parti imbarcate.   
 ![foto materiale ben fissato](img/laser-cutter-caricamento.jpg)
 
 La forma conica del laser richiede anche una regolazione dell'asse z.
-Muovere il piano dal pannello di controllo premendo il tasto `Z` e poi le freccie `↑` e `↓`, posizionandolo il più in alto possibile senza danneggiare il cannone del laser. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo) . La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.  
+Muovere il piano dal __pannello di controllo__ premendo il tasto `Z` e poi le freccie `↑` e `↓`, posizionandolo il più in alto possibile senza danneggiare il __cannone del laser__. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo) . La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.  
 ![foto regolazione](https://via.placeholder.com/600x300)
 <!-- mancano le foto per questa parte -->
 
 
 ### Tagliare
 Prima di procedere al taglio è buona pratica fare dei test. Premere il tasto `Esc` per uscire dalla selezione, poi tramite i tasti `↑`, `↓`, `←` e `→` posizionare la testina contenente il laser sul materiale. Quindi premere il tasto `Test` e osservare se l'area descritta dalla testina rientra completamente nel materiale.
-Per un'ulteriore conferma si può verificare l'esatta posizione del punto di partenza del laser. A coperchio chiuso e testina nella posizione desiderata, premere brevemente il tasto `Laser` per emettere un raggio e segnare il punto di partenza.
+Per un'ulteriore conferma si può verificare l'esatta posizione del punto di partenza del laser. A __coperchio__ chiuso e __testina__ nella posizione desiderata, premere brevemente il tasto `Laser` per emettere un raggio e segnare il punto di partenza.
 ![foto tastierino?](https://via.placeholder.com/600x300)
 <!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro -->
 
-Ricordarsi sempre di accendere l'aspiratore dallo switch posto dietro al computer (in foto).  
+Ricordarsi sempre di accendere l'__aspiratore__ dallo switch posto dietro al computer (in foto).  
 ![foto, evidenziare tasto](img/laser-cutter-accensione-aspiratore.jpg)
 
-Si può quindi avviare il macchinario premendo il tasto `Start/Pause` sul pannello di controllo. Mentre la Laser Cutter esegue il taglio bisogna controllare che la pressione indicata sia a 2, se necessario modificarla agendo sulla valvola indicata in foto.  
+Si può quindi avviare il macchinario premendo il tasto `Start/Pause` sul __pannello di controllo__. Mentre la Laser Cutter esegue il taglio bisogna controllare che la pressione indicata sia a 2, se necessario modificarla agendo sulla __valvola__ indicata in foto.  
 ![foto tastierino](img/laser-cutter-avviamento-macchina.jpg)
 
-staccare i pezzi e togliere il materiale
-testina in autohome
-![foto tastierino e posizione autohome](https://via.placeholder.com/600x300)
+A taglio e incisione terminati premere `Datum` sul __pannello di controllo__ per inviare la testina nell'angolo in alto a destra.
+Si può quindi prelevare il materiale dal macchinario e separare e rimuovere i pezzi in eccesso.
+![foto tastierino e posizione autohome](img/laser-cutte-pezzi-finiti.jpg)
 
 ### Spegnimento 
-spegnere aspiratore   
-spegnere macchinario   
-spegnere chiller   
-![foto tasto](https://via.placeholder.com/600x300)
+Finito il processo si può spegnere l'__aspiratore__, se invece non si utilizza più il macchinario si deve spegnere anche il __Chiller__ e la Laser Cutter, girando la chiave di __avviamento__.  
+![foto tasto](img/laser-cutter-spegnimento-macchinario.jpg)
 
-spegnere pc   
-spegnere schermo   
-spegnere ciabatta   
+Spegnere infine anche il Computer, il monitor e infine anche la ciabatta elettrica posizionata dietro, visibile nella [fase di accensione](#accensione)   
 
 
 
