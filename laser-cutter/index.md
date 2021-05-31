@@ -84,19 +84,21 @@ Accendere quindi la macchina girando in senso orario la chiave dell'__interrutto
 ![foto, girare chiave](img/laser-cutter-accensione-macchina.jpg)
 
 ### Preparare il file   
-Inserire chiavetta   
-Aprire lasercut 6.1   
-![screen schermata iniziale](https://via.placeholder.com/600x300)
+Inserire la chiavetta USB contenente il file e avviare Lasercut 6.1.  
+![screen schermata iniziale](img/laser-cutter-lasercut-interface.png)
 
-importare file   
-![screen, evidenziare percorso](https://via.placeholder.com/600x300)
+Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _file_>_importa_>selezionare il file.  
+![screen, evidenziare percorso](img/laser-cutter-lasercut-importa.png)
 
-muovere e scalare file   
-![screen, evidenziare posizione comandi](https://via.placeholder.com/600x300)
+È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinirstra raffigurante un rettangolo quotato.  
+![screen, evidenziare posizione comandi](img/laser-cutter-lasercut-move-scale.png)
 
-colori linee   
+colori linee e decisione potenza  
 ![screen, come comunicarlo?](https://via.placeholder.com/600x300)
 <!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro -->
+
+Per inviare il file al macchinario si deve seguire il percorso _download_>_Download File Corrente_>scegliere un nome, infine confermare l'azione. 
+![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)
 
 ### Caricare il materiale 
 Inserimento materiale   
