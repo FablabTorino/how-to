@@ -124,7 +124,7 @@ Si può quindi avviare il macchinario premendo il tasto `Start/Pause` sul __pann
 
 A taglio e incisione terminati premere `Datum` sul __pannello di controllo__ per inviare la testina nell'angolo in alto a destra.   
 Si può quindi prelevare il materiale dal macchinario e separare e rimuovere i pezzi in eccesso.   
-![foto tastierino e posizione autohome](img/laser-cutte-pezzi-finiti.jpg)
+![foto tastierino e posizione autohome](img/laser-cutter-pezzi-finiti.jpg)
 
 ### Spegnimento 
 Finito il processo si può spegnere l'__aspiratore__, se invece non si utilizza più il macchinario si deve spegnere anche il __Chiller__ e la Laser Cutter, girando la chiave di __avviamento__.   
