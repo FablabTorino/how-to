@@ -101,21 +101,15 @@ Per inviare il file al macchinario si deve seguire il percorso _download_>_Downl
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)
 
 ### Caricare il materiale 
-Inserimento materiale   
-sbarre di ferro e base alveolare   
-![foto materiale ben fissato](https://via.placeholder.com/600x300)
+Aprire quindi il coperchio del macchinario per inserire il materiale da tagliare e incidere. Assicurarsi che le doghe di ferro del macchinario siano ben disposte e nel caso di un materiale morbido (come il tessuto o la carta) aggiungere il piano in metallo alveolare.
+Assicurare quindi il materiale utilizzando le sbarre di ferro (poste a lato della macchina) come pesi. Assicurarsi infine che il materiale sia stabile, tamburellando lievemente per sentire se ci sono parti imbarcate.   
+![foto materiale ben fissato](img/laser-cutter-caricamento.jpg)
 
-controllo stabilità materiale   
-regolazione asse z   
+La forma conica del laser richiede anche una regolazione dell'asse z.
+Muovere il piano dal pannello di controllo premendo il tasto _Z_ e poi le freccie _su_ e _giu_, posizionandolo il più in alto possibile senza danneggiare il cannone del laser. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo) . La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.  
 ![foto regolazione](https://via.placeholder.com/600x300)
+<!-- mancano le foto per questa parte -->
 
-### Parametri di taglio
-<!-- questa parte metterla insieme alla preparazione file? -->
-impostare potenza   
-![screen schermata, mettere info per impostazioni base?](https://via.placeholder.com/600x300)
-
-download file   
-![screen, evidenziare percorso](https://via.placeholder.com/600x300)
 
 ### Tagliare
 Posizionare testina per test   
