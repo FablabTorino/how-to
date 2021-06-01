@@ -39,22 +39,22 @@ Il Fablab dispone di un macchinario a CO<sub>2</sub>, di seguito una lista compl
 
 | MATERIALE              |INCISIONE    	      | TAGLIO             |   
 |------------------------|--------------------|--------------------|   
-| Legno		             | :heavy_check_mark: | :heavy_check_mark: |   
-| Acrilico - Plexiglass  | :heavy_check_mark: | :heavy_check_mark: |   
-| Laminati Bicolore	     | :heavy_check_mark: | :heavy_check_mark: |   
-| Tessuti e Stoffe       | :heavy_check_mark: | :heavy_check_mark: |   
-| Vetro e Cristallo      | :heavy_check_mark: | :x:                |   
-| MDF                    | :heavy_check_mark: | :heavy_check_mark: |   
-| Ceramica               | :heavy_check_mark: | :x:                |    
-| Pelle e Cuoio          | :heavy_check_mark: | :heavy_check_mark: |   
-| Marmo e Pietra         | :heavy_check_mark: | :x:                |   
-| Carta e Cartone	     | :heavy_check_mark: | :heavy_check_mark: |   
-| Gomma                  | :heavy_check_mark: | :heavy_check_mark: |   
-| Sughero                | :heavy_check_mark: | :heavy_check_mark: |   
-| Alluminio Anodizzato   | :heavy_check_mark: | :x:                |   
-| Metallo Verniciato     | :heavy_check_mark: | :x:                |   
-| Plastica               | :heavy_check_mark: | :heavy_check_mark: |   
-| Vetroresina            | :heavy_check_mark: | :heavy_check_mark: |   
+| Legno		             | __O__ | __O__ |   
+| Acrilico - Plexiglas   | __O__ | __O__ |   
+| Laminati Bicolore	     | __O__ | __O__ |   
+| Tessuti e Stoffe       | __O__ | __O__ |   
+| Vetro e Cristallo      | __O__ | __X__ |   
+| MDF                    | __O__ | __O__ |   
+| Ceramica               | __O__ | __X__ |    
+| Pelle e Cuoio          | __O__ | __O__ |   
+| Marmo e Pietra         | __O__ | __X__ |   
+| Carta e Cartone	     | __O__ | __O__ |   
+| Gomma                  | __O__ | __O__ |   
+| Sughero                | __O__ | __O__ |   
+| Alluminio Anodizzato   | __O__ | __X__ |   
+| Metallo Verniciato     | __O__ | __X__ |   
+| Plastica               | __O__ | __O__ |   
+| Vetroresina            | __O__ | __O__ |   
 
 ### PC con installato i software necessari
 Al Fablab hai la possibilità di utilizzare il computer collegato alla Laser Cutter, nel quale sono già presenti i drivers e i software necessari.   
