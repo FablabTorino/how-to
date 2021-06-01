@@ -62,7 +62,7 @@ Il macchinario è compatibile con computer con sistemi operativi successivi a Wi
 
 ### File da tagliare
 Le lavorazioni della Laser Cutter si basano su tracciati vettoriali, perciò il file utilizzato deve contenere contorni definiti e privi di doppie linee e riempimenti.   
-Il software __Lasercut 6.1__ supporta file di formato DXF, AI e JPG.   
+Il software __Lasercut 6.1__ supporta file di formato DXF (si consiglia il DXF 2000/LT2000).   
 <!-- controllare che ai e jpg funzionino, bpm funziona? -->
 
 ### Accessori
@@ -83,7 +83,7 @@ Accendere quindi la macchina girando in senso orario la chiave dell'__interrutto
 ![foto, girare chiave](img/laser-cutter-accensione-macchina.jpg)
 
 ### Preparare il file   
-Inserire la chiavetta USB contenente il file e avviare Lasercut 6.1.   
+Inserire la chiavetta USB contenente il file e avviare __Lasercut 6.1__.   
 ![screen schermata iniziale](img/laser-cutter-lasercut-interface.png)
 
 Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _file_>_importa_>selezionare il file.   
