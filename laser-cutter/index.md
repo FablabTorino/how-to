@@ -28,8 +28,7 @@ Il laser taglia concentrando un'alta energia in un piccolo spot, sciogliendo, br
 | Dimensione dello spot focale       | 0,2 mm                                   |   
 | Risoluzione grafica                | 0,0254 mm                                |   
 | Spessore massimo del materiale     | 10 mm                                    |      
-| Grandezza massima area di taglio   | 1200x900 mm                              |   
-| Grandezza minima area di taglio    |                                          |        
+| Grandezza massima area di taglio   | 1200x900 mm                              |         
 
 Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditore](https://www.ricami.piemonte.it/-/plotter-laser-co2-1300x900mm-wl1390)
 
