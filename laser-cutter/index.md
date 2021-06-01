@@ -14,7 +14,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 - File da tagliare  
 - Accessori (barre per fissare il materiale, fondale rigido)  
 
-### Laser Cutter CO2 WL1290
+### Laser Cutter CO<sub>2</sub> WL1290
 ![fronte lasercutter](img/laser-cutter-matilda.jpg)   
 
 Il laser taglia concentrando un'alta energia in un piccolo spot, sciogliendo, bruciando o vaporizzando il materiale che viene poi soffiato via da un getto di aria compressa, lasciando un bordo di taglio di ottima qualità.   
@@ -35,7 +35,7 @@ Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditor
 
 ### Materiali lavorabili
 In base alla tipologia di Laser Cutter è possibile tagliare e incidere diverse tipologie di materiali.   
-Il Fablab dispone di un macchinario a CO2, di seguito una lista completa dei [materiali lavorabili](https://www.worklinestore.com/pagina/elenco-materiali).   
+Il Fablab dispone di un macchinario a CO<sub>2</sub>, di seguito una lista completa dei [materiali lavorabili](https://www.worklinestore.com/pagina/elenco-materiali).   
 
 | MATERIALE              |INCISIONE    	      | TAGLIO             |   
 |------------------------|--------------------|--------------------|   
