@@ -56,7 +56,7 @@ Durante la lavorazione si dovrà fare uso anche di oggetti esterni: le forbici o
 
 ## Processo di taglio
 
-Per tagliare i fogli in vinile segui i passaggi illustrati in seguito.
+Per tagliare i fogli in vinile segui i passaggi illustrati di seguito.
 
 ### Accensione
 
@@ -89,7 +89,7 @@ Sul display del pannello di controllo (__operation panel__) compare la scritta `
 
 <!-- Niente istruzioni riguardanti Inkscape? si, da segnare come opzionale-->
 
-Avviare Cutstudio, per aprire il file di taglio seguire il percorso _importa_>selezionare il file.   
+Inserire la chiavetta USB contenente il file. Avviare __Cutstudio__, per aprire il file di taglio seguire il percorso _importa_>selezionare il file.   
 ![screen 07-evidenziare tasto importa](img/vinylcut-cutstudio-importa.png)
 
 <!-- da inserire come trasformare i png in contorni? si -->
@@ -139,8 +139,6 @@ A fine utilizzo, spegnere la Vinylcut tenendo premuto il tasto `POWER`.
 ![foto-modificarla evidenziando tasti di accensione](img/vinylcut-accensione.jpg)   
 
 Espellere la USB dal computer e procedere con lo spegnimento del computer. Per ultimo spegnere lo schermo del computer.  
-![screen 11-12](vinylcut/../img/500x300.png)      
-<!-- mettere qui gli screen di rimozione e arresto? -->
 
 ## Post-processing
 
