@@ -133,4 +133,5 @@ Spegnere infine anche il Computer, il monitor e infine anche la ciabatta elettri
 
 
 ## FAQ
-__Perchè non posso tagliare il PVC?__
+__Perchè non posso tagliare il PVC?__   
+Il PVC non è adatto per l'incisione o il taglio laser a causa di sostanze specifiche che contiene e la formazione di acido cloridrico e gas velenosi.
