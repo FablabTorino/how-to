@@ -94,7 +94,7 @@ Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _file_
 
 colori linee e decisione potenza   
 ![screen, come comunicarlo?](https://via.placeholder.com/600x300)
-<!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro -->
+<!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro. spoiler: non c'è -->
 
 Per inviare il file al macchinario si deve seguire il percorso _download_>_Download File Corrente_>scegliere un nome, infine confermare l'azione.   
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)
@@ -106,15 +106,14 @@ Assicurare quindi il materiale utilizzando le __sbarre di ferro__ (poste a lato 
 
 La forma conica del laser richiede anche una regolazione dell'asse z.   
 Muovere il piano dal __pannello di controllo__ premendo il tasto `Z` e poi le freccie `↑` e `↓`, posizionandolo il più in alto possibile senza danneggiare il __cannone del laser__. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo). La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.   
-![foto regolazione](https://via.placeholder.com/600x300)
+![foto regolazione, tastierino con tasti da premere, blocchetto tra materiale e cannone](https://via.placeholder.com/600x300)
 <!-- mancano le foto per questa parte -->
 
 
 ### Tagliare
 Prima di procedere al taglio è buona pratica fare dei test. Premere il tasto `Esc` per uscire dalla selezione, poi tramite i tasti `↑`, `↓`, `←` e `→` posizionare la testina contenente il laser sul materiale. Quindi premere il tasto `Test` e osservare se l'area descritta dalla testina rientra completamente nel materiale.   
 Per un'ulteriore conferma si può verificare l'esatta posizione del punto di partenza del laser. A __coperchio__ chiuso e __testina__ nella posizione desiderata, premere brevemente il tasto `Laser` per emettere un raggio e segnare il punto di partenza.   
-![foto tastierino?](https://via.placeholder.com/600x300)
-<!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro -->
+![foto tastierino con tasto da premere, foto piano con freccia di traiettoria](https://via.placeholder.com/600x300)
 
 Ricordarsi sempre di accendere l'__aspiratore__ dallo switch posto dietro al computer (in foto).   
 ![foto, evidenziare tasto](img/laser-cutter-accensione-aspiratore.jpg)
