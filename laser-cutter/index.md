@@ -91,9 +91,16 @@ Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _file_
 È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinistra raffigurante un rettangolo quotato.   
 ![screen, evidenziare posizione comandi](img/laser-cutter-lasercut-move-scale.png)
 
-colori linee e decisione potenza   
-![screen, come comunicarlo?](https://via.placeholder.com/600x300)
-<!-- per questa parte vedere se sul manuale c'è qualcosa di chiaro. spoiler: non c'è -->
+Dalla colonna a destra è possibile dividere le linee dell'oggetto in base a diversi profili di taglio o incisione. Selezionando la linea da isolare e assegnandole un colore dalla barra in basso, il programma la inserisce in un profilo di taglio separato e modificabile in modo individuale.
+Cliccando due volte sul profilo di taglio si apre la finestra di dialogo per la modifica delle caratteristiche.   
+![screen](img/laser-cutter-lasercut-layers.jpg)
+
+Assegnate le varie linee ai profili di taglio o incisione, si devono impostare le caratteristiche in base al tipo di lavorazione desiderata. Nelle immagini di seguito, sono evidenziate in giallo le voci da modificare. 
+![screen profili](img/laser-cutter-lasercut-taglio.jpg)
+![screen profili](img/laser-cutter-lasercut-raster.jpg)
+
+aggiungere impostazione origine
+![screen comando](img/)
 
 Per inviare il file al macchinario si deve seguire il percorso _download_>_Download File Corrente_>scegliere un nome, infine confermare l'azione.   
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)
