@@ -93,7 +93,7 @@ Dalla colonna a destra è possibile dividere le linee dell'oggetto in base a div
 Con i tasti _Sposta Su_ e _Sposta Giù_ si possono ordinare i colori in base all'ordine di esecuzione desiderato.  
 ![screen](img/laser-cutter-lasercut-layers.jpg)
 
-Assegnate le varie linee ai profili di taglio o incisione, si devono impostare le caratteristiche in base al tipo di lavorazione desiderata. Nelle immagini di seguito, sono evidenziate in giallo le voci da modificare. 
+Assegnate le varie linee ai profili di taglio o incisione, si devono impostare le caratteristiche in base al tipo di lavorazione desiderata. Nelle immagini di seguito, sono evidenziate in giallo le voci da modificare per le lavorazioni raster e di taglio. 
 ![screen profili](img/laser-cutter-lasercut-taglio.jpg)
 ![screen profili](img/laser-cutter-lasercut-raster.jpg)
 
