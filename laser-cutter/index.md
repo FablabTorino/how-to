@@ -74,7 +74,7 @@ Per tagliare con la Laser Cutter segui i passaggi illustrati di seguito.
 Accendere la ciabatta elettrica collegata alla macchina, quindi accendere anche il computer e lo schermo alla destra della Laser Cutter.   
 ![foto, indicare tasti di accensione](img/laser-cutter-accensione-pc.jpg)
 
-Accendere il refrigeratore (__chiller__) a sinistra della macchina dallo switch posteriore.   
+Accendere il refrigeratore (__Chiller__) a sinistra della macchina dallo switch posteriore.   
 ![foto, indicare tasto](img/laser-cutter-accensione-chiller.jpg)
 
 Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.    
@@ -83,25 +83,29 @@ Accendere quindi la macchina girando in senso orario la chiave dell'__interrutto
 
 ### Preparare il file   
 Inserire la chiavetta USB contenente il file e avviare __Lasercut 6.1__.   
-Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _file_>_importa_>selezionare il file.   
+Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _File_>_Importa_>selezionare il file.   
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-importa.png)
 
 È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinistra raffigurante un rettangolo quotato.   
 ![screen, evidenziare posizione comandi](img/laser-cutter-lasercut-move-scale.png)
 
-Dalla colonna a destra è possibile dividere le linee dell'oggetto in base a diversi __profili di taglio o incisione__. Selezionando la linea da isolare e assegnandole un colore dalla barra in basso, il programma la inserisce in un profilo di taglio separato e modificabile in modo individuale.   
+Dalla colonna a destra è possibile dividere le linee dell'oggetto in base a diversi __profili di taglio o incisione__. Selezionando la linea da isolare [1] e assegnandole un colore dalla barra in basso [2], il programma la inserisce in un profilo di taglio separato e modificabile in modo individuale [3].   
 Con i tasti _Sposta Su_ e _Sposta Giù_ si possono ordinare i colori in base all'ordine di esecuzione desiderato.  
 ![screen](img/laser-cutter-lasercut-layers.jpg)
 
-Assegnate le varie linee ai __profili di taglio o incisione__, si devono impostare le caratteristiche in base al tipo di lavorazione desiderata. Nelle immagini di seguito, sono evidenziate in giallo le voci da modificare per le __lavorazioni raster e di taglio__. 
-![screen profili](img/laser-cutter-lasercut-taglio.jpg)
+Assegnate le varie linee ai __profili di taglio o incisione__, facendo doppio click sui colori dei profili si possono impostare le caratteristiche in base al tipo di lavorazione desiderata. Nelle immagini di seguito, sono evidenziate in giallo le voci da modificare per le __lavorazioni di taglio e raster__.   
+__Attenzione!__  non modificare gli altri parametri!
+![screen profili](img/laser-cutter-lasercut-taglio.png)
 ![screen profili](img/laser-cutter-lasercut-raster.jpg)
 
-Controllare sempre dove è il __punto di origine del taglio__, segnato con un pallino blu. È possibile modificarne la posizione premendo il comando in alto e scegliendo la posizione desiderata dalla finestra di dialogo, premere infine _ok_ per confermare.
-![screen comando](img/laser-cutter-lasercut-origine.jpg)
 
-Per inviare il file al macchinario si deve seguire il percorso _download_>_Download File Corrente_>scegliere un nome, infine confermare l'azione.   
+Controllare sempre dove è il __punto di origine del taglio__, segnato con un pallino blu. È possibile modificarne la posizione premendo il comando in alto e scegliendo la posizione desiderata dalla finestra di dialogo, premere infine _Ok_ per confermare.
+![screen comando](img/laser-cutter-lasercut-origine.png)
+
+
+Per inviare il file al macchinario si deve seguire il percorso _Download_>_Download File Corrente_>scegliere un nome, infine confermare l'azione.   
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)
+
 
 ### Caricare il materiale 
 Aprire quindi il __coperchio__ del macchinario per inserire il materiale da tagliare e incidere. Assicurarsi che le __doghe__ di ferro del macchinario siano ben disposte e nel caso di un materiale morbido (come il tessuto o la carta) aggiungere il piano in __metallo alveolare__.   
