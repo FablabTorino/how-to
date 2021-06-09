@@ -10,7 +10,7 @@ Le stampanti 3D sfruttano diverse tecnologie per la produzione, la più diffusa 
 La tecnologia di Stampa 3D permette di creare in modo efficiente pezzi unici e geometrie estremamente complesse, non realizzabili altrimenti. Per questo motivo le sue applicazioni sono molte e in continua crescita, dalla creazione di prototipi, protesi e ortesi mediche personalizzate, ma ache utilizzi nei settori industriali più disparati: settori aerospaziale, automobilistico, alimentare, edile, medico e biomedico.
 
 In base al tipo di tecnologia di stampa 3D cambiano anche i materiali utilizzabili.   
-Con la tecnologia FDM è possibile lavorare polimeri termoplastici (PLA, ABS, PA, PET, PVA), termoplastici elastomerici (TPU), polimeri di tipo ingegneristico (PEEK, PEI), ma anche materiali compositi costituiti da una matrice polimerica e caricati con fibre o con carica metallica (questi richiedono un post processo di sinterizzazione in cui la matrice termoplastica evapora lasciando solo le parti metalliche).
+Con la tecnologia FDM è possibile lavorare polimeri termoplastici ([PLA](https://www.3ditalyshop.it/prodotti/filamenti/1-75/pla_1-75/), [ABS](https://www.3ditalyshop.it/prodotti/filamenti/1-75/abs_1.75/), [Nylon](https://www.3djake.it/filamenti-per-stampanti-3d/filamenti-di-nylon), [PETG](https://www.3ditalyshop.it/prodotti/filamenti/1-75/pet_1.75/), [PVA](https://www.3ditalyshop.it/prodotti/filamenti/1-75/pva-1.75/)), termoplastici elastomerici ([TPU](https://www.3ditalyshop.it/prodotti/filamenti/1-75/tpu-98a-1-75/)), polimeri di tipo ingegneristico ([PEEK](https://www.3djake.it/filamenti-per-stampanti-3d/filamenti-peek-per-stampanti-3d-fdm), [PEI](https://www.3djake.it/filamenti-per-stampanti-3d/pei-ultem)), ma anche materiali compositi costituiti da una matrice polimerica e caricati con fibre o con carica metallica (questi richiedono un post processo di sinterizzazione in cui la matrice termoplastica evapora lasciando solo le parti metalliche).
 
 ## Strumenti, materiali e file
 Prima di iniziare assicurati di avere tutto il necessario:
@@ -18,7 +18,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 - Bobina di filamento
 - PC con istallati i software necessari
 - File da stampare
-- Accessori (lacca, spatola, pinzette, tronchesina)
+- Accessori (lacca, pinzette, spatola, tronchesina)
 
 ### 3D printer Creality CR-10 S
 
@@ -37,7 +37,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
    
 ### 3D printer Creality CR-10 S5
 
-![fronte ](img/)   
+![fronte ](img/3dp-cr10-s5.jpg)   
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
@@ -49,54 +49,63 @@ Prima di iniziare assicurati di avere tutto il necessario:
 | Temperatura massima del nozzle     | 250 ℃                                   |   
 | Velocità massima di stampa         | 180 mm/s                                 |     
 
-
 Per ulteriori informazioni sulla linea Creality CR-10 consultare la [scheda tecnica](src/cr10-user-manual.PDF)
 
-### mat
-I materiali sono comunemente commercializzati sotto forma di bobine di filamenti (di diametro standard 1,75mm o 2,85mm). Alcune macchine, soprattutto di grande formato sfruttano polimeri sotto forma di pellets, nettamente più economici, e in alcuni casi derivanti dal riciclo della plastica.
+### Bobina di filamento
+I materiali sono comunemente commercializzati sotto forma di bobine di filamenti o pellets.   
+Le stampanti del Fablab utilizzano filamenti di PLA di diametro 1.75 mm, disponibile in tantissimi colori e di facile lavorabilità.   
 
 ### PC con installato i software necessari
-
+Per la fase di slicing e di impostazioni di stampa è necessario avere sul proprio PC il software __Ultimaker Cura__.   
+Per la fase di stampa e supervisione invece, al Fablab hai la possibilità di utilizzare il computer proprio di ogni stampante (lo trovi sulla sinistra della stampante).
 
 ### File da stampare
+La stampante 3D basa la stampa su un modello 3D diviso in layers attraverso il programma di slicing.   
+Il software __Ultimaker Cura__ supporta modelli 3D nei formati 3MF, AMF, DAE, ZAE, CTM, STL, PLY, OBJ, X3D, GBL, GLTF e GCODE.   
+Il PC collegato alla stampante legge file di stampa nel formato STL.
 
 
 ### Accessori
-
+Durante la lavorazione si dovrà fare uso anche di oggetti esterni: la lacca si deve applicare sul __piatto__ della stampante prima dell'avvio della stampa, per assicurare una salda adesione del pezzo; le tronchesine servono a tranciare il filamento al momento del caricamento o rimozione del materiale; le pinzette sono per la rimozione delle sbavature di filamento durante la fase di riscaldamento del __nozzle__; la spatola è necessaria per il distaccamento dal __piatto__ del pezzo stampato alla fine del processo. 
 
 ## Processo di stampa
 
 Per stampare in 3D segui i passaggi illustrati di seguito.
 
+### Parametri di stampa
+
+impostare stampante da cura
+impostare nozzle
+
+### Slicing del modello 3D
+
+impostazioni layers, velocità ecc
+
 ### Accensione
 
+accensione stampante
 
+### Cambio della bobina di filamento
 
-### Caricare il materiale 
+scaldare nozzle
+inserimento filo
+espulsione eventuali residui
 
+### Stampare
 
+inserimento micro sd
+selezione file
+controllo primo layer
 
-### Preparare il file
+### Togliere la bobina di filamento
 
-
-
-### Parametri di taglio
-
-
-### Cambio filamento
-
-
-
-### Tagliare
-
-
-### Togliere filamento
-
-
+scaldare nozzle
+spingere filo
+estrarre filo
 
 ### Spegnimento 
 
- 
+Spegnere la stampante
 
 ## Post-processing
 
