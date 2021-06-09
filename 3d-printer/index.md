@@ -9,16 +9,16 @@ Le stampanti 3D sfruttano diverse tecnologie per la produzione, la più diffusa 
 
 La tecnologia di Stampa 3D permette di creare in modo efficiente pezzi unici e geometrie estremamente complesse, non realizzabili altrimenti. Per questo motivo le sue applicazioni sono molte e in continua crescita, dalla creazione di prototipi, protesi e ortesi mediche personalizzate, ma ache utilizzi nei settori industriali più disparati: settori aerospaziale, automobilistico, alimentare, edile, medico e biomedico.
 
-In base al tipo di tecnologia di stampa 3D cambiano radicalmente anche i materiali utilizzabili.   
+In base al tipo di tecnologia di stampa 3D cambiano anche i materiali utilizzabili.   
 Con la tecnologia FDM è possibile lavorare polimeri termoplastici (PLA, ABS, PA, PET, PVA), termoplastici elastomerici (TPU), polimeri di tipo ingegneristico (PEEK, PEI), ma anche materiali compositi costituiti da una matrice polimerica e caricati con fibre o con carica metallica (questi richiedono un post processo di sinterizzazione in cui la matrice termoplastica evapora lasciando solo le parti metalliche).
 
 ## Strumenti, materiali e file
 Prima di iniziare assicurati di avere tutto il necessario:
 - Stampante 3D
-- filamento termoplastico
+- Bobina di filamento
 - PC con istallati i software necessari
-- file da stampare
-- accessori
+- File da stampare
+- Accessori (lacca, spatola, pinzette, tronchesina)
 
 ### 3D printer Creality CR-10 S
 
@@ -26,35 +26,31 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
-| Velocità di taglio                 |  |   
-| Pressione della lama               |                            |   
-| Risoluzione del Software           |                            |   
-| Spessore massimo del materiale     |                                  |   
-| Larghezza del materiale caricabile |                           |   
-| Grandezza massima area di taglio   |        |   
-| Grandezza minima area di taglio    |                   |   
-| Precisione di ripetizione          |                    |     
-
-
-Per ulteriori informazioni consultare la [scheda tecnica](src/cr10-user-manual.PDF)
-
+| Dimensione massima di stampa       | 500 x 500 x 500 mm                       |   
+| Spessore dello strato              | 0,1 - 0,4 mm                             |   
+| Precisione di stampa               | ±0,1 mm                                  |   
+| Diametro del filamento             | 1,75 mm                                  |   
+| Temperatura massima del piatto     | 100 ℃                                   |   
+| Temperatura massima del nozzle     | 250 ℃                                   |   
+| Velocità massima di stampa         | 180 mm/s                                 |   
+   
+   
 ### 3D printer Creality CR-10 S5
 
 ![fronte ](img/)   
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
-| Velocità di taglio                 |  |   
-| Pressione della lama               |                            |   
-| Risoluzione del Software           |                            |   
-| Spessore massimo del materiale     |                                  |   
-| Larghezza del materiale caricabile |                           |   
-| Grandezza massima area di taglio   |        |   
-| Grandezza minima area di taglio    |                   |   
-| Precisione di ripetizione          |                    |     
+| Dimensione massima di stampa       | 300 x 300 x 400 mm                       |   
+| Spessore dello strato              | 0,1 - 0,4 mm                             |   
+| Precisione di stampa               | ±0,1 mm                                  |   
+| Diametro del filamento             | 1,75 mm                                  |   
+| Temperatura massima del piatto     | 60 ℃                                    |   
+| Temperatura massima del nozzle     | 250 ℃                                   |   
+| Velocità massima di stampa         | 180 mm/s                                 |     
 
 
-Per ulteriori informazioni consultare la [scheda tecnica](src/cr10-user-manual.PDF)
+Per ulteriori informazioni sulla linea Creality CR-10 consultare la [scheda tecnica](src/cr10-user-manual.PDF)
 
 ### mat
 I materiali sono comunemente commercializzati sotto forma di bobine di filamenti (di diametro standard 1,75mm o 2,85mm). Alcune macchine, soprattutto di grande formato sfruttano polimeri sotto forma di pellets, nettamente più economici, e in alcuni casi derivanti dal riciclo della plastica.
@@ -87,15 +83,26 @@ Per stampare in 3D segui i passaggi illustrati di seguito.
 ### Parametri di taglio
 
 
+### Cambio filamento
+
+
 
 ### Tagliare
 
 
+### Togliere filamento
+
+
 
 ### Spegnimento 
+
  
 
 ## Post-processing
+
+scollare dal piano?
+togliere skirt
+togliere supporti
 
 
 
