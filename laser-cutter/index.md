@@ -77,7 +77,7 @@ Accendere la ciabatta elettrica collegata alla macchina, quindi accendere anche 
 Accendere il refrigeratore (__Chiller__) a sinistra della macchina dallo switch posteriore.   
 ![foto, indicare tasto](img/laser-cutter-accensione-chiller.jpg)
 
-Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.    
+__ATTENZIONE!__ Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.    
 Accendere quindi la macchina girando in senso orario la chiave dell'__interruttore generale__, sopra il __pannello di controllo__. Appena dopo l'accensione l'ugello si posizionerà automaticamente nell'angolo in alto a destra del piano, come mostrato in foto.   
 ![foto, girare chiave](img/laser-cutter-accensione-macchina.jpg)
 
@@ -108,8 +108,10 @@ Per inviare il file al macchinario si deve seguire il percorso _Download_>_Downl
 
 
 ### Caricare il materiale 
-Aprire quindi il __coperchio__ del macchinario per inserire il materiale da tagliare e incidere. Assicurarsi che le __doghe__ di ferro del macchinario siano ben disposte e nel caso di un materiale morbido (come il tessuto o la carta) aggiungere il piano in __metallo alveolare__.   
-Assicurare quindi il materiale utilizzando le __sbarre di ferro__ (poste a lato della macchina) come pesi. Assicurarsi infine che il materiale sia stabile, tamburellando lievemente per sentire se ci sono parti imbarcate.   
+Aprire quindi il __coperchio__ del macchinario per inserire il materiale da tagliare e incidere.     
+Assicurarsi che le __doghe__ di ferro del macchinario siano ben disposte e nel caso di un materiale morbido (come il tessuto o la carta) aggiungere il piano in __metallo alveolare__.   
+Bloccare quindi il materiale utilizzando le __sbarre di ferro__ (poste a lato della macchina) come pesi. Assicurarsi infine che il materiale sia stabile, tamburellando lievemente per sentire se ci sono parti imbarcate.   
+__ATTENZIONE!__ assicurarsi che la __griglia dell'aspiratore__ (in rosso) sia pulita!   
 ![foto materiale ben fissato](img/laser-cutter-caricamento.jpg)
 
 La forma conica del laser richiede anche una regolazione dell'asse z.   
