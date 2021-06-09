@@ -22,7 +22,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 ### 3D printer Creality CR-10 S
 
-![fronte ](img/)    
+![fronte ](https://via.placeholder.com/600x300)    
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
@@ -77,43 +77,62 @@ Per stampare in 3D segui i passaggi illustrati di seguito.
 ### Parametri di stampa
 
 impostare stampante da cura
+![screen](https://via.placeholder.com/600x300)
+
 impostare nozzle
+![screen](https://via.placeholder.com/600x300)
 
 ### Slicing del modello 3D
 
 impostazioni layers, velocità ecc
+![screen](https://via.placeholder.com/600x300)
+![screen](https://via.placeholder.com/600x300)
 
 ### Accensione
 
 accensione stampante
+![foto, evidenziare tasto e cavi collegamento](https://via.placeholder.com/600x300)
 
 ### Cambio della bobina di filamento
 
 scaldare nozzle
-inserimento filo
+![foto schermate con passaggi](https://via.placeholder.com/600x300)
+
+inserimento filo   
 espulsione eventuali residui
+![foto, evidenziare pinza filo](https://via.placeholder.com/600x300)
 
 ### Stampare
 
 inserimento micro sd
-selezione file
+![foto, evidenziare porta](https://via.placeholder.com/600x300)
+
+selezione file   
 controllo primo layer
+![schermate con passaggi](https://via.placeholder.com/600x300)
 
 ### Togliere la bobina di filamento
 
 scaldare nozzle
-spingere filo
+![schermate con passaggi](https://via.placeholder.com/600x300)
+
+spingere filo   
 estrarre filo
+![foto, evidenziare pinza](https://via.placeholder.com/600x300)
 
 ### Spegnimento 
 
 Spegnere la stampante
+![foto, evidenziare tasto](https://via.placeholder.com/600x300)
 
 ## Post-processing
 
 scollare dal piano?
-togliere skirt
+![foto durante azione](https://via.placeholder.com/600x300)
+
+togliere skirt  
 togliere supporti
+![foto, evidenziare parti da togliere](https://via.placeholder.com/600x300)
 
 
 
