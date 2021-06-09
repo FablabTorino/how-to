@@ -9,6 +9,9 @@ Le stampanti 3D sfruttano diverse tecnologie per la produzione, la più diffusa 
 
 La tecnologia di Stampa 3D permette di creare in modo efficiente pezzi unici e geometrie estremamente complesse, non realizzabili altrimenti. Per questo motivo le sue applicazioni sono molte e in continua crescita, dalla creazione di prototipi, protesi e ortesi mediche personalizzate, ma ache utilizzi nei settori industriali più disparati: settori aerospaziale, automobilistico, alimentare, edile, medico e biomedico.
 
+In base al tipo di tecnologia di stampa 3D cambiano radicalmente anche i materiali utilizzabili.   
+Con la tecnologia FDM è possibile lavorare polimeri termoplastici (PLA, ABS, PA, PET, PVA), termoplastici elastomerici (TPU), polimeri di tipo ingegneristico (PEEK, PEI), ma anche materiali compositi costituiti da una matrice polimerica e caricati con fibre o con carica metallica (questi richiedono un post processo di sinterizzazione in cui la matrice termoplastica evapora lasciando solo le parti metalliche).
+
 ## Strumenti, materiali e file
 Prima di iniziare assicurati di avere tutto il necessario:
 - Stampante 3D
@@ -54,7 +57,7 @@ Per ulteriori informazioni consultare la [scheda tecnica](src/cr10-user-manual.P
 Per ulteriori informazioni consultare la [scheda tecnica](src/cr10-user-manual.PDF)
 
 ### mat
-
+I materiali sono comunemente commercializzati sotto forma di bobine di filamenti (di diametro standard 1,75mm o 2,85mm). Alcune macchine, soprattutto di grande formato sfruttano polimeri sotto forma di pellets, nettamente più economici, e in alcuni casi derivanti dal riciclo della plastica.
 
 ### PC con installato i software necessari
 
