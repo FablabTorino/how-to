@@ -92,6 +92,10 @@ Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _File_
 È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinistra raffigurante un rettangolo quotato.   
 ![screen, evidenziare posizione comandi](img/laser-cutter-lasercut-move-scale.png)
 
+<!-- inserire controllo doppie linee -->
+Avere doppie linee nel file potrebbe creare problemi o allungare i tempi durante il taglio. È perciò consigliato eseguire un controllo delle doppie linee seguendo il percorso _Strumenti_>
+<!-- inserire unisci linee -->
+
 Dalla colonna a destra è possibile dividere le linee dell'oggetto in base a diversi __profili di taglio o incisione__. Selezionando la linea da isolare [1] e assegnandole un colore dalla barra in basso [2], il programma la inserisce in un profilo di taglio separato e modificabile in modo individuale [3].   
 Con i tasti _Sposta Su_ e _Sposta Giù_ si possono ordinare i colori in base all'ordine di esecuzione desiderato.  
 ![screen](img/laser-cutter-lasercut-layers.jpg)

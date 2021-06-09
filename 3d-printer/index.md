@@ -26,8 +26,9 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
-| Dimensione massima di stampa       | 500 x 500 x 500 mm                       |   
-| Spessore dello strato              | 0,1 - 0,4 mm                             |   
+| Dimensione massima di stampa       | 300 x 300 x 400 mm                       |   
+| Nozzle montato                     | 0,4 mm                                   |   
+| Spessore dello strato              | 0,1 - 0,32 mm                            |   
 | Precisione di stampa               | ±0,1 mm                                  |   
 | Diametro del filamento             | 1,75 mm                                  |   
 | Temperatura massima del piatto     | 100 ℃                                   |   
@@ -41,8 +42,9 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
-| Dimensione massima di stampa       | 300 x 300 x 400 mm                       |   
-| Spessore dello strato              | 0,1 - 0,4 mm                             |   
+| Dimensione massima di stampa       | 500 x 500 x 500 mm                       |   
+| Spessore dello strato              | 0,1 - 0,48mm                             |   
+| Nozzle montato                     | 0,6 mm                                   |
 | Precisione di stampa               | ±0,1 mm                                  |   
 | Diametro del filamento             | 1,75 mm                                  |   
 | Temperatura massima del piatto     | 60 ℃                                    |   
