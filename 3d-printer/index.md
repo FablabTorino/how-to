@@ -7,14 +7,17 @@ Le stampanti 3D sfruttano diverse tecnologie per la produzione, la più diffusa 
 
 ## Applicazioni
 
-
+La tecnologia di Stampa 3D permette di creare in modo efficiente pezzi unici e geometrie estremamente complesse, non realizzabili altrimenti. Per questo motivo le sue applicazioni sono molte e in continua crescita, dalla creazione di prototipi, protesi e ortesi mediche personalizzate, ma ache utilizzi nei settori industriali più disparati: settori aerospaziale, automobilistico, alimentare, edile, medico e biomedico.
 
 ## Strumenti, materiali e file
 Prima di iniziare assicurati di avere tutto il necessario:
 - Stampante 3D
-- 
+- filamento termoplastico
+- PC con istallati i software necessari
+- file da stampare
+- accessori
 
-### nome stampante 1
+### 3D printer Creality CR-10 S
 
 ![fronte ](img/)    
 
@@ -30,9 +33,9 @@ Prima di iniziare assicurati di avere tutto il necessario:
 | Precisione di ripetizione          |                    |     
 
 
-Per ulteriori informazioni consultare la [scheda tecnica](src/)
+Per ulteriori informazioni consultare la [scheda tecnica](src/cr10-user-manual.PDF)
 
-### nome stampante 2
+### 3D printer Creality CR-10 S5
 
 ![fronte ](img/)   
 
@@ -48,7 +51,7 @@ Per ulteriori informazioni consultare la [scheda tecnica](src/)
 | Precisione di ripetizione          |                    |     
 
 
-Per ulteriori informazioni consultare la [scheda tecnica](src/)
+Per ulteriori informazioni consultare la [scheda tecnica](src/cr10-user-manual.PDF)
 
 ### mat
 
