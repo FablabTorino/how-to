@@ -89,18 +89,18 @@ impostare nozzle
 ### Slicing del modello 3D
 
 importare modello
-![screen](https://via.placeholder.com/600x300)
+![screen](img/3dp-cura-importa.png)
 <!-- scrivere siti di modelli scaricabili -->
+
+modifiche: scalare, spostare, ruotare
+![screen](img/3dp-cura-modifiche.png)
 
 profili predefiniti
 impostazioni layers, velocità ecc
-![screen, evidenziare finestra impostazioni e tendina predefiniti](https://via.placeholder.com/600x300)
-
-anteprima e sezionamento
-![screen](https://via.placeholder.com/600x300)
+![screen, evidenziare finestra impostazioni e tendina predefiniti](img/3dp-cura-parametri.png)
 
 esportare e caricare su sd
-![screen](https://via.placeholder.com/600x300)
+![screen](img/3dp-cura-sezionamento.png)
 
 ### Accensione
 
