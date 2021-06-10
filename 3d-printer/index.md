@@ -16,7 +16,7 @@ Con la tecnologia FDM è possibile lavorare polimeri termoplastici ([PLA](https:
 Prima di iniziare assicurati di avere tutto il necessario:
 - Stampante 3D
 - Bobina di filamento
-- PC con istallati i software necessari
+- PC con installati i software necessari
 - File da stampare
 - Accessori (lacca, pinzette, spatola, tronchesina)
 
@@ -57,7 +57,7 @@ Per ulteriori informazioni sulla linea Creality CR-10 consultare la [scheda tecn
 I materiali sono comunemente commercializzati sotto forma di bobine di filamenti o pellets.   
 Le stampanti del Fablab utilizzano filamenti di PLA di diametro 1.75 mm, disponibile in tantissimi colori e di facile lavorabilità.   
 
-### PC con installato i software necessari
+### PC con installati i software necessari
 Per la fase di slicing e di impostazioni di stampa è necessario avere sul proprio PC il software __Ultimaker Cura__.   
 Per la fase di stampa e supervisione invece, al Fablab hai la possibilità di utilizzare il computer proprio di ogni stampante (lo trovi sulla sinistra della stampante).
 

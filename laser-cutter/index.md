@@ -58,7 +58,7 @@ Il Fablab dispone di un macchinario a CO<sub>2</sub>, di seguito una lista compl
 | Plastica               | __O__ | __O__ |   
 | Vetroresina            | __O__ | __O__ |   
 
-### PC con installato i software necessari
+### PC con installati i software necessari
 Al Fablab hai la possibilità di utilizzare il computer collegato alla Laser Cutter, nel quale sono già presenti i drivers e i software necessari.   
 Il macchinario è compatibile con computer con sistemi operativi successivi a Windows XP, equipaggiati con il software __Lasercut 6.1__.   
 

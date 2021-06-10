@@ -42,7 +42,7 @@ Il vinile in fogli è un supporto estremamente versatile, disponibile in molti c
 Un foglio di vinile autoadesivo è sempre accoppiato ad un foglio di carta siliconata protettiva, la quale evita che la colla entri in contatto con superfici o oggetti esterni.   
 Dopo il taglio viene applicato un terzo strato chiamato __Transfer__ che tiene insieme i singoli componenti della grafica dell'adesivo, una volta rimossa la carta protettiva.
 
-### PC con installato i software necessari
+### PC con installati i software necessari
 Al Fablab hai la possibilità di utilizzare il computer collegato alla Vinyl Cutter, nel quale sono già presenti i drivers e i software necessari.   
 Il macchinario è compatibile con computer con sistemi operativi successivi a Windows 98 SE, equipaggiati con il software __Roland CutStudio__. 
 
