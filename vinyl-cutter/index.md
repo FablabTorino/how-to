@@ -1,8 +1,15 @@
 # Vinyl Cutter
 
-<!-- inserire indice -->
+La [Vinyl Cutter](https://en.wikipedia.org/wiki/Vinyl_cutter) è un macchinario a controllo numerico utilizzato per il taglio di fogli di plastica autoadesiva (chiamata vinile) e materiali in fogli con uno spessore massimo di 0,5 mm. 
 
-La [Vinyl Cutter](https://en.wikipedia.org/wiki/Vinyl_cutter) è un macchinario a controllo numerico utilizzato per il taglio di fogli di plastica autoadesiva (chiamata vinile) e materiali in fogli con uno spessore massimo di 0,5 mm.    
+<!-- inserire indice -->
+## Indice degli agomenti:
+- [Applicazioni](#applicazioni)
+- [Strumenti, materiali e file](#strumenti-materiali-e-file)
+- [Processo di taglio](#processo-di-taglio)
+- [Post-processing](#post-processing)
+- [FAQ](#faq)
+
 
 ## Applicazioni
 Tramite vinylcut si possono produrre banner, striscioni, prespaziati, grafica veicolare, insegne, segnaletica, vetrofanie, retroilluminati, stencil e termo-adesivi per magliette. È inoltre possibile trasformare la macchina in un plotter da disegno a penna, grazie ad appositi adattatori. 
