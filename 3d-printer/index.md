@@ -22,7 +22,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 ### 3D printer Creality CR-10 S
 
-![fronte ](https://via.placeholder.com/600x300)    
+![fronte ](img/3dp-viste.jpg)    
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
