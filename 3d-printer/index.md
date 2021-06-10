@@ -58,17 +58,17 @@ I materiali sono comunemente commercializzati sotto forma di bobine di filamenti
 Le stampanti del Fablab utilizzano filamenti di PLA di diametro 1.75 mm, disponibile in tantissimi colori e di facile lavorabilità.   
 
 ### PC con installati i software necessari
-Per la fase di slicing e di impostazioni di stampa è necessario avere sul proprio PC il software __Ultimaker Cura__.   
-Per la fase di stampa e supervisione invece, al Fablab hai la possibilità di utilizzare il computer proprio di ogni stampante (lo trovi sulla sinistra della stampante).
+Per la fase di [slicing](https://it.wikipedia.org/wiki/Slicing) e di impostazioni di stampa è necessario avere sul proprio PC il software __Ultimaker Cura__.   
+Per la fase di stampa e supervisione invece, al Fablab hai la possibilità di utilizzare __Control Box__ collegata alla stampante(lo trovi sulla sinistra di ogni macchina).
 
 ### File da stampare
 La stampante 3D basa la stampa su un modello 3D diviso in layers attraverso il programma di slicing.   
 Il software __Ultimaker Cura__ supporta modelli 3D nei formati 3MF, AMF, DAE, ZAE, CTM, STL, PLY, OBJ, X3D, GBL, GLTF e GCODE.   
-Il PC collegato alla stampante legge file di stampa nel formato STL.
+Il PC collegato alla stampante legge file di stampa nel formato __STL__.
 
 
 ### Accessori
-Durante la lavorazione si dovrà fare uso anche di oggetti esterni: la lacca si deve applicare sul __piatto__ della stampante prima dell'avvio della stampa, per assicurare una salda adesione del pezzo; le tronchesine servono a tranciare il filamento al momento del caricamento o rimozione del materiale; le pinzette sono per la rimozione delle sbavature di filamento durante la fase di riscaldamento del __nozzle__; la spatola è necessaria per il distaccamento dal __piatto__ del pezzo stampato alla fine del processo. 
+Durante la lavorazione si dovrà fare uso anche di oggetti esterni: la lacca si deve applicare sul __piatto in vetro__ della stampante prima dell'avvio della stampa, per assicurare una salda adesione del pezzo; le tronchesine servono a tranciare il filamento al momento del caricamento o rimozione del materiale; le pinzette sono per la rimozione delle sbavature di filamento durante la fase di riscaldamento del __nozzle__; la spatola è necessaria per il distaccamento dal __piatto__ del pezzo stampato alla fine del processo. 
 
 ## Processo di stampa
 
