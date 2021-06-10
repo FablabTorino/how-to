@@ -77,7 +77,7 @@ Per stampare in 3D segui i passaggi illustrati di seguito.
 ### Parametri di stampa
 
 impostare stampante da cura
-<<!-- alto>aggiungi stampante>selez stampante>controllo info>avanti -->
+<!-- alto>aggiungi stampante>selez stampante>controllo info>avanti -->
 ![screen, più di uno, mostrare impostazioni giuste nel secondo](https://via.placeholder.com/600x300)
 
 impostare nozzle
@@ -113,6 +113,9 @@ inserimento filo
 espulsione eventuali residui
 ![foto, evidenziare pinza filo](https://via.placeholder.com/600x300)
 
+lacca su piatto
+![foto](https://via.placeholder.com/600x300)
+
 ### Stampare
 
 inserimento micro sd
@@ -141,7 +144,7 @@ Spegnere la stampante
 scollare dal piano?
 ![foto durante azione](https://via.placeholder.com/600x300)
 
-togliere skirt  
+togliere brim  
 togliere supporti
 ![foto, evidenziare parti da togliere](https://via.placeholder.com/600x300)
 
