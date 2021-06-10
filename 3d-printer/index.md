@@ -76,27 +76,28 @@ Per stampare in 3D segui i passaggi illustrati di seguito.
 
 ### Parametri di stampa
 
-impostare stampante da cura
-<!-- alto>aggiungi stampante>selez stampante>controllo info>avanti -->
+Avviare il software __Ultimaker Cura__ sul proprio PC e come primo passso si deve impostare la stampante che si ha intenzione di utilizzare Se è la prima volta che si avvia il programma la selezione di una stampante sarà nella configurazione iniziale, in caso contrario invece seguire il percorso _Pannello selezione stampante_>_Aggiungi stampante_>selezionare la stampante dalla lista>_Aggiungi_.
 ![screen, più di uno, mostrare impostazioni giuste nel secondo](img/3dp-cura-impostazione-stampante.png)   
-<!-- Controllo impostazioni>avanti -->
+Si aprirà quindi una ulteriore finestra, è sempre bene controllare che le informazioni riportate coincidano con le tabelle tecniche riportate nelle [sezioni dedicate alle due stampanti](#3d-printer-creality-cr-10-s). Premere quindi _Avanti_ per confermare.
 ![impo cr10s](img/3dp-cura-cr10-s.png)
 ![imop cr10s5](img/3dp-cura-cr10-s5.png)
 
-impostare nozzle
+In base al diametro del __Nozzle__ (ugello) montato sulla stampante e al tipo di materiale che si intende utilizzare (al Fablab si utilizza esclusivamente [PLA o PLA+](#bobina-di-filamento)), bisogna cambiarne il parametro sul software. La dimensione del nozzle è riportata nelle [tabelle tecniche delle due stampanti](#3d-printer-creality-cr-10-s) e il valore si inserisce su __Ultimaker Cura__ come indicato in rosso nell'immagine sotto.
 ![screen](img/3dp-cura-impostazione-nozzle.png)
 
 ### Slicing del modello 3D
 
-importare modello
+Il modello da stampare può essere creato tramite software di modellazione o scaricato da internet (alcune delle repository più conosciute: [Thingiverse](https://www.thingiverse.com/), [MyMiniFactory](https://www.myminifactory.com/),).   
+Per aprire il modello su __Ultimaker Cura__ seguire il percorso _File_>_Apri file..._>selezionare il modello. 
 ![screen](img/3dp-cura-importa.png)
 <!-- scrivere siti di modelli scaricabili -->
 
-modifiche: scalare, spostare, ruotare
+È possibile fare alcune modifiche base al modello direttamente dal software: tramite le icone poste sulla barra sinistra è possibile spostare, scalare e ruotare il modello secondo i tre assi.
 ![screen](img/3dp-cura-modifiche.png)
 
-profili predefiniti
-impostazioni layers, velocità ecc
+Importato il modello, una tendina sulla destra dello schermo mostrerà tutte le possibili regolazioni per la stampa (es. __temperatura del nozzle__, __temperatura del piatto__, __velocità di spostamento__), modificabili a piacimento.   
+Il programma propone però anche dei __profili di stampa predefiniti__ che dovrebbero dare buoni risultati.
+Impostate tutte le variabili, cambiare tab premendo su _ANTEPRIMA_ e avviare lo slicing con il tasto _Sezionamento_.
 ![screen, evidenziare finestra impostazioni e tendina predefiniti](img/3dp-cura-parametri.png)
 
 esportare e caricare su sd
