@@ -77,15 +77,26 @@ Per stampare in 3D segui i passaggi illustrati di seguito.
 ### Parametri di stampa
 
 impostare stampante da cura
-![screen](https://via.placeholder.com/600x300)
+<<!-- alto>aggiungi stampante>selez stampante>controllo info>avanti -->
+![screen, più di uno, mostrare impostazioni giuste nel secondo](https://via.placeholder.com/600x300)
 
 impostare nozzle
 ![screen](https://via.placeholder.com/600x300)
 
 ### Slicing del modello 3D
 
-impostazioni layers, velocità ecc
+importare modello
 ![screen](https://via.placeholder.com/600x300)
+<!-- scrivere siti di modelli scaricabili -->
+
+profili predefiniti
+impostazioni layers, velocità ecc
+![screen, evidenziare finestra impostazioni e tendina predefiniti](https://via.placeholder.com/600x300)
+
+anteprima e sezionamento
+![screen](https://via.placeholder.com/600x300)
+
+esportare e caricare su sd
 ![screen](https://via.placeholder.com/600x300)
 
 ### Accensione
