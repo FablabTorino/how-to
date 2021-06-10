@@ -1,8 +1,13 @@
 # Laser Cutter
 
-<!-- inserire indice -->
-
 Il [Laser Cutter](https://en.wikipedia.org/wiki/Laser_cutting) è un macchinario a controllo numerico che utilizza un laser per tagliare i materiali. Questa tecnologia funziona dirigendo e concentrando un laser ad alta potenza attraverso l'ottica. Il raggio laser focalizzato è diretto verso il materiale, tagliandolo o incidendolo in base alla potenza impiegata.
+
+<!-- inserire indice -->
+## Indice degli agomenti:
+- [Applicazioni](#applicazioni)
+- [Strumenti, materiali e file](#strumenti-materiali-e-file)
+- [Processo di taglio e incisione](#processo-di-taglio-e-incisione)
+- [FAQ](#faq)
 
 ## Applicazioni
 Il taglio laser viene applicato a numerosi settori dell’industria poichè permette di ottenere lavorazioni molto precise. Tra i settori coinvolti ci sono l'edilizia, l'arredo, la costruzione di prototipi, l’automotive, il settore ferroviario, l’ingegneria strutturale e quella aerospaziale, la costruzione di imbarcazioni, veicoli commerciali e macchine per l’agricoltura.   
@@ -70,7 +75,7 @@ Il software __Lasercut 6.1__ supporta file di formato DXF (si consiglia il DXF 2
 ### Accessori
 Gli oggetti esterni richiesti da questa lavorazione sono: delle barre di ferro per evitare l'imbarcamento del pezzo da tagliare, un fondale rigido in [metallo alveolare](https://www.cel.eu/it/prodotti/alveolari/alluminio) per supportare i materiali poco rigidi. In alcuni casi potrebbe servire anche un taglierino (o Cutter) per aiutare la separazione dei pezzi.   
 
-## Processo di taglio
+## Processo di taglio e incisione
 Per tagliare con la Laser Cutter segui i passaggi illustrati di seguito.   
 
 ### Accensione
