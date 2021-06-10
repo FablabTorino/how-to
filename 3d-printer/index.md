@@ -78,10 +78,13 @@ Per stampare in 3D segui i passaggi illustrati di seguito.
 
 impostare stampante da cura
 <!-- alto>aggiungi stampante>selez stampante>controllo info>avanti -->
-![screen, più di uno, mostrare impostazioni giuste nel secondo](https://via.placeholder.com/600x300)
+![screen, più di uno, mostrare impostazioni giuste nel secondo](img/3dp-cura-impostazione-stampante.png)   
+<!-- Controllo impostazioni>avanti -->
+![impo cr10s](img/3dp-cura-cr10-s.png)
+![imop cr10s5](img/3dp-cura-cr10-s5.png)
 
 impostare nozzle
-![screen](https://via.placeholder.com/600x300)
+![screen](img/3dp-cura-impostazione-nozzle.png)
 
 ### Slicing del modello 3D
 
