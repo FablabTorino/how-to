@@ -112,7 +112,7 @@ Accendere la stampante 3D dal tasto posto sul lato posteriore della __Control bo
 Ad avviamento completato comparirà la schermata principale, con le informazioni riportate di seguito:   
 ![display info](img/3dp-display.jpg)
 
-### Cambio della bobina di filamento
+### Caricare la bobina di filamento
 
 Per il caricamento del materiale bisogna come primo passo scaldare il __Nozzle__. Per farlo premere la __manopola di controllo__ (cerchiata in rosso) e accedere al menù pruncipale, quindi ruotarla fino a evidenziare la voce _Control_ e premere per conferma; ruotare ancora e premere per selezionare _Temperature_ e infine ripetere l'azione per selezionare _Nozzle_. Infine ruotare la rotella per alzare la __temperatura del Nozzle__ fino a 200°C.   
 ![foto schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
@@ -126,8 +126,8 @@ Infone, per assicurare l'adesione al __piatto di stampa__, spruzzare una buona q
 
 ### Stampare
 
-inserimento micro sd
-![foto, evidenziare porta](https://via.placeholder.com/600x300)
+Inserire la __Micro SD__ contenente il file Gcode da stampare nella porta posta sul lato destro della __control box__, orientata come in figura.
+![foto, evidenziare porta](img/3dp-microsd.jpg)
 
 selezione file   
 controllo primo layer
@@ -135,17 +135,17 @@ controllo primo layer
 
 ### Togliere la bobina di filamento
 
-scaldare nozzle
-![schermate con passaggi](https://via.placeholder.com/600x300)
+Come per la fase di [caricamento del materiale](#cambio-della-bobina-di-filamento), per la rimozione del materiale bisogna come primo passo scaldare il __Nozzle__.
+![schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
 spingere filo   
 estrarre filo
-![foto, evidenziare pinza](https://via.placeholder.com/600x300)
+![foto, evidenziare pinza](img/3dp-rimozione-bobina.jpg)
 
 ### Spegnimento 
 
-Spegnere la stampante
-![foto, evidenziare tasto](https://via.placeholder.com/600x300)
+Spegnere dunque la stampante 3D premendo lo stesso pulsante utilizzato nella [fase di accensione](#accensione)
+![foto, evidenziare tasto](img/3dp-accensione-spegnimento.jpg)
 
 ## Post-processing
 
