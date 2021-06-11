@@ -114,15 +114,15 @@ Ad avviamento completato comparirà la schermata principale, con le informazioni
 
 ### Cambio della bobina di filamento
 
-scaldare nozzle
-![foto schermate con passaggi](https://via.placeholder.com/600x300)
+Per il caricamento del materiale bisogna come primo passo scaldare il __Nozzle__. Per farlo premere la __manopola di controllo__ (cerchiata in rosso) e accedere al menù pruncipale, quindi ruotarla fino a evidenziare la voce _Control_ e premere per conferma; ruotare ancora e premere per selezionare _Temperature_ e infine ripetere l'azione per selezionare _Nozzle_. Infine ruotare la rotella per alzare la __temperatura del Nozzle__ fino a 200°C.   
+![foto schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
-inserimento filo   
-espulsione eventuali residui
-![foto, evidenziare pinza filo](https://via.placeholder.com/600x300)
+Scelto il filamento, appoggiare la bobina sullo __Spool holder__ (porta bobina) come mostrato in foto. Premere con due dita le leve dell'__estrusore__ e inserire il capo del filamento nel foro sul lato sinistro   
+![foto, evidenziare pinza filo](img/3dp-caricamento-bobina.jpg)
 
-lacca su piatto
-![foto](https://via.placeholder.com/600x300)
+Inserito il filamento fino in fondo e riscaldato il nozzle, spingere il filo fino a farlo fuoriuscire dal nozzle e fino a che non avrà il colore del filamento che si intende utilizzare.   
+Infone, per assicurare l'adesione al __piatto di stampa__, spruzzare una buona quantità di lacca sulla zona interessata
+![foto](img/3dp-espulsione-lacca.jpg)
 
 ### Stampare
 
