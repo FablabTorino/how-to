@@ -100,13 +100,17 @@ Il programma propone però anche dei __profili di stampa predefiniti__ che dovre
 Impostate tutte le variabili, cambiare tab premendo su _ANTEPRIMA_ e avviare lo slicing con il tasto _Sezionamento_.
 ![screen, evidenziare finestra impostazioni e tendina predefiniti](img/3dp-cura-parametri.png)
 
-esportare e caricare su sd
+È ora possibile visualizzare l'anteprima di stampa e scorrere tra i __layers__ con il cursore a destra dello schermo. Verificate le impostazioni e il tempo di stampa segnato nella finestra in giallo, esportare il modello in formato Gcode, premendo il tasto _Salva su file_ e scegliendo la __Micro SD__ come destinazione.   
 ![screen](img/3dp-cura-sezionamento.png)
+<!-- c`è un modo specifico per rinominare i file?? -->
 
 ### Accensione
 
-accensione stampante
-![foto, evidenziare tasto e cavi collegamento](https://via.placeholder.com/600x300)
+Accendere la stampante 3D dal tasto posto sul lato posteriore della __Control box__.   
+![foto, evidenziare tasto e cavi collegamento](img/3dp-accensione-spegnimento.jpg)
+
+Ad avviamento completato comparirà la schermata principale, con le informazioni riportate di seguito:   
+![display info](img/3dp-display.jpg)
 
 ### Cambio della bobina di filamento
 
