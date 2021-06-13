@@ -55,7 +55,7 @@ Per ulteriori informazioni sulla linea Creality CR-10 consultare la [scheda tecn
 
 ### Bobina di filamento
 I materiali sono comunemente commercializzati sotto forma di bobine di filamenti o pellets.   
-Le stampanti del Fablab utilizzano filamenti di PLA di diametro 1.75 mm, disponibile in tantissimi colori e di facile lavorabilità.   
+Le stampanti del Fablab utilizzano filamenti di [PLA di diametro 1.75 mm](https://www.3ditalyshop.it/prodotti/filamenti/1-75/pla_1-75/), disponibile in tantissimi colori e di facile lavorabilità.   
 
 ### PC con installati i software necessari
 Per la fase di [slicing](https://it.wikipedia.org/wiki/Slicing) e di impostazioni di stampa è necessario avere sul proprio PC il software __Ultimaker Cura__.   
