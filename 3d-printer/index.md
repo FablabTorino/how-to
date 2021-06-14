@@ -154,8 +154,8 @@ Spegnere dunque la stampante 3D premendo lo stesso pulsante utilizzato nella [fa
 
 ## Post-processing
 
-scollare dal piano?
-![foto durante azione](https://via.placeholder.com/600x300)
+Finita la stampa, prendere la spatola e utilizzarla per scollare il pezzo dal piano di stampa, utilizzandola come in foto.
+![foto durante azione](img/3dp-scollare-dal-piano.jpg)
 
 togliere brim  
 togliere supporti
