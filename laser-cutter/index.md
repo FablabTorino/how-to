@@ -97,13 +97,11 @@ Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _File_
 È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinistra raffigurante un rettangolo quotato.   
 ![screen, evidenziare posizione comandi](img/laser-cutter-lasercut-move-scale.png)
 
-<!-- inserire controllo doppie linee -->
-Avere doppie linee nel file potrebbe creare problemi o allungare i tempi durante il taglio. È perciò consigliato eseguire un controllo delle doppie linee seguendo il percorso _Strumenti_>_Cancella Linee Sovrapposte_, il programma selezionerà tutte le linee sovrapposte e basterà premere il tasto _CANC_ per eliminarle.   
-![screen](img/laser-cutter-lasercut-doppie-linee.png)
+È consigliato avere un file di taglio composto da linee continue e non frammentate. Per unire automaticamente dei segmenti vicini selezionare le linee e seguire il percorso _Strumenti_>_Unisci Linee_> nella finestra di dialogo inserire distanza massima tra le linee da unire >_Ok_.
+![screen](img/laser-cutter-lasercut-unisci-linee.png) 
 
-<!-- inserire unisci linee -->
-È anche consigliato avere linee continue e non frammentate. Per unire automaticamente dei segmenti vicini selezionare le linee e seguire il percorso _Strumenti_>_Unisci Linee_> nella finestra di dialogo inserire distanza massima tra le linee da unire >_Ok_.
-![screen](img/laser-cutter-lasercut-unisci-linee.png)
+Inoltre, avere doppie linee nel file potrebbe creare problemi o allungare i tempi durante il taglio. È perciò consigliato eseguire un controllo delle doppie linee seguendo il percorso _Strumenti_>_Cancella Linee Sovrapposte_, il programma selezionerà tutte le linee sovrapposte e basterà premere il tasto _CANC_ per eliminarle.   
+![screen](img/laser-cutter-lasercut-doppie-linee.png)
 
 Dalla colonna a destra è possibile dividere le linee dell'oggetto in base a diversi __profili di taglio o incisione__. Selezionando la linea da isolare [1] e assegnandole un colore dalla barra in basso [2], il programma la inserisce in un profilo di taglio separato e modificabile in modo individuale [3].   
 Con i tasti _Sposta Su_ e _Sposta Giù_ si possono ordinare i colori in base all'ordine di esecuzione desiderato.  
@@ -113,7 +111,6 @@ Assegnate le varie linee ai __profili di taglio o incisione__, facendo doppio cl
 __Attenzione!__  non modificare gli altri parametri!
 ![screen profili](img/laser-cutter-lasercut-taglio.png)
 ![screen profili](img/laser-cutter-lasercut-raster.jpg)
-
 
 Controllare sempre dove è il __punto di origine del taglio__, segnato con un pallino blu. È possibile modificarne la posizione premendo il comando in alto e scegliendo la posizione desiderata dalla finestra di dialogo, premere infine _Ok_ per confermare.
 ![screen comando](img/laser-cutter-lasercut-origine.png)
