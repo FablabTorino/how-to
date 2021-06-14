@@ -157,9 +157,8 @@ Spegnere dunque la stampante 3D premendo lo stesso pulsante utilizzato nella [fa
 Finita la stampa, prendere la spatola e utilizzarla per scollare il pezzo dal piano di stampa, utilizzandola come in foto.
 ![foto durante azione](img/3dp-scollare-dal-piano.jpg)
 
-togliere brim  
-togliere supporti
-![foto, evidenziare parti da togliere](https://via.placeholder.com/600x300)
+Pulire infine il pezzo da eventuali supporti o strutture di adesione al piatto (evidenziate nella foto a sinistra).
+![foto, evidenziare parti da togliere](img/3dp-togliere-supporti-e-brim.jpg)
 
 
 
