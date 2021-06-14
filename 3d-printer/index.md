@@ -143,8 +143,8 @@ Selezionare quindi il file da stampare accedendo al menù principale (premere la
 Come per la fase di [caricamento del materiale](#cambio-della-bobina-di-filamento), per la rimozione del materiale bisogna come primo passo scaldare il __Nozzle__.
 ![schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
-spingere filo   
-estrarre filo
+Per rimuovere il filamento dalla macchina, a __Nozzle__ caldo, fare pressione con due dita sulle leve dell'__estrusore__ e spingere lievemente il filamento per appiattirne il capo. Quindi, tenendo sempre premute le leve, tirare il filamento e riarrotolarlo man mano sulla bobina per evitare.   
+__ATTENZIONE!__ cercare di riarrotolare il più ordinatamente possibile il filamento sulla bobina, per evitare incidenti durante le stampe successive.
 ![foto, evidenziare pinza](img/3dp-rimozione-bobina.jpg)
 
 ### Spegnimento 
