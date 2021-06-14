@@ -135,9 +135,8 @@ Infone, per assicurare l'adesione al __piatto di stampa__, spruzzare una buona q
 Inserire la __Micro SD__ contenente il file Gcode da stampare nella porta posta sul lato destro della __control box__, orientata come in figura.
 ![foto, evidenziare porta](img/3dp-microsd.jpg)
 
-selezione file   
-controllo primo layer
-![schermate con passaggi](https://via.placeholder.com/600x300)
+Selezionare quindi il file da stampare accedendo al menù principale (premere la __manopola di controllo__ evidenziata in rosso). Scorrere il menù fino alla voce _Print from TF_ o _Print from SD_ (in base alla stampante utilizzata), selezionare premendo e scegliere il file nella schermata successiva.
+![schermate con passaggi](img/3dp-aprire-file.jpg)
 
 ### Togliere la bobina di filamento
 
