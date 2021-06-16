@@ -2,7 +2,6 @@
 
 La [Vinyl Cutter](https://en.wikipedia.org/wiki/Vinyl_cutter) è un macchinario a controllo numerico utilizzato per il taglio di fogli di plastica autoadesiva (chiamata vinile) e materiali in fogli con uno spessore massimo di 0,5 mm. 
 
-<!-- inserire indice -->
 ## Indice degli argomenti:
 - [Applicazioni](#applicazioni)
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
@@ -37,10 +36,9 @@ Prima di iniziare assicurati di avere tutto il necessario:
 | Spessore massimo del materiale     | 0,5 mm                                   |   
 | Larghezza del materiale caricabile | Da 50 a 700 mm                           |   
 | Grandezza massima area di taglio   | Larghezza: 584 mm Lunghezza: 25 m        |   
-| Grandezza minima area di taglio    | Larghezza:  Lunghezza:                   |   
 | Precisione di ripetizione          | ±0.1 mm o inferiore                      |     
 
-<!-- inserire grandezza minima area di taglio -->
+<!-- inserire grandezza minima area di taglio? -->
 
 Per ulteriori informazioni consultare la [scheda tecnica](src/scheda-tecnica.pdf) e il [manuale dell'utente](src/users-manual-en.pdf)
 
@@ -56,7 +54,7 @@ Il macchinario è compatibile con computer con sistemi operativi successivi a Wi
 ### File da tagliare
 Il plotter da taglio intaglia la traccia della grafica desiderata seguendo i contoni e le linee con la lama. Per questo motivo il file utilizzato deve contenere un contorno definito e privo di doppie linee e riempimenti.   
 Il software __Roland CutStudio__ supporta file di formato BMP, JPG, STX, AI ed EPS.   
-Per avere una maggiore compatibilità di formati si può utilizzare il software __Inkscape__ che supporta file SVG, STX AI, DXF, CDR, PDF, BMP, JPG, PNG, TIFF e moltri altri.
+Opzionale, per avere una maggiore compatibilità di formati si può utilizzare il software __Inkscape__ che supporta file SVG, STX AI, DXF, CDR, PDF, BMP, JPG, PNG, TIFF e moltri altri.
 
 ### Accessori
 Durante la lavorazione si dovrà fare uso anche di oggetti esterni: le forbici o il taglierino per separare la superficie intagliata dal resto del materiale; per la fase di post-processing può essere utile un oggetto con almeno un lato piatto (come una spatola o una carta di credito e simili) che permetta una applicazione dello sticker omogenea e senza bolle d'aria; infine il [__Transfer__ o pellicola di trasferimento](https://www.necchishop.com/prodotto/pellicola-per-il-trasferimento/) viene utilizzato per facilitare il posizionamento dell'adesivo sulla superficie.
@@ -94,11 +92,15 @@ Sul display del pannello di controllo (__operation panel__) compare la scritta `
 
 ### Preparare il file
 
-<!-- Niente istruzioni riguardanti Inkscape? si, da segnare come opzionale-->
 
 Inserire la chiavetta USB contenente il file. Avviare __Cutstudio__, per aprire il file di taglio seguire il percorso _importa_>selezionare il file.   
 ![screen 07-evidenziare tasto importa](img/vinylcut-cutstudio-importa.png)
 
+Il software __Cutstudio__ ha un numero abbastanza limitato di file compatibili, per avere una maggiore scelta si può utilizzare prima il software __Inkscape__ (vedere la [sezione dedicata](#inkscape)). Con questo programma è inoltre possibile disegnare e modificare grafiche vettoriali non realizzabili solo con __Cutstudio__.   
+
+
+Da __Cutstudio__ è anche possibile ricavare il contorno di taglio da un file in formato PNG.   
+<!-- ![screen](img) -->
 <!-- da inserire come trasformare i png in contorni? si -->
 
 La Vinyl Cutter durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Riportare queste misure sul foglio di lavoro seguendo il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in giallo in foto).   
@@ -162,6 +164,16 @@ Finalmente si può applicare lo sticker sulla superficie desiderata!
 Separare il transfer e l'adesivo dalla carta protettiva, posizionarlo sulla superficie scelta e incollarlo in modo omogeneo.   
 ![foto](img/vinylcut-applicazione-finale.jpg)
 
+## Inkscape   
+
+Per importare il file su __inkscape__ seguire il percorso _File_>_Importa_>selezionare il file.
+![screen](img/vinylcut-inkscape-importa.png)   
+
+Aperto il file, il tracciato vettoriale è completamente modificabile su __Inkscape__, inoltre è possibile fare un controllo delle linee cambiando lo stive di visualizzazione tramite il percorso _Visualizza_>_Modalità visualizzazione_>_Scheletro_.   
+![screen](img/vinylcut-inkscape-visualizzazione.png)
+
+Infine, grazie all'[estensione scaricabile](https://github.com/mgmax/inkscape-roland-cutstudio), è possibile passare direttamente al software __Cutstudio__. Per farlo seguire il percorso _Estensioni_>_Roland CutStudio_>_Open in CutStudio_.   
+![screen](img/vinylcut-inkscape-cutstudio.png)
 
 ## FAQ
 <!-- quali sono i problemi più frequenti? -->
