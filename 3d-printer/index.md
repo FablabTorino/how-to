@@ -127,9 +127,10 @@ Scelto il filamento, appoggiare la bobina sullo __Spool holder__ (porta bobina) 
 ![foto, evidenziare pinza filo](img/3dp-caricamento-bobina.jpg)
 
 Inserito il filamento fino in fondo e riscaldato il nozzle, spingere il filo fino a farlo fuoriuscire dal nozzle e fino a che non avrà il colore del filamento che si intende utilizzare.   
-Infine, per assicurare l'adesione al __piatto di stampa__, spruzzare una buona quantità di lacca sulla zona interessata
+Infine, la lacca è un ottimo fissante per assicurare l'adesione al __piatto di stampa__ dei primi layer. Spruzzare quindi la lacca sulla zona interessata del piatto.   
+__ATTENZIONE!__ quando si applica la lacca sul piatto, fare attenzione a non spruzzarla anche sulle guide mobili e sul nozzle, per evitare di danneggiarli.   
 ![foto](img/3dp-espulsione-lacca.jpg)
-<!-- rivedere immagine  e descr lacca-->
+<!-- rivedere immagine  e descr lacca, scrivere di far attenzione a non spruzzarla sulle guide-->
 
 ### Stampare
 
