@@ -30,7 +30,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 ![fronte ](img/3dp-viste-scritte-grandi.jpg) 
 
-<!-- inserire foto cr10 s -->
+![foto](img/3dp-cr10-s.jpg)
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
