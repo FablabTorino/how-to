@@ -141,9 +141,10 @@ Inserire la __Micro SD__ contenente il file Gcode da stampare nella porta posta 
 Selezionare quindi il file da stampare accedendo al menù principale (premere la __manopola di controllo__ evidenziata in rosso). Scorrere il menù fino alla voce _Print from TF_ o _Print from SD_ (in base alla stampante utilizzata), selezionare premendo e scegliere il file nella schermata successiva.
 ![schermate con passaggi](img/3dp-aprire-file.jpg)
 
-<!-- controllo primo strato controllare livellam-->
-
-<!-- sezione livellare il piano-->
+<!-- controllo primo strato controllare livellamento-->
+Avviata la stampa, controllare l'esecuzione del primo layer per assicurarsi che ci sia la giusta adesione e che il [livellamento del piatto](#livellare-il-piatto-di-stampa) sia esatto.   
+L'immagine di seguito mostra gli effetti di diversi livellamenti sul primo layer di stampa.   
+![schermate con passaggi](img/3dp-errori-layer.jpg)
 
 ### Togliere la bobina di filamento
 
@@ -158,6 +159,10 @@ __ATTENZIONE!__ cercare di riarrotolare il più ordinatamente possibile il filam
 
 Spegnere dunque la stampante 3D premendo lo stesso pulsante utilizzato nella [fase di accensione](#accensione)
 ![foto, evidenziare tasto](img/3dp-accensione-spegnimento.jpg)
+
+## Livellare il piatto di stampa
+
+<!-- sezione livellare il piano-->
 
 ## Post-processing
 
