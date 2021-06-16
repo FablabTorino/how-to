@@ -85,9 +85,10 @@ Per stampare in 3D segui i passaggi illustrati di seguito.
 
 ### Parametri di stampa
 
-Avviare il software __Ultimaker Cura__ sul proprio PC e come primo passso si deve impostare la stampante che si ha intenzione di utilizzare Se è la prima volta che si avvia il programma la selezione di una stampante sarà nella configurazione iniziale, in caso contrario invece seguire il percorso _Pannello selezione stampante_>_Aggiungi stampante_>selezionare la stampante dalla lista>_Aggiungi_.
+Avviare il software __Ultimaker Cura__ sul proprio PC e come primo passo impostare la stampante che si ha intenzione di utilizzare. Se è la prima volta che si avvia il programma la selezione di una stampante sarà nella configurazione iniziale, in caso contrario invece seguire il percorso _Pannello selezione stampante_>_Aggiungi stampante_>selezionare la stampante dalla lista>_Aggiungi_.
 ![screen, più di uno, mostrare impostazioni giuste nel secondo](img/3dp-cura-impostazione-stampante.png)   
-Si aprirà quindi una ulteriore finestra, è sempre bene controllare che le informazioni riportate coincidano con le tabelle tecniche riportate nelle [sezioni dedicate alle due stampanti](#3d-printer-creality-cr-10-s). Premere quindi _Avanti_ per confermare.
+
+Si aprirà quindi una ulteriore finestra, è sempre bene controllare che le informazioni coincidano con le tabelle tecniche riportate nelle [sezioni dedicate alle due stampanti](#3d-printer-creality-cr-10-s). Premere quindi _Avanti_ per confermare.
 ![impo cr10s](img/3dp-cura-cr10-s.png)
 ![imop cr10s5](img/3dp-cura-cr10-s5.png)
 
@@ -96,7 +97,7 @@ In base al diametro del __Nozzle__ (ugello) montato sulla stampante e al tipo di
 
 ### Slicing del modello 3D
 
-Il modello da stampare può essere creato tramite software di modellazione o scaricato da internet (alcune delle repository più conosciute: [Thingiverse](https://www.thingiverse.com/), [MyMiniFactory](https://www.myminifactory.com/),).   
+Il modello da stampare può essere creato tramite software di modellazione o scaricato da internet (alcune delle repository più conosciute: [Thingiverse](https://www.thingiverse.com/), [MyMiniFactory](https://www.myminifactory.com/)).   
 Per aprire il modello su __Ultimaker Cura__ seguire il percorso _File_>_Apri file..._>selezionare il modello. 
 ![screen](img/3dp-cura-importa.png)
 
@@ -152,7 +153,7 @@ Come per la fase di [caricamento del materiale](#cambio-della-bobina-di-filament
 ![schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
 <!-- chiarire la cosa dell'appiattire il filo -->
-Prima di rimuovere il filamento dalla macchina, a __Nozzle__ caldo, è bene appiattire lievemente la parte iniziale del filamento, in modo da rendere più facile l'estrazione e il reinserimento. Fare dunque pressione con due dita sulle leve dell'__estrusore__ e spingere in dentro il filamento per appiattire la parte iniziale. Quindi, tenendo sempre premute le leve, tirare fuori il filamento e riarrotolarlo man mano sulla bobina.   
+Prima di rimuovere il filamento dalla macchina, a __Nozzle__ caldo, è bene appiattire lievemente la parte iniziale del filamento, in modo da rendere più facile l'estrazione e il successivo reinserimento. Fare dunque pressione con due dita sulle leve dell'__estrusore__ e spingere in dentro il filamento per appiattire la parte iniziale. Quindi, tenendo sempre premute le leve, tirare fuori il filamento e riarrotolarlo man mano sulla bobina.   
 __ATTENZIONE!__ cercare di riarrotolare il più ordinatamente possibile il filamento sulla bobina, per evitare incidenti durante le stampe successive.
 ![foto, evidenziare pinza](img/3dp-rimozione-bobina.jpg)
 
@@ -179,8 +180,8 @@ Se osservando la stampa del primo layer si nota che il livellamento del piano è
 
 Nel caso in cui si noti che il piano è completamente da ricalibrare, utilizzare i file di calibrazione presenti nelle micro SD. Se non ci sono scaricare quello adatto alla stampante che si vuole usare, caricarlo sulla stampante tramite micro SD e avviare la stampa.   
 Di seguito i due file:   
-- per [CR10 S](3d-printer/src/leveling-cr10s-0.4-200.gcode), con nozzle da 0.4 e temperatura di stampa a 200.   
-- per [CR10 S5](3d-printer/src/leveling-cr10s5-0.6-200.gcode), con nozzle da 0.6 e temperatura di stampa a 200.   
+- per [CR10 S](src/leveling-cr10s-0.4-200.gcode), con nozzle da 0.4 e temperatura di stampa a 200.   
+- per [CR10 S5](src/leveling-cr10s5-0.6-200.gcode), con nozzle da 0.6 e temperatura di stampa a 200.   
   
 Durante la stampa assicurarsi che la stesura del materiale sia omogenea e con una buona adesione, in caso contrario agire sulle rotelle poste sotto al __piatto di stampa__ fino ad ottenere un risultato soddisfacente.   
 ![screen cura, foto mentre stampa e evidenziare rotelle](img/3dp-livello-piatto.jpg)
