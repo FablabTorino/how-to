@@ -7,6 +7,7 @@ La [Vinyl Cutter](https://en.wikipedia.org/wiki/Vinyl_cutter) è un macchinario 
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
 - [Processo di taglio](#processo-di-taglio)
 - [Post-processing](#post-processing)
+- [Inkscape](#inkscape)
 - [FAQ](#faq)
 
 
