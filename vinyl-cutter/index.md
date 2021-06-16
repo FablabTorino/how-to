@@ -100,8 +100,8 @@ Il software __Cutstudio__ ha un numero abbastanza limitato di file compatibili, 
 
 
 Da __Cutstudio__ è anche possibile ricavare il contorno di taglio da un file in formato PNG.   
-<!-- ![screen](img) -->
-<!-- da inserire come trasformare i png in contorni? si -->
+Per farlo, iportare il file png come descritto nella sezione precedente, quindi premere con il _tasto destro del mouse_ sul PNG e seguire il percorso _Profilo dell'immagine..._>_Estrarre linee di contorno_>_OK_.
+![screen](img/vinylcut-cutstudio-linee-png.png)
 
 La Vinyl Cutter durante il [caricamento del materiale](#caricare-il-materiale) misura in automatico la dimensione della superficie utile di taglio. Riportare queste misure sul foglio di lavoro seguendo il percorso _tagliare_>_modifica_>_proprietà_>_get from machine_. Confermare quindi cliccando su _ok_ nelle prime due finestre, ma facendo attenzione a selezionare _annulla_ nell'ultima (come mostrato in giallo in foto).   
 ![screen 08-modificare inserendo flusso comandi completo](img/vinylcut-cutstudio-get-from-machine.png)   
