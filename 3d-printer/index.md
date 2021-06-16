@@ -9,6 +9,7 @@ Le stampanti 3D sfruttano diverse tecnologie per la produzione, la più diffusa 
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
 - [Processo di stampa](#processo-di-stampa)
 - [Post-processing](#post-processing)
+- [Bed leveling](#bed-leveling)
 - [FAQ](#faq)
 
 ## Applicazioni
