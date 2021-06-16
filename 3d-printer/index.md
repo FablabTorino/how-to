@@ -73,7 +73,7 @@ Per inviare il file alla fase di stampa, puoi utilizzare la __Control Box__ (la 
 ### File da stampare
 La stampante 3D basa la stampa su un modello 3D diviso in layers attraverso il programma di slicing.   
 Il software __Ultimaker Cura__ supporta modelli 3D nei formati 3MF, AMF, DAE, ZAE, CTM, STL, PLY, OBJ, X3D, GBL, GLTF e GCODE.   
-Il PC collegato alla stampante legge file di stampa nel formato __STL__.
+Il PC collegato alla stampante legge file di stampa nel formato __STL__ e __GCODE__.
 
 
 ### Accessori
