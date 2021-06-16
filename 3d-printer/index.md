@@ -141,7 +141,7 @@ Inserire la __Micro SD__ contenente il file Gcode da stampare nella porta posta 
 Selezionare quindi il file da stampare accedendo al menù principale (premere la __manopola di controllo__ evidenziata in rosso). Scorrere il menù fino alla voce _Print from TF_ o _Print from SD_ (in base alla stampante utilizzata), selezionare premendo e scegliere il file nella schermata successiva.
 ![schermate con passaggi](img/3dp-aprire-file.jpg)
 
-Avviata la stampa, controllare l'esecuzione del primo layer per assicurarsi che ci sia la giusta adesione e che il [livellamento del piatto](#livellare-il-piatto-di-stampa) sia esatto.   
+Avviata la stampa, controllare l'esecuzione del primo layer per assicurarsi che ci sia la giusta adesione e che il [livellamento del piatto](#bed-leveling) sia esatto.   
 L'immagine di seguito mostra gli effetti di diversi livellamenti sul primo layer di stampa.   
 ![schermate con passaggi](img/3dp-errori-layer.jpg)
 
@@ -151,7 +151,7 @@ Come per la fase di [caricamento del materiale](#cambio-della-bobina-di-filament
 ![schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
 <!-- chiarire la cosa dell'appiattire il filo -->
-Per rimuovere il filamento dalla macchina, a __Nozzle__ caldo, fare pressione con due dita sulle leve dell'__estrusore__ e spingere lievemente il filamento per appiattirne il capo. Quindi, tenendo sempre premute le leve, tirare il filamento e riarrotolarlo man mano sulla bobina per evitare.   
+Prima di rimuovere il filamento dalla macchina, a __Nozzle__ caldo, è bene appiattire lievemente la parte iniziale del filamento, in modo da rendere più facile l'estrazione e il reinserimento. Fare dunque pressione con due dita sulle leve dell'__estrusore__ e spingere in dentro il filamento per appiattire la parte iniziale. Quindi, tenendo sempre premute le leve, tirare fuori il filamento e riarrotolarlo man mano sulla bobina.   
 __ATTENZIONE!__ cercare di riarrotolare il più ordinatamente possibile il filamento sulla bobina, per evitare incidenti durante le stampe successive.
 ![foto, evidenziare pinza](img/3dp-rimozione-bobina.jpg)
 
@@ -170,7 +170,7 @@ Pulire infine il pezzo da eventuali supporti o strutture di adesione al piatto (
 ![foto, evidenziare parti da togliere](img/3dp-togliere-supporti-e-brim.jpg)
 
 
-## Livellare il piatto di stampa
+## Bed leveling
 
 Se osservando la stampa del primo layer si nota che il livellamento del piano è leggermente sbagliato lo si può aggiustare agendo sulle rotelle poste sotto al __piatto di stampa__.   
 ![foto evidenziare rotelle](img/3dp-rotelle-piatto.jpg)
