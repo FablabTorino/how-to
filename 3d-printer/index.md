@@ -160,9 +160,6 @@ __ATTENZIONE!__ cercare di riarrotolare il più ordinatamente possibile il filam
 Spegnere dunque la stampante 3D premendo lo stesso pulsante utilizzato nella [fase di accensione](#accensione)
 ![foto, evidenziare tasto](img/3dp-accensione-spegnimento.jpg)
 
-## Livellare il piatto di stampa
-
-<!-- sezione livellare il piano-->
 
 ## Post-processing
 
@@ -173,6 +170,19 @@ Pulire infine il pezzo da eventuali supporti o strutture di adesione al piatto (
 ![foto, evidenziare parti da togliere](img/3dp-togliere-supporti-e-brim.jpg)
 
 
+## Livellare il piatto di stampa
+
+<!-- sezione livellare il piano, livellamento come???-->
+file scaricabile
+per cose fini invece solo rotelle
+
+Se osservando la stampa del primo layer si nota che il livellamento del piano è leggermente sbagliato lo si può aggiustare agendo sulle rotelle poste sotto al __piatto di stampa__.   
+![foto evidenziare rotelle](img/3dp-rotelle-piatto.jpg)
+
+Nel caso in cui si noti che il piano è completamente da ricalibrare, scaricare il file di calibrazione del piano della stampante che si vuole usare (scaricare da qui quello per la [Creality CR10 S](src/livellamento-cr10-s.3mf) e quello per la [Creality CR10 S5](src/livellamento-cr10-5s.3mf)) e aprirlo su __Ultimaker Cura__.   
+Salvare il file in formato Gcode mantenendo le impostazioni già presenti, caricarlo sulla stampante tramite micro SD e avviare la stampa.
+Durante la stampa assicurarsi che la stesura del materiale sia omogenea e con una buona adesione, in caso contrario agire sulle rotelle poste sotto al __piatto di stampa__ fino ad ottenere un risultato soddisfacente.   
+![screen cura, foto mentre stampa e evidenziare rotelle](img/3dp-livello-piatto.jpg)
 
 ## FAQ
 <!-- quali sono i problemi più frequenti? -->
