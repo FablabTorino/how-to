@@ -97,7 +97,7 @@ In base al diametro del __Nozzle__ (ugello) montato sulla stampante e al tipo di
 
 ### Slicing del modello 3D
 
-Il modello da stampare può essere creato tramite software di modellazione o scaricato da internet (alcune delle repository più conosciute: [Thingiverse](https://www.thingiverse.com/), [MyMiniFactory](https://www.myminifactory.com/)).   
+Il modello da stampare può essere creato tramite software di modellazione o scaricato da internet (alcune delle repository più conosciute: [Thingiverse](https://www.thingiverse.com/), [MyMiniFactory](https://www.myminifactory.com/), [Yeggi](https://www.yeggi.com/)).   
 Per aprire il modello su __Ultimaker Cura__ seguire il percorso _File_>_Apri file..._>selezionare il modello. 
 ![screen](img/3dp-cura-importa.png)
 
