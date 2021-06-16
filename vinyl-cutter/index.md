@@ -73,7 +73,7 @@ Accendere il macchinario tramite il tasto `POWER` .
 
 ### Caricare il materiale 
 
-<!-- sostituire con immagi -->
+<!-- sostituire con immagini da manuale -->
 
 Abbassare la leva di caricamento (__loading lever__) sul retro a sinistra.   
 ![foto prima e dopo](img/vinylcut-leva-abbassata.jpg)   
@@ -111,7 +111,7 @@ Ridurre o aumentare le dimensioni del contorno agendo sulle frecce agli angoli d
 ![screen 09-evidenziare comando spostare in alto e modifica dimensioni di lato](img/vinylcut-cutstudio-spostare-ridimensionare.png)
 
 ### Parametri di taglio
-<!-- Da rivedere da qua in poi -->
+
 In base al materiale modificare la pressione della lama dal pannello di controllo (__operation panel__) premendo sul tasto `FORCE`. Premere `←` o `→` sulla pulsantiera per sbloccare la selezione, quindi modificare i grammi forza con `↑` e `↓` e premere infine `ENTER` per confermare la selezione.   
 ![foto-evidenziare tasti necessari](img/vinylcut-selezione-forza.jpg)   
 
