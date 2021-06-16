@@ -28,7 +28,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 ### 3D printer Creality CR-10 S
 
-![fronte ](img/3dp-viste.jpg)    
+![fronte ](img/3dp-viste-scritte-grandi.jpg)    
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
@@ -65,7 +65,8 @@ Le stampanti del Fablab utilizzano filamenti di [PLA di diametro 1.75 mm](https:
 
 ### PC con installati i software necessari
 Per la fase di [slicing](https://it.wikipedia.org/wiki/Slicing) e di impostazioni di stampa è necessario avere sul proprio PC il software __Ultimaker Cura__.   
-Per la fase di stampa e supervisione invece, al Fablab hai la possibilità di utilizzare __Control Box__ collegata alla stampante(lo trovi sulla sinistra di ogni macchina).
+Per inviare il file alla fase di stampa, puoi utilizzare la __Control Box__ (la scatola che racchiude le parti elettroniche di controllo e monitoraggio e rappresenta l'interfaccia della stampante) collegata alla stampante e posizionata sulla sinistra di ogni macchina.
+<!-- spiegare cosa è la control box -->
 
 ### File da stampare
 La stampante 3D basa la stampa su un modello 3D diviso in layers attraverso il programma di slicing.   
@@ -96,7 +97,6 @@ In base al diametro del __Nozzle__ (ugello) montato sulla stampante e al tipo di
 Il modello da stampare può essere creato tramite software di modellazione o scaricato da internet (alcune delle repository più conosciute: [Thingiverse](https://www.thingiverse.com/), [MyMiniFactory](https://www.myminifactory.com/),).   
 Per aprire il modello su __Ultimaker Cura__ seguire il percorso _File_>_Apri file..._>selezionare il modello. 
 ![screen](img/3dp-cura-importa.png)
-<!-- scrivere siti di modelli scaricabili -->
 
 È possibile fare alcune modifiche base al modello direttamente dal software: tramite le icone poste sulla barra sinistra è possibile spostare, scalare e ruotare il modello secondo i tre assi.
 ![screen](img/3dp-cura-modifiche.png)
@@ -127,16 +127,22 @@ Scelto il filamento, appoggiare la bobina sullo __Spool holder__ (porta bobina) 
 ![foto, evidenziare pinza filo](img/3dp-caricamento-bobina.jpg)
 
 Inserito il filamento fino in fondo e riscaldato il nozzle, spingere il filo fino a farlo fuoriuscire dal nozzle e fino a che non avrà il colore del filamento che si intende utilizzare.   
-Infone, per assicurare l'adesione al __piatto di stampa__, spruzzare una buona quantità di lacca sulla zona interessata
+Infine, per assicurare l'adesione al __piatto di stampa__, spruzzare una buona quantità di lacca sulla zona interessata
 ![foto](img/3dp-espulsione-lacca.jpg)
+<!-- rivedere immagine  e descr lacca-->
 
 ### Stampare
 
 Inserire la __Micro SD__ contenente il file Gcode da stampare nella porta posta sul lato destro della __control box__, orientata come in figura.
 ![foto, evidenziare porta](img/3dp-microsd.jpg)
+<!-- mostrare tacchette sd-->
 
 Selezionare quindi il file da stampare accedendo al menù principale (premere la __manopola di controllo__ evidenziata in rosso). Scorrere il menù fino alla voce _Print from TF_ o _Print from SD_ (in base alla stampante utilizzata), selezionare premendo e scegliere il file nella schermata successiva.
 ![schermate con passaggi](img/3dp-aprire-file.jpg)
+
+<!-- controllo primo strato controllare livellam-->
+
+<!-- sezione livellare il piano-->
 
 ### Togliere la bobina di filamento
 
