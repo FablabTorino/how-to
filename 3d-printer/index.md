@@ -3,7 +3,7 @@
 Con [stampa 3D](https://it.wikipedia.org/wiki/Stampa_3D) si intende la realizzazione di oggetti tridimensionali mediante produzione additiva, partendo da un modello 3D digitale.   
 Le stampanti 3D sfruttano diverse tecnologie per la produzione, la più diffusa è la [tecnologia FDM (Fused Deposition Modeling)](https://it.wikipedia.org/wiki/Modellazione_a_deposizione_fusa). Questa tecnologia lavora su un principio "additivo" rilasciando il materiale su strati. Un filamento termoplastico è srotolato da una bobina, che fornisce il materiale ad un ugello di estrusione, con il quale è possibile gestire il flusso. L'ugello è riscaldato per poter sciogliere il materiale e può essere guidato sia in direzione orizzontale che verticale da un meccanismo a controllo numerico, seguendo un percorso tracciato.
 
-<!-- inserire indice -->
+
 ## Indice degli argomenti:
 - [Applicazioni](#applicazioni)
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
@@ -28,7 +28,9 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 ### 3D printer Creality CR-10 S
 
-![fronte ](img/3dp-viste-scritte-grandi.jpg)    
+![fronte ](img/3dp-viste-scritte-grandi.jpg) 
+
+<!-- inserire foto cr10 s -->
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
@@ -66,7 +68,6 @@ Le stampanti del Fablab utilizzano filamenti di [PLA di diametro 1.75 mm](https:
 ### PC con installati i software necessari
 Per la fase di [slicing](https://it.wikipedia.org/wiki/Slicing) e di impostazioni di stampa è necessario avere sul proprio PC il software __Ultimaker Cura__.   
 Per inviare il file alla fase di stampa, puoi utilizzare la __Control Box__ (la scatola che racchiude le parti elettroniche di controllo e monitoraggio e rappresenta l'interfaccia della stampante) collegata alla stampante e posizionata sulla sinistra di ogni macchina.
-<!-- spiegare cosa è la control box -->
 
 ### File da stampare
 La stampante 3D basa la stampa su un modello 3D diviso in layers attraverso il programma di slicing.   
@@ -130,18 +131,16 @@ Inserito il filamento fino in fondo e riscaldato il nozzle, spingere il filo fin
 Infine, la lacca è un ottimo fissante per assicurare l'adesione al __piatto di stampa__ dei primi layer. Spruzzare quindi la lacca sulla zona interessata del piatto.   
 __ATTENZIONE!__ quando si applica la lacca sul piatto, fare attenzione a non spruzzarla anche sulle guide mobili e sul nozzle, per evitare di danneggiarli.   
 ![foto](img/3dp-espulsione-lacca.jpg)
-<!-- rivedere immagine  e descr lacca, scrivere di far attenzione a non spruzzarla sulle guide-->
+
 
 ### Stampare
 
 Inserire la __Micro SD__ contenente il file Gcode da stampare nella porta posta sul lato destro della __control box__, orientata come in figura.
 ![foto, evidenziare porta](img/3dp-microsd.jpg)
-<!-- mostrare tacchette sd-->
 
 Selezionare quindi il file da stampare accedendo al menù principale (premere la __manopola di controllo__ evidenziata in rosso). Scorrere il menù fino alla voce _Print from TF_ o _Print from SD_ (in base alla stampante utilizzata), selezionare premendo e scegliere il file nella schermata successiva.
 ![schermate con passaggi](img/3dp-aprire-file.jpg)
 
-<!-- controllo primo strato controllare livellamento-->
 Avviata la stampa, controllare l'esecuzione del primo layer per assicurarsi che ci sia la giusta adesione e che il [livellamento del piatto](#livellare-il-piatto-di-stampa) sia esatto.   
 L'immagine di seguito mostra gli effetti di diversi livellamenti sul primo layer di stampa.   
 ![schermate con passaggi](img/3dp-errori-layer.jpg)
@@ -151,6 +150,7 @@ L'immagine di seguito mostra gli effetti di diversi livellamenti sul primo layer
 Come per la fase di [caricamento del materiale](#cambio-della-bobina-di-filamento), per la rimozione del materiale bisogna come primo passo scaldare il __Nozzle__.
 ![schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
+<!-- chiarire la cosa dell'appiattire il filo -->
 Per rimuovere il filamento dalla macchina, a __Nozzle__ caldo, fare pressione con due dita sulle leve dell'__estrusore__ e spingere lievemente il filamento per appiattirne il capo. Quindi, tenendo sempre premute le leve, tirare il filamento e riarrotolarlo man mano sulla bobina per evitare.   
 __ATTENZIONE!__ cercare di riarrotolare il più ordinatamente possibile il filamento sulla bobina, per evitare incidenti durante le stampe successive.
 ![foto, evidenziare pinza](img/3dp-rimozione-bobina.jpg)
@@ -172,15 +172,15 @@ Pulire infine il pezzo da eventuali supporti o strutture di adesione al piatto (
 
 ## Livellare il piatto di stampa
 
-<!-- sezione livellare il piano, livellamento come???-->
-file scaricabile
-per cose fini invece solo rotelle
-
 Se osservando la stampa del primo layer si nota che il livellamento del piano è leggermente sbagliato lo si può aggiustare agendo sulle rotelle poste sotto al __piatto di stampa__.   
 ![foto evidenziare rotelle](img/3dp-rotelle-piatto.jpg)
 
-Nel caso in cui si noti che il piano è completamente da ricalibrare, scaricare il file di calibrazione del piano della stampante che si vuole usare (scaricare da qui quello per la [Creality CR10 S](src/livellamento-cr10-s.3mf) e quello per la [Creality CR10 S5](src/livellamento-cr10-5s.3mf)) e aprirlo su __Ultimaker Cura__.   
-Salvare il file in formato Gcode mantenendo le impostazioni già presenti, caricarlo sulla stampante tramite micro SD e avviare la stampa.
+
+Nel caso in cui si noti che il piano è completamente da ricalibrare, utilizzare i file di calibrazione presenti nelle micro SD. Se non ci sono scaricare quello adatto alla stampante che si vuole usare, caricarlo sulla stampante tramite micro SD e avviare la stampa.   
+Di seguito i due file:   
+- per [CR10 S](3d-printer/src/leveling-cr10s-0.4-200.gcode), con nozzle da 0.4 e temperatura di stampa a 200.   
+- per [CR10 S5](3d-printer/src/leveling-cr10s5-0.6-200.gcode), con nozzle da 0.6 e temperatura di stampa a 200.   
+  
 Durante la stampa assicurarsi che la stesura del materiale sia omogenea e con una buona adesione, in caso contrario agire sulle rotelle poste sotto al __piatto di stampa__ fino ad ottenere un risultato soddisfacente.   
 ![screen cura, foto mentre stampa e evidenziare rotelle](img/3dp-livello-piatto.jpg)
 
