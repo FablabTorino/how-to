@@ -28,7 +28,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 - Accessori (lacca, pinzette, spatola, tronchesina)
 
 ### 3D printer Creality CR-10 S
-
+<!-- questa immagine è fuori misura -->
 ![fronte ](img/3dp-viste-scritte-grandi.jpg) 
 
 ![foto](img/3dp-cr10-s.jpg)
@@ -67,7 +67,7 @@ I materiali sono comunemente commercializzati sotto forma di bobine di filamenti
 Le stampanti del Fablab utilizzano filamenti di [PLA di diametro 1.75 mm](https://www.3ditalyshop.it/prodotti/filamenti/1-75/pla_1-75/), disponibile in tantissimi colori e di facile lavorabilità.   
 
 ### PC con installati i software necessari
-Per la fase di [slicing](https://it.wikipedia.org/wiki/Slicing) e di impostazioni di stampa è necessario avere sul proprio PC il software __Ultimaker Cura__.   
+Per la fase di [slicing](https://it.wikipedia.org/wiki/Slicing) e di impostazioni di stampa è necessario avere sul proprio PC il software [__Ultimaker Cura__](https://ultimaker.com/it/software/ultimaker-cura).   
 Per inviare il file alla fase di stampa, puoi utilizzare la __Control Box__ (la scatola che racchiude le parti elettroniche di controllo e monitoraggio e rappresenta l'interfaccia della stampante) collegata alla stampante e posizionata sulla sinistra di ogni macchina.
 
 ### File da stampare
@@ -97,7 +97,7 @@ In base al diametro del __Nozzle__ (ugello) montato sulla stampante e al tipo di
 
 ### Slicing del modello 3D
 
-Il modello da stampare può essere creato tramite software di modellazione o scaricato da internet (alcune delle repository più conosciute: [Thingiverse](https://www.thingiverse.com/), [MyMiniFactory](https://www.myminifactory.com/), [Yeggi](https://www.yeggi.com/)).   
+Il modello da stampare può essere creato tramite software di modellazione o scaricato da internet (alcune delle repository più conosciute: [Thingiverse](https://www.thingiverse.com/), [MyMiniFactory](https://www.myminifactory.com/), [Yeggi](https://www.yeggi.com/), [PrusaPrinters](https://www.prusaprinters.org/prints)).   
 Per aprire il modello su __Ultimaker Cura__ seguire il percorso _File_>_Apri file..._>selezionare il modello. 
 ![screen](img/3dp-cura-importa.png)
 
@@ -122,8 +122,10 @@ Ad avviamento completato comparirà la schermata principale, con le informazioni
 ![display info](img/3dp-display.jpg)
 
 ### Caricare la bobina di filamento
-
-Per il caricamento del materiale bisogna come primo passo scaldare il __Nozzle__. Per farlo premere la __manopola di controllo__ (cerchiata in rosso) e accedere al menù pruncipale, quindi ruotarla fino a evidenziare la voce _Control_ e premere per conferma; ruotare ancora e premere per selezionare _Temperature_ e infine ripetere l'azione per selezionare _Nozzle_. Infine ruotare la rotella per alzare la __temperatura del Nozzle__ fino a 200°C.   
+<!-- spiegazione più generale, click di conferma, prima voce per tornare indietro-->
+Per il caricamento del materiale bisogna come primo passo scaldare il __Nozzle__ utilizzando la __Control Box__.   
+Accedere al menù principale premendo la __manopola di controllo__ (cerchiata in rosso), la prima voce di ogni menù serve a tornare alla schermata precedente. Ruotare la manopola in senso orario o antiorario per muoversi tra le voci del menù.   
+Scaldare il nozzle selezionando le voci del menù nell'ordine _Control_>_Temperature_>_Nozzle_. Infine ruotare la rotella per alzare la __temperatura del Nozzle__ fino a 200°C.   
 ![foto schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
 Scelto il filamento, appoggiare la bobina sullo __Spool holder__ (porta bobina) come mostrato in foto. Premere con due dita le leve dell'__estrusore__ e inserire il capo del filamento nel foro sul lato sinistro   
@@ -152,10 +154,14 @@ L'immagine di seguito mostra gli effetti di diversi livellamenti sul primo layer
 Come per la fase di [caricamento del materiale](#cambio-della-bobina-di-filamento), per la rimozione del materiale bisogna come primo passo scaldare il __Nozzle__.
 ![schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
-<!-- chiarire la cosa dell'appiattire il filo -->
+
 Prima di rimuovere il filamento dalla macchina, a __Nozzle__ caldo, è bene appiattire lievemente la parte iniziale del filamento, in modo da rendere più facile l'estrazione e il successivo reinserimento. Fare dunque pressione con due dita sulle leve dell'__estrusore__ e spingere in dentro il filamento per appiattire la parte iniziale. Quindi, tenendo sempre premute le leve, tirare fuori il filamento e riarrotolarlo man mano sulla bobina.   
 __ATTENZIONE!__ cercare di riarrotolare il più ordinatamente possibile il filamento sulla bobina, per evitare incidenti durante le stampe successive.
 ![foto, evidenziare pinza](img/3dp-rimozione-bobina.jpg)
+
+Riarrotolato il filamento sulla bobina, bloccarlo in posizione utilizzando i fori sui lati della bobina (evidenziati in foto). Quindi inserire il filamento un una busta con chiusura e prossione e chiuderla con cura.   
+![foto, evidenziare fori](img)
+
 
 ### Spegnimento 
 
@@ -165,7 +171,8 @@ Spegnere dunque la stampante 3D premendo lo stesso pulsante utilizzato nella [fa
 
 ## Post-processing
 
-Finita la stampa, prendere la spatola e utilizzarla per scollare il pezzo dal piano di stampa, utilizzandola come in foto.
+Finita la stampa, prendere la spatola e utilizzarla per scollare il pezzo dal piano di stampa, utilizzandola come in foto.   
+__ATTENZIONE!__ utilizzare la spatola dempre di lato, per evitare di rovinare il pezzo o il piatto.
 ![foto durante azione](img/3dp-scollare-dal-piano.jpg)
 
 Pulire infine il pezzo da eventuali supporti o strutture di adesione al piatto (evidenziate nella foto a sinistra).
