@@ -160,7 +160,7 @@ __ATTENZIONE!__ cercare di riarrotolare il più ordinatamente possibile il filam
 ![foto, evidenziare pinza](img/3dp-rimozione-bobina.jpg)
 
 Riarrotolato il filamento sulla bobina, bloccarlo in posizione utilizzando i fori sui lati della bobina (evidenziati in foto). Quindi inserire il filamento un una busta con chiusura e prossione e chiuderla con cura.   
-![foto, evidenziare fori](img)
+![foto, evidenziare fori](img/3dp-sacchetto-bobina.jpg)
 
 
 ### Spegnimento 
