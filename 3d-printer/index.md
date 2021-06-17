@@ -122,9 +122,8 @@ Ad avviamento completato comparirà la schermata principale, con le informazioni
 ![display info](img/3dp-display.jpg)
 
 ### Caricare la bobina di filamento
-<!-- spiegazione più generale, click di conferma, prima voce per tornare indietro-->
 Per il caricamento del materiale bisogna come primo passo scaldare il __Nozzle__ utilizzando la __Control Box__.   
-Accedere al menù principale premendo la __manopola di controllo__ (cerchiata in rosso), la prima voce di ogni menù serve a tornare alla schermata precedente. Ruotare la manopola in senso orario o antiorario per muoversi tra le voci del menù.   
+Accedere al menù principale premendo la __manopola di controllo__ (cerchiata in rosso), la prima voce di ogni menù serve a tornare alla schermata precedente. Ruotare la manopola in senso orario o antiorario per muoversi tra le voci del menù e premerla per confermare.   
 Scaldare il nozzle selezionando le voci del menù nell'ordine _Control_>_Temperature_>_Nozzle_. Infine ruotare la rotella per alzare la __temperatura del Nozzle__ fino a 200°C.   
 ![foto schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
