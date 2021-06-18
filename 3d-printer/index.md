@@ -194,3 +194,5 @@ Durante la stampa assicurarsi che la stesura del materiale sia omogenea e con un
 
 ## FAQ
 <!-- quali sono i problemi più frequenti? -->
+__La stampa non sta venendo come immaginavo. A cosa è legato?__   
+Durante la stampa possono presentarsi molti problemi, legati a diversi fattori. Puoi trovare una lista di problemi e relative soluzioni in [questa pagina](https://www.simplify3d.com/support/print-quality-troubleshooting/).
