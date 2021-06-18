@@ -124,7 +124,7 @@ Ad avviamento completato comparirà la schermata principale, con le informazioni
 ### Caricare la bobina di filamento
 Per il caricamento del materiale bisogna come primo passo scaldare il __Nozzle__ utilizzando la __Control Box__.   
 Accedere al menù principale premendo la __manopola di controllo__ (cerchiata in rosso), la prima voce di ogni menù serve a tornare alla schermata precedente. Ruotare la manopola in senso orario o antiorario per muoversi tra le voci del menù e premerla per confermare.   
-Scaldare il nozzle selezionando le voci del menù nell'ordine _Control_>_Temperature_>_Nozzle_. Infine ruotare la rotella per alzare la __temperatura del Nozzle__ fino a 200°C.   
+Scaldare il nozzle selezionando le voci del menù nell'ordine _Control_>_Temperature_>_Nozzle_. Infine ruotare la rotella per alzare la __temperatura del Nozzle__ fino a 200°C e aspettare che si scaldi.   
 ![foto schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
 Scelto il filamento, appoggiare la bobina sullo __Spool holder__ (porta bobina) come mostrato in foto. Premere con due dita le leve dell'__estrusore__ e inserire il capo del filamento nel foro sul lato sinistro   
@@ -150,7 +150,7 @@ L'immagine di seguito mostra gli effetti di diversi livellamenti sul primo layer
 
 ### Togliere la bobina di filamento
 
-Come per la fase di [caricamento del materiale](#cambio-della-bobina-di-filamento), per la rimozione del materiale bisogna come primo passo scaldare il __Nozzle__.
+Come per la fase di [caricamento del materiale](#cambio-della-bobina-di-filamento), per la rimozione del materiale bisogna come primo passo scaldare il __Nozzle__ a circa 200°C e aspettare che arrivi a temperatura.
 ![schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
 
