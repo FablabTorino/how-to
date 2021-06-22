@@ -127,7 +127,8 @@ Accedere al menù principale premendo la __manopola di controllo__ (cerchiata in
 Scaldare il nozzle selezionando le voci del menù nell'ordine _Control_>_Temperature_>_Nozzle_. Infine ruotare la rotella per alzare la __temperatura del Nozzle__ fino a 200°C e aspettare che si scaldi.   
 ![foto schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
-Scelto il filamento, appoggiare la bobina sullo __Spool holder__ (porta bobina) come mostrato in foto. Premere con due dita le leve dell'__estrusore__ e inserire il capo del filamento nel foro sul lato sinistro   
+Scelto il filamento, appoggiare la bobina sullo __Spool holder__ (porta bobina) come mostrato in foto. Premere con due dita le leve dell'__estrusore__ e inserire il capo del filamento nel foro sul lato sinistro.   
+__ATTENZIONE!__ controllare che il filemnto scelto basti per la stampa del file! Per sapere i passaggi leggere la [sezione dedicata](#controllare-che-il-filamento-basti-per-la-stampa)
 ![foto, evidenziare pinza filo](img/3dp-caricamento-bobina.jpg)
 
 Inserito il filamento fino in fondo e riscaldato il nozzle, spingere il filo fino a farlo fuoriuscire dal nozzle e fino a che non avrà il colore del filamento che si intende utilizzare.   
@@ -177,6 +178,19 @@ __ATTENZIONE!__ utilizzare la spatola dempre di lato, per evitare di rovinare il
 Pulire infine il pezzo da eventuali supporti o strutture di adesione al piatto (evidenziate nella foto a sinistra).
 ![foto, evidenziare parti da togliere](img/3dp-togliere-supporti-e-brim.jpg)
 
+
+## Controllare che il filamento basti per la stampa
+
+Alla fine del processo di [slicing](#slicing-del-modello-3d), nella schermata di anteprima dei layer, __Ultimaker Cura__ calcolerà in automatico anche la quantità di materiale necessario. nella finestra evidenziata in giallo è possibile vedere sia il peso che la lunghezza necessaria del filamento.   
+![screen](img/3dp-cura-peso.png)
+
+Conoscendo il peso di materiale necessario per la stampa si può controllare se quello sulla bobina basterà.   
+Prendere la bilancia e accenderla premendo il tasto _ON Tare_, posizionare sulla bilancia una bobina vuota che servità da tara. Premere di nuovo il tasto _ON Tare_ per azzerare il peso.   
+![foto](img/3dp-tara-bobina.jpg)
+  
+Tolta la bobina di tara, il display segnerà il peso di questa ma con valore negativo. Posizionare quindi la bobina con il filamento che si vorrebbe usare e il display segnerà il peso del materiale (N.B. nelle foto i pesi sono in kg, per passare alla misurazione in grammi premere il tasto _Unit_ della bilancia).   
+Perciò, se per la stampa servono 6 g (=0,006 kg) e il filamento residuo ha un peso di 29 g (=0,029 kg), c'è abbastanza filamento per stampare.
+![foto](img/3dp-peso-bobina.jpg)
 
 ## Bed leveling
 
