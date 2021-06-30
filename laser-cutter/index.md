@@ -129,6 +129,7 @@ __ATTENZIONE!__ assicurarsi che la __griglia dell'aspiratore__ (in rosso) sia pu
 
 La forma conica del laser richiede anche una regolazione dell'asse z.   
 Muovere il piano dal __pannello di controllo__ premendo il tasto `Z` e poi le freccie `↑` e `↓`, posizionandolo il più in alto possibile senza danneggiare il __cannone del laser__. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo). La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.   
+Infine premere il tasto `Z` per uscire dalla selezione.
 ![foto regolazione, tastierino con tasti da premere, blocchetto tra materiale e cannone](img/laser-cutter-asse-z.jpg)
 
 
