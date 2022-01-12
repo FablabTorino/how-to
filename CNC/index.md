@@ -1,8 +1,8 @@
-# Laser Cutter
+# Fresa CNC
 
 Il [Laser Cutter](https://en.wikipedia.org/wiki/Laser_cutting) è un macchinario a controllo numerico che utilizza un laser per tagliare i materiali. Questa tecnologia funziona dirigendo e concentrando un laser ad alta potenza attraverso l'ottica. Il raggio laser focalizzato è diretto verso il materiale, tagliandolo o incidendolo in base alla potenza impiegata.
 
-<!-- inserire indice -->
+
 ### Indice degli argomenti:
 - [Applicazioni](#applicazioni)
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
@@ -27,7 +27,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 Il laser taglia concentrando un'alta energia in un piccolo spot, sciogliendo, bruciando o vaporizzando il materiale che viene poi soffiato via da un getto di aria compressa, lasciando un bordo di taglio di ottima qualità.   
 ![schema cono laser](img/laser-cutter-cono-laser.jpg) 
-<!-- inserire foto del cono laser, slide marco -->
+
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
