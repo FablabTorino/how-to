@@ -1,7 +1,7 @@
 # 3D Printer
 
-With [3D printing] (https://en.wikipedia.org/wiki/3D_printing) we mean the creation of three-dimensional objects by additive manufacturing, starting from a digital 3D model.
-3D printers uses different technologies for production, the most common is [FDM (Fused Deposition Modeling) technology] (https://en.wikipedia.org/wiki/Fused_filament_fabrication#Fused_deposition_modeling). This technology works on an "additive" principle by releasing the material layer over layer. A thermoplastic filament is unwound from a spool, which supplies the material to an extrusion nozzle, which is heated to melt the material and can be guided both horizontally and vertically by a numerically controlled mechanism.
+With [3D printing](https://en.wikipedia.org/wiki/3D_printing) we mean the creation of three-dimensional objects by additive manufacturing, starting from a digital 3D model.
+3D printers uses different technologies for production, the most common is [FDM (Fused Deposition Modeling) technology](https://en.wikipedia.org/wiki/Fused_filament_fabrication#Fused_deposition_modeling). This technology works on an "additive" principle by releasing the material layer over layer. A thermoplastic filament is unwound from a spool, which supplies the material to an extrusion nozzle, which is heated to melt the material and can be guided both horizontally and vertically by a numerically controlled mechanism.
 
 
 ## Index of topics:
