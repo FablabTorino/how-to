@@ -79,45 +79,56 @@ Please follow those steps:
 
 ### Power on
 Turn on the power strip connected to the machine, then turn on the computer and the screen to the right of the Laser Cutter.
+
 ![photo, power buttons](img/laser-cutter-accensione-pc.jpg)
 
 Turn on the __Chiller__ to the left of the machine from the rear switch.
+
 ![photo, key](img/laser-cutter-accensione-chiller.jpg)
 
 __CAUTION!__ Before starting the machine make sure that the working surface is completely clear and free of obstacles.
 Then turn the machine on by turning the key of the __main switch__, above the __control panel__ clockwise. Immediately after switching on, the nozzle will automatically position itself in the top right corner of the working surface, as shown in the photo.
+
 ![photo, turn key](img/laser-cutter-accensione-macchina.jpg)
 
 
 ### Prepare the file
 Insert the USB key containing the file and start __Lasercut 6.1__.
 To open the vector file press _CTRL + I_ or follow the path _File_ > _Import_ > _select the file_.
+
 ![screen](img/laser-cutter-lasercut-importa.png)
 
-It is possible to move the object by dragging it from the blue _X_ placed in its center and rotate it using the arrow-like-icon on the left. It can also be scaled using the command in the left.    
+It is possible to move the object by dragging it from the blue _X_ placed in its center and rotate it using the arrow-like-icon on the left. It can also be scaled using the command in the left.  
+
 ![screen, evidenziare posizione comandi](img/laser-cutter-lasercut-move-scale.png)
 
 It is recommended to have a cutting file made up of continuous, non-fragmented lines. To automatically join neighboring segments select the lines and follow the path _Tools_ > _Join Lines_ > in the dialog box enter maximum distance between the lines to join> _Ok_.
+
 ![screen](img/laser-cutter-lasercut-unisci-linee.png) 
 
 Also, having double lines in the file could create problems or increasing the time when cutting. It is therefore recommended to check the double lines following the path _Tools_ > _Delete Overlapping Lines_, the program will select all the overlapping lines and just press the _CANC_ key to delete just the duplicates.
+
 ![screen](img/laser-cutter-lasercut-doppie-linee.png)
 
 From the column on the right you can assign the object lines to different __cutting or engraving profiles__. By selecting the line to isolate [1] and assigning it a color from the bar at the bottom [2], the program inserts it in a separate and individually editable cutting profile [3].
 With the _Move Up_ and _Move Down_ keys you can sort the colors according to the desired execution order.
+
 ![screen](img/laser-cutter-lasercut-layers.jpg)
 
 After assigned the various lines to the __cutting or engraving profiles__ you can set the characteristics according to the type of processing desired, by double clicking on the colors of the profiles. In the images below, the items to be modified for the __cutting and raster workings__ are highlighted in yellow.
 __Attention!__ do not modify other parameters!
+
 ![screen profili](img/laser-cutter-lasercut-taglio.png)
 ![screen profili](img/laser-cutter-lasercut-raster.jpg)
 
 
 Always check where the  __cut origin point__ is, marked with a blue dot. You can change its position by pressing the top command and choosing the desired position from the dialog box, then press _Ok_ to confirm.
+
 ![screen comando](img/laser-cutter-lasercut-origine.png)
 
 
 To send the file to the machine, follow the path _Download_ > _Download Current File_ > _choose a name_, then confirm the action.
+
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)
 
 
@@ -126,23 +137,28 @@ Open the cover of the machine to insert the material to be cut and/or engraved.
 Make sure that the iron parts at the cutting plane of the machine are well arranged and in case of using a soft material (such as fabric or paper) add the __alveolar metal surface__.
 Then block the material using the __iron rods__ (placed on the side of the machine) as weights. Finally, make sure that the material is stable by tapping lightly to hear if there are any embossed parts.
 __WARNING!__ make sure that the __suction grill__ (in red) is clean!  
+
 ![foto materiale ben fissato](img/laser-cutter-caricamento.jpg)
 
 The conical shape of the laser also requires a z-axis adjustment.
 Move the plane from the __control panel__ by pressing the `Z` key and then the `↑` and `↓` arrows, positioning it as high as possible without damaging the __laser output tube__ (gun). Then adjust the distance between the material and the tip of the gun using the wooden block (usually placed near the control panel). The suitable size is when the block is free to pass between the two but slightly touching them.
-Finally press the `Z` key to exit the selection. 
+Finally press the `Z` key to exit the selection.
+
 ![foto regolazione, tastierino con tasti da premere, blocchetto tra materiale e cannone](img/laser-cutter-asse-z.jpg)
 
 
 ### Cut
 Before proceeding with the cut it is good practice to do some tests. Press the `Esc` key to exit the selection, then use the `↑`,`↓`,`←` and `→` keys to position the head containing the laser on the material. Then press the `Test` key and see if the area described by the head fits completely into the material.
 For further confirmation, the exact position of the laser starting point can be checked. With the __cover__ closed and the __head__ in the desired position, briefly press the `Laser` button to emit a beam and mark the starting point.
+
 ![foto tastierino con tasto da premere, foto piano con freccia di traiettoria](img/laser-cutter-test.jpg)
 
 Always remember to turn on the __air extractor__ from the switch located behind the computer (in the photo).
+
 ![foto, evidenziare tasto](img/laser-cutter-accensione-aspiratore.jpg)
 
 The machine can then be started by pressing the `Start / Pause` button on the __control panel__. While the Laser Cutter is performing the cut, it is necessary to check that the compressed air pressure is at least at 2, if necessary modify it by acting on the __valve__ indicated in the photo.
+
 ! [photo keypad] (img / laser-cutter-starting-machine.jpg)
 
 When you finish cutting and engraving, press `Datum` on the __control panel__ to send the print head to the top right corner.
@@ -151,6 +167,7 @@ You can now take the material from the machine removing the excess pieces.
 
 ### Shutdown
 At the end of the process the __air extractor__ can be switched off, and if the machine is no longer used, the __Chiller__ and the Laser Cutter must also be switched off by turning the __key__ in the front panel.
+
 ![foto tasto](img/laser-cutter-spegnimento-macchinario.jpg)
 
 Turn off the Computer, the monitor and finally also the power strip positioned behind it.
@@ -158,4 +175,5 @@ Turn off the Computer, the monitor and finally also the power strip positioned b
 
 ## FAQ
 __Why can't I cut PVC?__
+
 PVC is not suitable for laser engraving or cutting due to specific substances it contains and the formation of hydrochloric acid and poisonous gases. 
