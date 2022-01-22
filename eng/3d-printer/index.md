@@ -30,6 +30,7 @@ Before starting, check the list:
 
 ### 3D printer Creality CR-10 S
 <!-- questa immagine è fuori misura -->
+
 ![fronte ](img/3dp-viste-scritte-grandi.jpg) 
 
 ![foto](img/3dp-cr10-s.jpg)
@@ -86,13 +87,16 @@ To 3D print please follow the steps below.
 ### Print parameters
 
 Start the __Ultimaker Cura__ software on your PC and set up the printer you intend to use. If this is the first time the program is started, the selection of a printer will be in the initial configuration, otherwise, instead, follow the path _Printer selection panel_ > _Add printer_ > select the printer from the list > _Add_.
+
 ![screen, più di uno, mostrare impostazioni giuste nel secondo](img/3dp-cura-impostazione-stampante.png)  
 
 A further window will then open, it is always good to check that the information coincides with the technical tables shown in the [sections dedicated to the two printers](#3d-printer-creality-cr-10-s). Then press _Next_ to confirm.
+
 ![impo cr10s](img/3dp-cura-cr10-s.png)
 ![imop cr10s5](img/3dp-cura-cr10-s5.png)
 
 You'll need to change the nozzle parameter on the software based on the diameter of the __Nozzle__ mounted on the printer and the type of material you're going to use (at Fablab you only use [PLA or PLA +](#filament-spool)), the size of the nozzle is shown in the [technical tables of the two printers](#3d-printer-creality-cr-10-s) and the value is entered on __Ultimaker Cura__ as indicated in red in the image below.
+
 ![screen](img/3dp-cura-impostazione-nozzle.png)
 
 
@@ -104,14 +108,17 @@ To open the model on __Ultimaker Cura__ follow the path _File_ > _Open file ..._
 ![screen](img/3dp-cura-importa.png)
 
 It is possible to make some basic modifications to the model directly from the software: using the icons on the left  it is possible to move, scale and rotate the model according to the three axes.
+
 ![screen](img/3dp-cura-modifiche.png)
 
 Once the model has been imported, a curtain on the right of the screen will show all the possible profile for printing (eg __nozzle temperature__, __plate temperature__, __movement speed__), which can be modified.
 However, the program also offers __predefined print profiles__ which should give good results.
 After you have set all the variables, or just selected a profile, change the tab by pressing on _PREVIEW_ and start slicing with the _SLICING_ key.
+
 ![screen, evidenziare finestra impostazioni e tendina predefiniti](img/3dp-cura-parametri.png)
 
 You can now view the print preview and scroll through the __layers__ with the cursor to the right of the screen. Check the settings and the print time marked in the yellow window on the bottom right and then export the model in Gcode format, pressing the _Save to file_ button and choosing the __Micro SD__ as destination.
+
 ![screen](img/3dp-cura-sezionamento.png)
 <!-- c`è un modo specifico per rinominare i file?? -->
 
@@ -122,6 +129,7 @@ Turn on the 3D printer from the button on the rear side of the __Control box__.
 ![foto, evidenziare tasto e cavi collegamento](img/3dp-accensione-spegnimento.jpg)
 
 When startup is complete, the main page will appear on the screen, with the following information:
+
 ![display info](img/3dp-display.jpg)
 
 ### Load the filament spool
@@ -132,6 +140,7 @@ Heat the nozzle by selecting the menu items in this order:
 _Control_ > _Temperature_ > _Nozzle_ 
 
 Finally, turn the wheel to raise the __temperature of the Nozzle__ up to 200°C and wait for it to heat up.
+
 ![foto schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
 Once the filament has been chosen, place the spool on the __Spool holder__ as shown in the photo. Press the levers of the __ extruder__ with two fingers and insert the end of the filament into the hole on the left side.
