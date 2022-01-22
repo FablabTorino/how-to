@@ -86,7 +86,7 @@ Turn on the __Chiller__ to the left of the machine from the rear switch.
 
 ![photo, key](img/laser-cutter-accensione-chiller.jpg)
 
-__CAUTION!__ Before starting the machine make sure that the working surface is completely clear and free of obstacles.
+__WARNING!__ Before starting the machine make sure that the working surface is completely clear and free of obstacles.
 Then turn the machine on by turning the key of the __main switch__, above the __control panel__ clockwise. Immediately after switching on, the nozzle will automatically position itself in the top right corner of the working surface, as shown in the photo.
 
 ![photo, turn key](img/laser-cutter-accensione-macchina.jpg)
@@ -116,7 +116,7 @@ With the _Move Up_ and _Move Down_ keys you can sort the colors according to the
 ![screen](img/laser-cutter-lasercut-layers.jpg)
 
 After assigned the various lines to the __cutting or engraving profiles__ you can set the characteristics according to the type of processing desired, by double clicking on the colors of the profiles. In the images below, the items to be modified for the __cutting and raster workings__ are highlighted in yellow.
-__Attention!__ do not modify other parameters!
+__WARNING!__ do not modify other parameters!
 
 ![screen profili](img/laser-cutter-lasercut-taglio.png)
 ![screen profili](img/laser-cutter-lasercut-raster.jpg)
@@ -162,7 +162,8 @@ The machine can then be started by pressing the `Start / Pause` button on the __
 ! [photo keypad] (img / laser-cutter-starting-machine.jpg)
 
 When you finish cutting and engraving, press `Datum` on the __control panel__ to send the print head to the top right corner.
-You can now take the material from the machine removing the excess pieces. 
+You can now take the material from the machine removing the excess pieces.
+
 ![foto tastierino e posizione autohome](img/laser-cutter-pezzi-finiti.jpg)
 
 ### Shutdown
@@ -170,7 +171,7 @@ At the end of the process the __air extractor__ can be switched off, and if the 
 
 ![foto tasto](img/laser-cutter-spegnimento-macchinario.jpg)
 
-Turn off the Computer, the monitor and finally also the power strip positioned behind it.
+Turn off the Computer, the monitor and finally also the power outlet behind it.
 
 
 ## FAQ
