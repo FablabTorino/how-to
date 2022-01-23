@@ -172,7 +172,7 @@ Spegnere dunque la stampante 3D premendo lo stesso pulsante utilizzato nella [fa
 ## Post-processing
 
 Finita la stampa, prendere la spatola e utilizzarla per scollare il pezzo dal piano di stampa, utilizzandola come in foto.   
-__ATTENZIONE!__ utilizzare la spatola dempre di lato, per evitare di rovinare il pezzo o il piatto.
+__ATTENZIONE!__ utilizzare la spatola sempre di lato, per evitare di rovinare il pezzo o il piatto.
 ![foto durante azione](img/3dp-scollare-dal-piano.jpg)
 
 Pulire infine il pezzo da eventuali supporti o strutture di adesione al piatto (evidenziate nella foto a sinistra).
