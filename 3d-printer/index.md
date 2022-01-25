@@ -128,7 +128,7 @@ Scaldare il nozzle selezionando le voci del menù nell'ordine _Control_>_Tempera
 ![foto schermate con passaggi](img/3dp-scaldare-nozzle.jpg)
 
 Scelto il filamento, appoggiare la bobina sullo __Spool holder__ (porta bobina) come mostrato in foto. Premere con due dita le leve dell'__estrusore__ e inserire il capo del filamento nel foro sul lato sinistro.   
-__ATTENZIONE!__ controllare che il filemnto scelto basti per la stampa del file! Per sapere i passaggi leggere la [sezione dedicata](#controllare-che-il-filamento-basti-per-la-stampa)
+__ATTENZIONE!__ controllare che il filamento scelto basti per la stampa del file! Per sapere i passaggi leggere la [sezione dedicata](#controllare-che-il-filamento-basti-per-la-stampa)
 ![foto, evidenziare pinza filo](img/3dp-caricamento-bobina.jpg)
 
 Inserito il filamento fino in fondo e riscaldato il nozzle, spingere il filo fino a farlo fuoriuscire dal nozzle e fino a che non avrà il colore del filamento che si intende utilizzare.   
@@ -159,7 +159,7 @@ Prima di rimuovere il filamento dalla macchina, a __Nozzle__ caldo, è bene appi
 __ATTENZIONE!__ cercare di riarrotolare il più ordinatamente possibile il filamento sulla bobina, per evitare incidenti durante le stampe successive.
 ![foto, evidenziare pinza](img/3dp-rimozione-bobina.jpg)
 
-Riarrotolato il filamento sulla bobina, bloccarlo in posizione utilizzando i fori sui lati della bobina (evidenziati in foto). Quindi inserire il filamento un una busta con chiusura e prossione e chiuderla con cura.   
+Riarrotolato il filamento sulla bobina, bloccarlo in posizione utilizzando i fori sui lati della bobina (evidenziati in foto). Quindi inserire il filamento un una busta con chiusura a pressione e chiuderla con cura.   
 ![foto, evidenziare fori](img/3dp-sacchetto-bobina.jpg)
 
 
@@ -172,7 +172,7 @@ Spegnere dunque la stampante 3D premendo lo stesso pulsante utilizzato nella [fa
 ## Post-processing
 
 Finita la stampa, prendere la spatola e utilizzarla per scollare il pezzo dal piano di stampa, utilizzandola come in foto.   
-__ATTENZIONE!__ utilizzare la spatola dempre di lato, per evitare di rovinare il pezzo o il piatto.
+__ATTENZIONE!__ utilizzare la spatola sempre di lato, per evitare di rovinare il pezzo o il piatto.
 ![foto durante azione](img/3dp-scollare-dal-piano.jpg)
 
 Pulire infine il pezzo da eventuali supporti o strutture di adesione al piatto (evidenziate nella foto a sinistra).
