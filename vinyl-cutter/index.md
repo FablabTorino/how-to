@@ -1,4 +1,4 @@
-## See english version at this [link](eng/vinyl-cutter/index.md)
+## See english version at this [link](eng/../../eng/vinyl-cutter/index.md)
 
 # Vinyl Cutter
 
