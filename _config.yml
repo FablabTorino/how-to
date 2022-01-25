@@ -1,7 +1,5 @@
 theme: jekyll-theme-slate
 title: How To
-description: Questa pagina raccoglie i macchinari che puoi utilizzare a FabLab Torino e tutto ciò che devi sapere prima di usarli!
-
-This page collects the machines that you can use a FabLab Torino and everything you need to know before using them!
+description: This page collects the machines that you can use a FabLab Torino and everything you need to know before using them!
 plugins:
 - jemoji
