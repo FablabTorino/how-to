@@ -1,12 +1,12 @@
-# Fresa CNC
+# Fresatrice CNC
 
-Il [Laser Cutter](https://en.wikipedia.org/wiki/Laser_cutting) è un macchinario a controllo numerico che utilizza un laser per tagliare i materiali. Questa tecnologia funziona dirigendo e concentrando un laser ad alta potenza attraverso l'ottica. Il raggio laser focalizzato è diretto verso il materiale, tagliandolo o incidendolo in base alla potenza impiegata.
+La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario a controllo numerico che utilizza una fresa per asportare materiale nella quantità e forma richieste. Questa tecnologia funziona applicando l'utensile all'albero della fresatrice e facendolo ruotare a varie velocità. I denti dotati di filo tagliente erodono e asportano il materiale seguendo un tracciato definito.
 
 
 ### Indice degli argomenti:
 - [Applicazioni](#applicazioni)
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
-- [Processo di taglio e incisione](#processo-di-taglio-e-incisione)
+- [Processo di fresatura](#processo-di-taglio-e-incisione)
 - [FAQ](#faq)
 
 ## Applicazioni
