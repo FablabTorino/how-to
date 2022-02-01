@@ -1,6 +1,6 @@
 # Fresatrice CNC
 
-La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario a controllo numerico che utilizza una fresa per asportare materiale nella quantità e forma richieste. Questa tecnologia funziona applicando l'utensile all'albero della fresatrice e facendolo ruotare a varie velocità. I denti dotati di filo tagliente erodono e asportano il materiale seguendo un tracciato definito.
+La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario a controllo numerico che utilizza una fresa per asportare materiale nella quantità e forma richieste. Questa tecnologia funziona applicando l'utensile all'albero della fresatrice e facendolo ruotare a varie velocità. I denti dotati di filo tagliente erodono e asportano il materiale seguendo un tracciato definito, permettedo di incidere, sagomare, tagliare e fresare una forma.
 
 
 ### Indice degli argomenti:
@@ -12,15 +12,15 @@ La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario 
 ## Applicazioni
 La fresatura consente di ottenere una vasta gamma di superfici (piani, scanalature, spallamenti, forature ecc.) e le caratteristiche più importanti della lavorazione sono l'elevata precisione e la buona finitura superficiale del prodotto finito, infatti la precisione della fresatura può arrivare a tolleranze inferiori al micron ed è una lavorazione applicata in moltissimi settori industriali. Per le sue caratteristiche è ideale per la produzione di lotti di quantità limitata, prototipi o elementi progettati su misura, ma viene impiegata anche per fabbricare utensili utili in altri processi come ad esempio gli stampi tridimensionali. In virtù dell’elevata precisione la fresatura può essere impiegata come lavorazione secondaria su semilavorati ottenuti tramite un processo diverso.
 
-Sono molti i materiali lavorabili per fresatura in modo sicuro e con risultati di alta qualità. Tra questi ci sono [metalli](x), [materiali plastici](x), [legno](x), vetro e ceramiche.   
+Sono molti i materiali lavorabili per fresatura in modo sicuro e con risultati di alta qualità. Tra questi ci sono [schiume](https://opentotum.github.io/fabtotum.com-backup/it/materiali/prototipazione-rapida-cnc/index.html), [gesso, stucco e argilla](https://opentotum.github.io/fabtotum.com-backup/it/materiali/prototipazione-rapida-cnc/index.html), [legno](x) e [metalli leggeri](x), anche per la creazione di [circuiti PCB]([x](https://it.wikipedia.org/wiki/Circuito_stampato)).
 
 ## Strumenti, materiali e file
 Prima di iniziare assicurati di avere tutto il necessario:  
-- Laser Cutter  
-- materiale da tagliare  
-- PC con installati i software necessari  
-- File da tagliare  
-- Accessori (barre per fissare il materiale, fondale rigido)  
+- CNC Roland Modela  
+- materiale da fresare  
+- PC a lato macchina con installati i software necessari  
+- File da fresare  
+- Accessori (utensili da fresa, piano di fissaggio)  
 
 ### Laser Cutter CO<sub>2</sub> WL1290
 ![fronte lasercutter](img/laser-cutter-matilda.jpg)   
