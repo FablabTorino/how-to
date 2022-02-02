@@ -38,27 +38,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditore](https://www.rolanddga.com/support/products/milling/modela-mdx-40a-3d-milling-machine)
 
 ### Materiali lavorabili
-In base alla tipologia di Laser Cutter è possibile tagliare e incidere diverse tipologie di materiali.   
-Il Fablab dispone di un macchinario a CO<sub>2</sub>, di seguito una lista completa dei [materiali lavorabili](https://www.worklinestore.com/pagina/elenco-materiali).   
-
-| MATERIALE              |INCISIONE    	      | TAGLIO             |   
-|------------------------|--------------------|--------------------|   
-| Legno		             | __O__ | __O__ |   
-| Acrilico - Plexiglas   | __O__ | __O__ |   
-| Laminati Bicolore	     | __O__ | __O__ |   
-| Tessuti e Stoffe       | __O__ | __O__ |   
-| Vetro e Cristallo      | __O__ | __X__ |   
-| MDF                    | __O__ | __O__ |   
-| Ceramica               | __O__ | __X__ |    
-| Pelle e Cuoio          | __O__ | __O__ |   
-| Marmo e Pietra         | __O__ | __X__ |   
-| Carta e Cartone	     | __O__ | __O__ |   
-| Gomma                  | __O__ | __O__ |   
-| Sughero                | __O__ | __O__ |   
-| Alluminio Anodizzato   | __O__ | __X__ |   
-| Metallo Verniciato     | __O__ | __X__ |   
-| Plastica               | __O__ | __O__ |   
-| Vetroresina            | __O__ | __O__ |   
+La fresa Roland Modela è adatta alla fresatura di materiali quali il legno, la cera da prototipazione e i materiali plastici. Il blocco di partenza deve avere misura massima di 300x300x100 mm.   
 
 ### PC con installati i software necessari
 Al Fablab hai la possibilità di utilizzare il computer collegato alla Laser Cutter, nel quale sono già presenti i drivers e i software necessari.   
