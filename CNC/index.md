@@ -6,39 +6,36 @@ La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario 
 ### Indice degli argomenti:
 - [Applicazioni](#applicazioni)
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
-- [Processo di fresatura](#processo-di-taglio-e-incisione)
+- [impostazione del punto di origine](#impostazione-del-punto-di-origine)
+- [Processo di fresatura](#processo-di-fresatura)
 - [FAQ](#faq)
 
 ## Applicazioni
 La fresatura consente di ottenere una vasta gamma di superfici (piani, scanalature, spallamenti, forature ecc.) e le caratteristiche più importanti della lavorazione sono l'elevata precisione e la buona finitura superficiale del prodotto finito, infatti la precisione della fresatura può arrivare a tolleranze inferiori al micron ed è una lavorazione applicata in moltissimi settori industriali. Per le sue caratteristiche è ideale per la produzione di lotti di quantità limitata, prototipi o elementi progettati su misura, ma viene impiegata anche per fabbricare utensili utili in altri processi come ad esempio gli stampi tridimensionali. In virtù dell’elevata precisione la fresatura può essere impiegata come lavorazione secondaria su semilavorati ottenuti tramite un processo diverso.
 
-Sono molti i materiali lavorabili per fresatura in modo sicuro e con risultati di alta qualità. Tra questi ci sono [schiume](https://opentotum.github.io/fabtotum.com-backup/it/materiali/prototipazione-rapida-cnc/index.html), [gesso, stucco e argilla](https://opentotum.github.io/fabtotum.com-backup/it/materiali/prototipazione-rapida-cnc/index.html), [legno](x) e [metalli leggeri](x), anche per la creazione di [circuiti PCB]([x](https://it.wikipedia.org/wiki/Circuito_stampato)).
+Sono molti i materiali lavorabili per fresatura in modo sicuro e con risultati di alta qualità. In base al tipo di fresa è possibile lavorare materiali quali [schiume](http://www.chemix.it/it/poliuretaniche), gessi e stucchi, [cera da prototipazione](https://machinablewax.com/), [legno](https://www.leroymerlin.it/v3/search/search.do?keyword=legno) e [metalli leggeri e pesanti](https://it.misumi-ec.com/vona2/mech_material/M1401000000/M1401020000/#), anche per la creazione di [circuiti PCB](https://it.wikipedia.org/wiki/Circuito_stampato).
 
 ## Strumenti, materiali e file
 Prima di iniziare assicurati di avere tutto il necessario:  
-- CNC Roland Modela  
-- materiale da fresare  
+- Fresa CNC Roland Modela MDX-40A 
+- Blocco iniziale da fresare  
 - PC a lato macchina con installati i software necessari  
 - File da fresare  
 - Accessori (utensili da fresa, piano di fissaggio)  
 
-### Laser Cutter CO<sub>2</sub> WL1290
-![fronte lasercutter](img/laser-cutter-matilda.jpg)   
-
-Il laser taglia concentrando un'alta energia in un piccolo spot, sciogliendo, bruciando o vaporizzando il materiale che viene poi soffiato via da un getto di aria compressa, lasciando un bordo di taglio di ottima qualità.   
-![schema cono laser](img/laser-cutter-cono-laser.jpg) 
-
+### Roland Modela MDX-40A
+![fronte fresa](img/roland-modela.jpg)   
+![disegno tecnico fresa](img/schema-roland-modela.png)
 
 | Caratteristiche tecniche           | Valori                                   |   
-|:-----------------------------------|:-----------------------------------------|   
-| Potenza                            | 130 W                                    |   
-| Velocità massima di taglio         | 200 mm/sec                               |   
-| Dimensione dello spot focale       | 0,2 mm                                   |   
-| Risoluzione grafica                | 0,0254 mm                                |   
-| Spessore massimo del materiale     | 10 mm                                    |      
-| Grandezza massima area di taglio   | 1200x900 mm                              |         
+|:-----------------------------------|:-----------------------------------------|     
+| Velocità di esecuzione         | XY-axis : 7 to 3000 mm/min, Z-axis : 7 to 1800 mm/min                               |   
+| Velocità di rotazione del mandrino       | 4,500 to15,000 rpm                                   |   
+| Risoluzione meccanica                | 0.002 mm/step                                |   
+| peso massimo del materiale     | 4 kg                                    |      
+| Grandezza massima area di fresatura   | 305x305x105 mm                              |         
 
-Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditore](https://www.ricami.piemonte.it/-/plotter-laser-co2-1300x900mm-wl1390)
+Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditore](https://www.rolanddga.com/support/products/milling/modela-mdx-40a-3d-milling-machine)
 
 ### Materiali lavorabili
 In base alla tipologia di Laser Cutter è possibile tagliare e incidere diverse tipologie di materiali.   
@@ -75,7 +72,9 @@ Il software __Lasercut 6.1__ supporta file di formato DXF (si consiglia il DXF 2
 ### Accessori
 Gli oggetti esterni richiesti da questa lavorazione sono: delle barre di ferro per evitare l'imbarcamento del pezzo da tagliare, un fondale rigido in [metallo alveolare](https://www.cel.eu/it/prodotti/alveolari/alluminio) per supportare i materiali poco rigidi. In alcuni casi potrebbe servire anche un taglierino (o Cutter) per aiutare la separazione dei pezzi.   
 
-## Processo di taglio e incisione
+## Impostazione del punto di origine
+
+## Processo di fresatura
 Per tagliare con la Laser Cutter segui i passaggi illustrati di seguito.   
 
 ### Accensione
