@@ -15,3 +15,7 @@ How to use Fablab's machines.
 ## [3D Printer](3d-printer/index.md)
 
 ![3d printer](3d-printer/img/3d-printer.jpg)
+
+## [Fresa CNC](CNC/index.md)
+
+![fresa cnc](CNC/img/roland-modela.jpg)
