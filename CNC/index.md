@@ -29,8 +29,8 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|     
-| Velocità di esecuzione         | XY-axis : 7 to 3000 mm/min, Z-axis : 7 to 1800 mm/min                               |   
-| Velocità di rotazione del mandrino       | 4,500 to15,000 rpm                                   |   
+| Velocità di esecuzione         | assi X-Y : 7-3000 mm/min, asse Z : 7-1800 mm/min                               |   
+| Velocità di rotazione del mandrino       | 4,500-15,000 rpm                                   |   
 | Risoluzione meccanica                | 0.002 mm/step                                |   
 | peso massimo del materiale     | 4 kg                                    |      
 | Grandezza massima area di fresatura   | 305x305x105 mm                              |         
