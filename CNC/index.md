@@ -6,8 +6,10 @@ La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario 
 ### Indice degli argomenti:
 - [Applicazioni](#applicazioni)
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
-- [impostazione del punto di origine](#impostazione-del-punto-di-origine)
 - [Processo di fresatura](#processo-di-fresatura)
+- [Settare Z con il sensore](#settare-punto-di-origine-z-con-il-sensore)
+- Spianatura piano martire
+- buchi per fissaggio
 - [FAQ](#faq)
 
 ## Applicazioni
@@ -44,94 +46,61 @@ La fresa Roland Modela è adatta alla fresatura di materiali quali il __legno__,
 Al Fablab hai la possibilità di utilizzare il computer collegato alla Laser Cutter, nel quale sono già presenti i drivers e i software necessari.   
 Il macchinario è compatibile con computer con sistemi operativi successivi a Windows Vista, equipaggiati con i software __VPanel__ e __SRP Player__.   
 
-### File da tagliare
+### File da fresare
 Per fresare si parte da un modello 3D salvato in formato __STL__. Attraverso l'utilizzo di __SRP Player__ citato nella sezione [software necessari](#pc-con-installati-i-software-necessari) il file verrà convertito in __G CODE__ e preparato per la fresatura.
 
 ### Accessori
 Gli oggetti esterni richiesti da questa lavorazione sono: un __piano di lavoro__ per il fissaggio del martire, l'__utensile__ adatto al materiale che si vuole fresare, due __chiavi inglesi misura 17 e 10__ per il fissaggio dell'utensile nel mandrino, __carta abrasiva__ nel caso di finiture finali.
 
-## Impostazione del punto di origine
-
-### Accensione
-Accendere la ciabatta elettrica collegata alla macchina, quindi accendere anche il computer e lo schermo alla destra della Laser Cutter.   
-![foto, indicare tasti di accensione](img/laser-cutter-accensione-pc.jpg)
-
-Accendere il refrigeratore (__Chiller__) a sinistra della macchina dallo switch posteriore.   
-![foto, indicare tasto](img/laser-cutter-accensione-chiller.jpg)
-
-__ATTENZIONE!__ Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.    
-Accendere quindi la macchina girando in senso orario la chiave dell'__interruttore generale__, sopra il __pannello di controllo__. Appena dopo l'accensione l'ugello si posizionerà automaticamente nell'angolo in alto a destra del piano, come mostrato in foto.   
-![foto, girare chiave](img/laser-cutter-accensione-macchina.jpg)
-
 ## Processo di fresatura
-Per tagliare con la Laser Cutter segui i passaggi illustrati di seguito.   
+Per fresare con la fresa CNC segui i passaggi illustrati di seguito.
+
+### Accensione 
+
+__ATTENZIONE!__ Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.   
+
+<!--accendere fresa retro-->
+![foto, indicare tasti di accensione](x)
+
+<!--accendere fresa fronte - homing-->
+![foto, indicare tasti di accensione](x)
+
+<!--accendere pc con psw-->  
+![foto, indicare tasto](x)
+
+### Montare l'utensile
+chiavi 10 e 17
+
+### Preparare il piano e il martire
+biadesivo
+
+### Caricare il materiale
+
+### Settare il punto di origine
+ V Panel
+ utilizzo sensore (sezione a parte) 
 
 ### Preparare il file   
-Inserire la chiavetta USB contenente il file e avviare __Lasercut 6.1__.   
-Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _File_>_Importa_>selezionare il file.   
-![screen, evidenziare percorso](img/laser-cutter-lasercut-importa.png)
+SRP Player
+add material e tool
+type of milling
+type of material
 
-È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinistra raffigurante un rettangolo quotato.   
-![screen, evidenziare posizione comandi](img/laser-cutter-lasercut-move-scale.png)
+### Partizione e simulazione della fresatura
+create tool path
 
-È consigliato avere un file di taglio composto da linee continue e non frammentate. Per unire automaticamente dei segmenti vicini selezionare le linee e seguire il percorso _Strumenti_>_Unisci Linee_> nella finestra di dialogo inserire distanza massima tra le linee da unire >_Ok_.
-![screen](img/laser-cutter-lasercut-unisci-linee.png) 
+### Fresare
 
-Inoltre, avere doppie linee nel file potrebbe creare problemi o allungare i tempi durante il taglio. È perciò consigliato eseguire un controllo delle doppie linee seguendo il percorso _Strumenti_>_Cancella Linee Sovrapposte_, il programma selezionerà tutte le linee sovrapposte e basterà premere il tasto _CANC_ per eliminarle.   
-![screen](img/laser-cutter-lasercut-doppie-linee.png)
-
-Dalla colonna a destra è possibile dividere le linee dell'oggetto in base a diversi __profili di taglio o incisione__. Selezionando la linea da isolare [1] e assegnandole un colore dalla barra in basso [2], il programma la inserisce in un profilo di taglio separato e modificabile in modo individuale [3].   
-Con i tasti _Sposta Su_ e _Sposta Giù_ si possono ordinare i colori in base all'ordine di esecuzione desiderato.  
-![screen](img/laser-cutter-lasercut-layers.jpg)
-
-Assegnate le varie linee ai __profili di taglio o incisione__, facendo doppio click sui colori dei profili si possono impostare le caratteristiche in base al tipo di lavorazione desiderata. Nelle immagini di seguito, sono evidenziate in giallo le voci da modificare per le __lavorazioni di taglio e raster__.   
-__Attenzione!__  non modificare gli altri parametri!
-![screen profili](img/laser-cutter-lasercut-taglio.png)
-![screen profili](img/laser-cutter-lasercut-raster.jpg)
-
-Controllare sempre dove è il __punto di origine del taglio__, segnato con un pallino blu. È possibile modificarne la posizione premendo il comando in alto e scegliendo la posizione desiderata dalla finestra di dialogo, premere infine _Ok_ per confermare.
-![screen comando](img/laser-cutter-lasercut-origine.png)
-
-
-Per inviare il file al macchinario si deve seguire il percorso _Download_>_Download File Corrente_>scegliere un nome, infine confermare l'azione.   
-![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)
-
-
-### Caricare il materiale 
-Aprire quindi il __coperchio__ del macchinario per inserire il materiale da tagliare e incidere.     
-Assicurarsi che le __doghe__ di ferro del macchinario siano ben disposte e nel caso di un materiale morbido (come il tessuto o la carta) aggiungere il piano in __metallo alveolare__.   
-Bloccare quindi il materiale utilizzando le __sbarre di ferro__ (poste a lato della macchina) come pesi. Assicurarsi infine che il materiale sia stabile, tamburellando lievemente per sentire se ci sono parti imbarcate.   
-__ATTENZIONE!__ assicurarsi che la __griglia dell'aspiratore__ (in rosso) sia pulita!   
-![foto materiale ben fissato](img/laser-cutter-caricamento.jpg)
-
-La forma conica del laser richiede anche una regolazione dell'asse z.   
-Muovere il piano dal __pannello di controllo__ premendo il tasto `Z` e poi le freccie `↑` e `↓`, posizionandolo il più in alto possibile senza danneggiare il __cannone del laser__. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo). La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.   
-Infine premere il tasto `Z` per uscire dalla selezione.
-![foto regolazione, tastierino con tasti da premere, blocchetto tra materiale e cannone](img/laser-cutter-asse-z.jpg)
-
-
-### Tagliare
-Prima di procedere al taglio è buona pratica fare dei test. Premere il tasto `Esc` per uscire dalla selezione, poi tramite i tasti `↑`, `↓`, `←` e `→` posizionare la testina contenente il laser sul materiale. Quindi premere il tasto `Test` e osservare se l'area descritta dalla testina rientra completamente nel materiale.   
-Per un'ulteriore conferma si può verificare l'esatta posizione del punto di partenza del laser. A __coperchio__ chiuso e __testina__ nella posizione desiderata, premere brevemente il tasto `Laser` per emettere un raggio e segnare il punto di partenza.   
-![foto tastierino con tasto da premere, foto piano con freccia di traiettoria](img/laser-cutter-test.jpg)
-
-Ricordarsi sempre di accendere l'__aspiratore__ dallo switch posto dietro al computer (in foto).   
-![foto, evidenziare tasto](img/laser-cutter-accensione-aspiratore.jpg)
-
-Si può quindi avviare il macchinario premendo il tasto `Start/Pause` sul __pannello di controllo__. Mentre la Laser Cutter esegue il taglio bisogna controllare che la pressione indicata sia a 2, se necessario modificarla agendo sulla __valvola__ indicata in foto.   
-![foto tastierino](img/laser-cutter-avviamento-macchina.jpg)
-
-A taglio e incisione terminati premere `Datum` sul __pannello di controllo__ per inviare la testina nell'angolo in alto a destra.   
-Si può quindi prelevare il materiale dal macchinario e separare e rimuovere i pezzi in eccesso.   
-![foto tastierino e posizione autohome](img/laser-cutter-pezzi-finiti.jpg)
 
 ### Spegnimento 
-Finito il processo si può spegnere l'__aspiratore__, se invece non si utilizza più il macchinario si deve spegnere anche il __Chiller__ e la Laser Cutter, girando la chiave di __avviamento__.   
-![foto tasto](img/laser-cutter-spegnimento-macchinario.jpg)
 
-Spegnere infine anche il Computer, il monitor e infine anche la ciabatta elettrica posizionata dietro, visibile nella [fase di accensione](#accensione).   
+
+## Settare punto di origine Z con il sensore
+
+
+## Spianatura del piano martire
+
+## Creazione dei fori
 
 
 ## FAQ
-__Perchè non posso tagliare il PVC?__   
-Il PVC non è adatto per l'incisione o il taglio laser a causa di sostanze specifiche che contiene e la formazione di acido cloridrico e gas velenosi.
