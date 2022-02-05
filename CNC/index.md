@@ -27,7 +27,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 
 ### Roland Modela MDX-40A
 ![fronte fresa](img/roland-modela.jpg)   
-![tecnico fresa](img/schema-roland-modela.png)
+![tecnico fresa](img/schema-roland-modela.PNG)
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|     
