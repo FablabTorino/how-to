@@ -7,7 +7,7 @@ La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario 
 - [Applicazioni](#applicazioni)
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
 - [Processo di fresatura](#processo-di-fresatura)
-- [Settare Z con il sensore](#settare-punto-di-origine-z-con-il-sensore)
+- [Settare Z con il sensore Z0](#settare-punto-di-origine-z-con-il-sensore)
 - Spianatura piano martire
 - buchi per fissaggio
 - [FAQ](#faq)
@@ -25,8 +25,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 - File da fresare  
 - Accessori (utensili da fresa, piano di fissaggio)  
 
-### Roland Modela MDX-40A
-![fronte fresa](img/roland-modela.jpg)   
+### Roland Modela MDX-40A 
 ![tecnico fresa](img/schema-roland-modela.PNG)
 
 | Caratteristiche tecniche           | Valori                                   |   
@@ -50,7 +49,7 @@ Il macchinario è compatibile con computer con sistemi operativi successivi a Wi
 Per fresare si parte da un modello 3D salvato in formato __STL__. Attraverso l'utilizzo di __SRP Player__ citato nella sezione [software necessari](#pc-con-installati-i-software-necessari) il file verrà convertito in __G CODE__ e preparato per la fresatura.
 
 ### Accessori
-Gli oggetti esterni richiesti da questa lavorazione sono: un __piano di lavoro__ per il fissaggio del martire, l'__utensile__ adatto al materiale che si vuole fresare, due __chiavi inglesi misura 17 e 10__ per il fissaggio dell'utensile nel mandrino, __carta abrasiva__ nel caso di finiture finali.
+Gli oggetti esterni richiesti da questa lavorazione sono: un __piano di lavoro__ per il fissaggio del martire, l'__utensile__ adatto al materiale che si vuole fresare, due __chiavi inglesi misura 17 e 10__ per il fissaggio dell'utensile nel mandrino, il __sensore Z0__ in dotazione con il maccinario e __carta abrasiva__ nel caso di finiture finali.
 
 ## Processo di fresatura
 Per fresare con la fresa CNC segui i passaggi illustrati di seguito.
