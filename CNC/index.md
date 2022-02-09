@@ -68,7 +68,7 @@ Quindi accendere la fresa agendo sul  __pulsante di accensione__ presente nel __
 
 ### Montare l'utensile
 Scelto l'utensile più adatto al materiale e alla finitura che si vuole ottenere (per ulteriori informazioni sulle punte Roland consultare la [guida veloce alle frese](src/end_mill_guide.pdf)), fissarlo al mandrino utilizzando due chiavi inglesi da 10 e da 17, utilizzandole come in figura.   
-![schema chiavi inglesi](x)
+![schema chiavi inglesi](img/end-mil-inserimento.png)
 
 ### Preparare il piano e il martire
 biadesivo
