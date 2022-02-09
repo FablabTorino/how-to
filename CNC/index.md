@@ -23,7 +23,7 @@ Prima di iniziare assicurati di avere tutto il necessario:
 - Blocco iniziale da fresare  
 - PC a lato macchina con installati i software necessari  
 - File da fresare  
-- Accessori (utensili da fresa, piano di fissaggio)  
+- Accessori   
 
 ### Roland Modela MDX-40A 
 ![tecnico fresa](img/schema-roland-modela.PNG)
@@ -54,18 +54,17 @@ Gli oggetti esterni richiesti da questa lavorazione sono: un __piano di lavoro__
 ## Processo di fresatura
 Per fresare con la fresa CNC segui i passaggi illustrati di seguito.
 
-### Accensione 
-
-__ATTENZIONE!__ Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.   
-
-<!--accendere fresa retro-->
+### Accensione   
+Accendere la ciabatta elettrica collegata alla macchina, quindi accendere anche il computer e lo schermo collegati alla fresa. 
+La password del computer è _password_.     
 ![foto, indicare tasti di accensione](x)
 
+__ATTENZIONE!__ Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli. Inoltre controllare che lo __sportello frontale__ sia chiuso.   
+Accendere la macchina premendo il __main power switch__ (interruttore di alimentazione) presente sul retro del macchinario.
+
+Quindi accendere la fresa agendo sul  __pulsante di accensione__ presente nel __pannello di controllo__. La macchina eseguirà in automatico un auto home portando il __mandrino__ (spindle head) nel punto di origine. <!--in che punto di origine? quello assoluto o l'ultimo settato?-->
 <!--accendere fresa fronte - homing-->
 ![foto, indicare tasti di accensione](x)
-
-<!--accendere pc con psw-->  
-![foto, indicare tasto](x)
 
 ### Montare l'utensile
 chiavi 10 e 17
