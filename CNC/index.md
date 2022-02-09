@@ -9,7 +9,6 @@ La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario 
 - [Processo di fresatura](#processo-di-fresatura)
 - [Settare Z con il sensore Z0](#settare-punto-di-origine-z-con-il-sensore)
 - Spianatura piano martire
-- buchi per fissaggio
 - [FAQ](#faq)
 
 ## Applicazioni
@@ -72,14 +71,23 @@ Scelto l'utensile più adatto al materiale e alla finitura che si vuole ottenere
 
 ### Preparare il piano martire e il materiale da fresare
 Portare in avanti il piano di lavoro premendo il tasto _VIEW_ dal pannello di controllo. Su questo è generalmente fissato il __piano sacrificale__ (piano martire, cerchiato in -colore-), un piano regolato secondo gli assi x-y del macchinario e che garantisce la perpendicolarità del pezzo rispetto al __mandrino__.   
+Se il __piano martire__ non è regolare, vedere la sezione[spianatura del piano martire](#spianatura-del-piano-martire).   
 ![immagine view e piano](x)
 
 Fissare al __piano martire__ il pezzo da lavorare tramite __biadesivo__ o tramite __tasselli M6__ (corrispondenti al diametro dei fori del piano martire).
 ![immagine pezzo fissato](x)
 
 ### Settare il punto di origine
- V Panel
- utilizzo sensore (sezione a parte) 
+Dal computer aprire il software __VPanel__. Controllare che il computer comunichi correttamente con la fresa, cliccando su _Setup_ e selezionando _Selected automatically_ nella finestra _Command Set_. Confermare cliccando su _OK_.   
+![v panel setup e selezione](x)
+
+Per muovere manualmente il __mandrino__ si può utilizzare il set di frecce (cerchiato in -colore-) presente sull'interfaccia di __VPanel__. Dalle voci sotto (cerchiate in -colore-) si può impostare l'entità del movimento e la velocità di esecuzione, inoltre nella colonna a sinistra vengono mostrate le coordinate relative al __punto di origine__ selezionato (dal _menù a tendina_ evidenziata in -colore- si può scegliere un altro punto d'origine).   
+![v panel frecce](x)
+
+Per visualizzare una posizione specifica settata precedentemente, aprire il _menù a tendina_ di fianco alla voce _Move to_ e premere il tasto _Move_.   
+Per impostare un nuovo __punto di origine__ nella sezione _Set Origin Point_ scegliere la voce da modificare (__ATTENZIONE!__ non modificare le impostazioni _Machine Coordinate System_), spostare il mandrino nella posizione desiderata con le frecce già citate precedentemente. Selezionando l'opzione _Set X-Y Origin_ (cerchiato in -colore-) e cliccando quindi sul tasto _Apply_ si impostano le coordinate degli assi x e y, si può fare lo stesso per l'asse z, selezionando _Set Z Origin_>_Apply_.   
+In alternativa, per settare il punto z si può utilizzare il __sensore Z0__, vedere la [sezione dedicata](#settare-punto-di-origine-z-con-il-sensore).   
+![screen v panel](x)
 
 ### Preparare il file   
 SRP Player
@@ -92,6 +100,8 @@ create tool path
 
 ### Fresare
 
+### Controllare nel mezzo della lavorazione
+
 
 ### Spegnimento 
 
@@ -100,8 +110,6 @@ create tool path
 
 
 ## Spianatura del piano martire
-
-## Creazione dei fori
 
 
 ## FAQ
