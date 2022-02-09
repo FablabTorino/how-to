@@ -107,6 +107,13 @@ create tool path
 
 
 ## Settare punto di origine Z con il sensore
+Per settare il punto di origine con la massima precisione, si può utilizzare il __Sensore Z0__ abbinato al macchinario.   
+Controllare che il sensore sia collegato alla fresa e disposto sul piano come da figure.   
+![sensore collegato](img/posizione-sensore-z0.png)
+
+Da __VPanel__, dopo aver settato le coordinate x e y seguendo la sezione [Settare il punto di origine](#settare-il-punto-di-origine) selezionare _Set Z origin using sensor_ e quindi cliccare su _Detect_.   
+![screen vpanel sensore](x)   
+
 
 
 ## Spianatura del piano martire
