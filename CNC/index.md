@@ -66,16 +66,19 @@ Quindi accendere la fresa agendo sul  __pulsante di accensione__ presente nel __
 ![foto, indicare tasti di accensione](x)
 
 ### Montare l'utensile
-Scelto l'utensile più adatto al materiale e alla finitura che si vuole ottenere (per ulteriori informazioni sulle punte Roland consultare la [guida veloce alle frese](src/end_mill_guide.pdf)), fissarlo al mandrino utilizzando due chiavi inglesi da 10 e da 17, utilizzandole come in figura.   
+Scelto l'utensile più adatto al materiale e alla finitura che si vuole ottenere (per ulteriori informazioni sulle punte Roland consultare la [guida veloce alle frese](src/end_mill_guide.pdf)), fissarlo al mandrino utilizzando due chiavi inglesi da 10 e da 17, disponendole come in figura.   
 ![schema chiavi inglesi](img/end-mil-inserimento.png)
 
 ### Preparare il piano martire e il materiale da fresare
 Portare in avanti il piano di lavoro premendo il tasto _VIEW_ dal pannello di controllo. Su questo è generalmente fissato il __piano sacrificale__ (piano martire, cerchiato in -colore-), un piano regolato secondo gli assi x-y del macchinario e che garantisce la perpendicolarità del pezzo rispetto al __mandrino__.   
-Se il __piano martire__ non è regolare, vedere la sezione[spianatura del piano martire](#spianatura-del-piano-martire).   
+Se il __piano martire__ non è regolare, vedere la sezione [spianatura del piano martire](#spianatura-del-piano-martire).   
 ![immagine view e piano](x)
 
 Fissare al __piano martire__ il pezzo da lavorare tramite __biadesivo__ o tramite __tasselli M6__ (corrispondenti al diametro dei fori del piano martire).
 ![immagine pezzo fissato](x)
+
+Tenere premuto per 3 secondi il tasto _VIEW_ per far tornare il piano di lavoro alla posizione per la lavorazione.
+![immagine view off](x)   
 
 ### Settare il punto di origine
 Dal computer aprire il software __VPanel__. Controllare che il computer comunichi correttamente con la fresa, cliccando su _Setup_ e selezionando _Selected automatically_ nella finestra _Command Set_. Confermare cliccando su _OK_.   
@@ -99,22 +102,30 @@ type of material
 create tool path
 
 ### Fresare
+__ATTENZIONE!__ mai aprire lo sportello durante la lavorazione, o il macchinario eseguirà un arresto di emergenza.
 
 ### Controllare nel mezzo della lavorazione
+Per controllare come procede la lavorazione senza rischiare di compromettere il lavoro, premere il pulsante __VIEW__ e attendere che il macchinario finisca di lampeggiare. Quando il piano di lavoro sarà fermo e il led vicino al tasto __VIEW__ avrà smesso di lampeggiare, si può aprire il __vetro protettivo__.   
+![foto view e vetro](x)
 
+Per riportareil piano in posizione e far ripartire la lavorazione dal punto di interruzione, richiudere il __vetro protettivo__ e tenere premuto il tasto __VIEW__ per 3 secondi.
+![foto view](x)
 
 ### Spegnimento 
-
+Per spegnere il macchinario chiudere il programma __VPanel__ da pc, quindi spegnere il macchinario dal __main power switch__ (interruttore di alimentazione) sul retro.
+![screen](x)
 
 ## Settare punto di origine Z con il sensore
-Per settare il punto di origine con la massima precisione, si può utilizzare il __Sensore Z0__ abbinato al macchinario.   
+Per settare il punto Z di origine con la massima precisione, si può utilizzare il __Sensore Z0__ abbinato al macchinario.   
 Controllare che il sensore sia collegato alla fresa e disposto sul piano come da figure.   
 ![sensore collegato](img/posizione-sensore-z0.png)
 
 Da __VPanel__, dopo aver settato le coordinate x e y seguendo la sezione [Settare il punto di origine](#settare-il-punto-di-origine) selezionare _Set Z origin using sensor_ e quindi cliccare su _Detect_.   
 ![screen vpanel sensore](x)   
 
-
+A questo punto l'utensile si abbasserà fino a toccare il __Sensore Z0__ e a definirne la posizione sull'asse Z.
+Nella finestra di dialogo che copare premere __Continue__ e rimuovere il sensore dal piano di lavoro.
+![schema z0 detection](x)
 
 ## Spianatura del piano martire
 
