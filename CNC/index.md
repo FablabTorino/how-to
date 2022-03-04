@@ -139,3 +139,13 @@ Nella finestra di dialogo che copare premere __Continue__ e rimuovere il sensore
 
 
 ## FAQ
+__Quali sono i limiti di una end mill?__   
+Un utensile ha principalmente tre limiti di cui tenere conto:   
+- non può fresare un foro o un particolare più piccolo del suo diametro.
+- una fresa larga non può fresare angoli troppo acuti (minori di 90°) -> usare delle frese con diametro minore per rifinire gli angoli.
+- non può fresare ad una profondità maggiore della sua lunghezza -> usare una fresa più lunga.
+
+__Come scelgo il numero di lame di una end mill?__
+Il numero di lame utili a fresare dipende dal tipo di materiale che si sta fresando e dalla lavorazione in corso. Alcuni esempi pratici:   
+- un utensile a tre lame ha una maggiore resistenza meccanica rispetto ad uno con due lame.
+- quattro o più lame sono ideali per lavori di finitura.
