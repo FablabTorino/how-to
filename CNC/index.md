@@ -40,6 +40,14 @@ Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditor
 ### Materiali lavorabili
 La fresa Roland Modela è adatta alla fresatura di materiali quali il __legno__, la __cera da prototipazione__ e i __materiali plastici__. Il blocco di partenza deve avere misura massima di __300x300x100 mm__.   
 
+### caratteristiche delle end mills   
+L'__end mill__ (utensile per la fresatura o fresa a candela) è un utensile da taglio che erode in direzione radiale il materiale. I vari utensili si distinguono tra di loro per diametro e lunghezze differenti, ma anche in base al numero di __lame__ che possiedono e al tipo di __punta__.   
+![schema end mill](img/end_mill_scheme.png)    
+In base al numero di lame (__flutes__), le __end mills__ si dividono in:
+![flute schema](img/end_mill_scheme_flute.png)
+Invece, in base al tipo di __punta__, gli utensili si dividono principalmente in __flat__, __ball__ e __engraving tool__ (per le incisioni).
+![tipi di punte](img/punte_fresa.jpg)
+
 ### PC con installati i software necessari
 Al Fablab hai la possibilità di utilizzare il computer collegato alla Laser Cutter, nel quale sono già presenti i drivers e i software necessari.   
 Il macchinario è compatibile con computer con sistemi operativi successivi a Windows Vista, equipaggiati con i software __VPanel__ e __SRP Player__.   
@@ -93,7 +101,7 @@ In alternativa, per settare il punto z si può utilizzare il __sensore Z0__, ved
 ![screen v panel](x)
 
 ### Preparare il file   
-SRP Player
+Dal Computer aprire il software __SRP Player__.
 add material e tool
 type of milling
 type of material
