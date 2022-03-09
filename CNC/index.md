@@ -83,16 +83,16 @@ Se il __piano martire__ non è regolare, vedere la sezione [spianatura del piano
 ![immagine view e piano](x)
 
 Fissare al __piano martire__ il pezzo da lavorare tramite __biadesivo__ o tramite __tasselli M6__ (corrispondenti al diametro dei fori del piano martire).
-![immagine pezzo fissato](x)
+![immagine pezzo fissato, vedere istruzioni](x-domani)
 
-Tenere premuto per 3 secondi il tasto _VIEW_ per far tornare il piano di lavoro alla posizione per la lavorazione.
-![immagine view off](x)   
+__RIVEDERE CON DAMIANO__ Tenere premuto per 3 secondi il tasto _VIEW_ per far tornare il piano di lavoro alla posizione per la lavorazione.
+![immagine view off](x-domani)   
 
 ### Settare il punto di origine
 Dal computer aprire il software __VPanel__. Controllare che il computer comunichi correttamente con la fresa, cliccando su _Setup_ e selezionando _Selected automatically_ nella finestra _Command Set_. Confermare cliccando su _OK_.   
 ![v panel setup e selezione](x)
 
-Per muovere manualmente il __mandrino__ si può utilizzare il set di frecce (cerchiato in -colore-) presente sull'interfaccia di __VPanel__. Dalle voci sotto (cerchiate in -colore-) si può impostare l'entità del movimento e la velocità di esecuzione, inoltre nella colonna a sinistra vengono mostrate le coordinate relative al __punto di origine__ selezionato (dal _menù a tendina_ evidenziata in -colore- si può scegliere un altro punto d'origine).   
+Per muovere manualmente il __mandrino__ si può utilizzare il set di frecce (cerchiato in -colore-) presente sull'interfaccia di __VPanel__. Dalle voci sotto (cerchiate in -colore-) si può impostare l'entità del movimento e la velocità di esecuzione, inoltre nella colonna a sinistra vengono mostrate le coordinate relative dal __punto di origine__ selezionato (dal _menù a tendina_ evidenziata in -colore- si può scegliere un altro punto d'origine).   
 ![v panel frecce](x)
 
 Per visualizzare una posizione specifica settata precedentemente, aprire il _menù a tendina_ di fianco alla voce _Move to_ e premere il tasto _Move_.   
@@ -114,13 +114,14 @@ __ATTENZIONE!__ mai aprire lo sportello durante la lavorazione, o il macchinario
 
 ### Controllare nel mezzo della lavorazione
 Per controllare come procede la lavorazione senza rischiare di compromettere il lavoro, premere il pulsante __VIEW__ e attendere che il macchinario finisca di lampeggiare. Quando il piano di lavoro sarà fermo e il led vicino al tasto __VIEW__ avrà smesso di lampeggiare, si può aprire il __vetro protettivo__.   
-![foto view e vetro](x)
+![foto view e vetro](x-domani)
 
 Per riportareil piano in posizione e far ripartire la lavorazione dal punto di interruzione, richiudere il __vetro protettivo__ e tenere premuto il tasto __VIEW__ per 3 secondi.
-![foto view](x)
+![foto view](x-domani)
 
 ### Spegnimento 
 Per spegnere il macchinario chiudere il programma __VPanel__ da pc, quindi spegnere il macchinario dal __main power switch__ (interruttore di alimentazione) sul retro.
+Spegnere il PC arrestando il sistema e lo schermo dall'apposito tasto. Spegnere infine la ciabatta elettrica collegata al macchinario.
 ![screen](x)
 
 ## Settare punto di origine Z con il sensore
