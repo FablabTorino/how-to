@@ -64,14 +64,14 @@ Per fresare con la fresa CNC segui i passaggi illustrati di seguito.
 ### Accensione   
 Accendere la ciabatta elettrica collegata alla macchina, quindi accendere anche il computer e lo schermo collegati alla fresa. 
 La password del computer è _password_.     
-![foto, indicare tasti di accensione](x)
+![foto, indicare tasti di accensione](img/accensione-pc.jpg)
 
-__ATTENZIONE!__ Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli. Inoltre controllare che lo __sportello frontale__ sia chiuso.   
-Accendere la macchina premendo il __main power switch__ (interruttore di alimentazione) presente sul retro del macchinario.
+__ATTENZIONE!__ Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli. Inoltre controllare che lo __sportello frontale__ sia chiuso.  
 
+Accendere la macchina premendo il __main power switch__ (interruttore di alimentazione) presente sul retro del macchinario.   
 Quindi accendere la fresa agendo sul  __pulsante di accensione__ presente nel __pannello di controllo__. La macchina eseguirà in automatico un auto home portando il __mandrino__ (spindle head) nel punto di origine. <!--in che punto di origine? quello assoluto o l'ultimo settato?-->
 <!--accendere fresa fronte - homing-->
-![foto, indicare tasti di accensione](x)
+![foto, indicare tasti di accensione](img/accensione-macchina.jpg)
 
 ### Montare l'utensile
 Scelto l'utensile più adatto al materiale e alla finitura che si vuole ottenere (per ulteriori informazioni sulle punte Roland consultare la [guida veloce alle frese](src/end_mill_guide.pdf)), fissarlo al mandrino utilizzando due chiavi inglesi da 10 e da 17, disponendole come in figura.   
@@ -80,7 +80,7 @@ Scelto l'utensile più adatto al materiale e alla finitura che si vuole ottenere
 ### Preparare il piano martire e il materiale da fresare
 Portare in avanti il piano di lavoro premendo il tasto _VIEW_ dal pannello di controllo. Su questo è generalmente fissato il __piano sacrificale__ (piano martire, cerchiato in -colore-), un piano regolato secondo gli assi x-y del macchinario e che garantisce la perpendicolarità del pezzo rispetto al __mandrino__.   
 Se il __piano martire__ non è regolare, vedere la sezione [spianatura del piano martire](#spianatura-del-piano-martire).   
-![immagine view e piano](x)
+![immagine view e piano]
 
 Fissare al __piano martire__ il pezzo da lavorare tramite __biadesivo__ o tramite __tasselli M6__ (corrispondenti al diametro dei fori del piano martire).
 ![immagine pezzo fissato, vedere istruzioni](x-domani)
