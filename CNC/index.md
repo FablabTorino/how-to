@@ -8,7 +8,7 @@ La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario 
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
 - [Processo di fresatura](#processo-di-fresatura)
 - [Settare Z con il sensore Z0](#settare-punto-di-origine-z-con-il-sensore)
-<!-- - Spianatura piano martire -->
+  <!-- - [Spianatura piano martire](#Spianatura del piano martire) -->
 - [FAQ](#faq)
 
 ## Applicazioni
@@ -121,7 +121,7 @@ Per riportareil piano in posizione e far ripartire la lavorazione dal punto di i
 ### Spegnimento 
 Per spegnere il macchinario chiudere il programma __VPanel__ da pc, quindi spegnere il macchinario dal __main power switch__ (interruttore di alimentazione) sul retro.
 Spegnere il PC arrestando il sistema e lo schermo dall'apposito tasto. Spegnere infine la ciabatta elettrica collegata al macchinario.
-![screen](x)
+![screen](img/spegnimento.jpg)
 
 ## Settare punto di origine Z con il sensore
 Per settare il punto Z di origine con la massima precisione, si può utilizzare il __Sensore Z0__ abbinato al macchinario.   
