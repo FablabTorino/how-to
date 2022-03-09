@@ -8,7 +8,7 @@ La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario 
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
 - [Processo di fresatura](#processo-di-fresatura)
 - [Settare Z con il sensore Z0](#settare-punto-di-origine-z-con-il-sensore)
-- Spianatura piano martire
+<!-- - Spianatura piano martire -->
 - [FAQ](#faq)
 
 ## Applicazioni
@@ -133,7 +133,7 @@ A questo punto l'utensile si abbasserà fino a toccare il __Sensore Z0__ e a def
 Nella finestra di dialogo che compare premere __Continue__ e rimuovere il sensore dal piano di lavoro.   
 ![schema z0 detection](img/vpanel-z0-sensor.png)
 
-## Spianatura del piano martire
+<!-- ## Spianatura del piano martire -->
 
 
 ## FAQ
