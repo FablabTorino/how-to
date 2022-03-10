@@ -101,16 +101,38 @@ In alternativa, per settare il punto z si può utilizzare il __sensore Z0__, ved
 
 ### Preparare il file   
 Dal Computer aprire il software __SRP Player__.
-add material e tool
-type of milling
-type of material
 
-### Partizione e simulazione della fresatura
-create tool path
+preferences? -> settare macchina, palette colori e unità di misura
+
+add\remove tools
+
+add material (surfacing)
+
+Importare il modello .STL su __SRP Player__ trascinandolo dalla cartella alla schermata del programma, oppure premendo _Open_ nella colonna a destra e selezionando il file nella cartella.
+![screen due modalità](x-domani)
+
+importato il modello controllare (e se necessario modificare) le dimensioni dal pannello a destra, evidenziato in -colore-. Sempre dalla colonna a destra è possibile ruotare il pezzo (comandi evidenziati in -colore-). Se si hanno dubbi riguardo l'esatto orientamento del pezzo, cliccare sul punto interrogativo blu per informazioni dettagliate.
+![screen scala e ruota](x-domani)
+
+type of milling - punto?blu
+
+type of material - dimensioni pezzo - punto?blu
+
+### Impostare i dettagli della fresatura
+create tool path - edit
+visualizzare e modificare processi (roughing e finishing)
+modifiche per il roughing - surface - margins - partial area - partial depth - tool - process (sono sempre disponibili?) - parametri di taglio
+modifiche per il finishing -> stesse possibilità, inserirle??
+
+<!-- •Feed Rate is the speed the tool is moving.
+•Spindle speed is how fast the tool spinning Cutting-in Amount is spinning.
+•Cutting in amount is the depth of cut for that tool.
+•The Path interval is the distance between tool passes. Finishing passes are usually much smaller than roughing passes. -->
 
 ### Fresare
-simulazione?
-spianatura?
+Preview results
+
+Perform cutting
 __ATTENZIONE!__ mai aprire lo sportello durante la lavorazione, o il macchinario eseguirà un arresto di emergenza.
 
 ### Controllare nel mezzo della lavorazione
@@ -119,6 +141,8 @@ Per controllare come procede la lavorazione senza rischiare di compromettere il 
 
 Per riportareil piano in posizione e far ripartire la lavorazione dal punto di interruzione, richiudere il __vetro protettivo__ e tenere premuto il tasto __VIEW__ per 3 secondi.
 ![foto view](x-domani)
+
+### Rimuovere il pezzo fresato?
 
 ### Spegnimento 
 Per spegnere il macchinario chiudere il programma __VPanel__ da pc, quindi spegnere il macchinario dal __main power switch__ (interruttore di alimentazione) sul retro.
