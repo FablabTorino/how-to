@@ -46,7 +46,7 @@ L'__end mill__ (utensile per la fresatura o fresa a candela) è un utensile da t
 In base al numero di lame (__flutes__), le __end mills__ si dividono in:
 ![flute schema](img/end_mill_scheme_flute.png)
 Invece, in base al tipo di __punta__, gli utensili si dividono principalmente in __flat__, __ball__ e __engraving tool__ (per le incisioni).
-![tipi di punte](img/punte_fresa.jpg)
+![tipi di punte](img/punte_fresa_grigio.jpg)
 
 ### PC con installati i software necessari
 Al Fablab hai la possibilità di utilizzare il computer collegato alla Laser Cutter, nel quale sono già presenti i drivers e i software necessari.   
@@ -109,6 +109,8 @@ type of material
 create tool path
 
 ### Fresare
+simulazione?
+spianatura?
 __ATTENZIONE!__ mai aprire lo sportello durante la lavorazione, o il macchinario eseguirà un arresto di emergenza.
 
 ### Controllare nel mezzo della lavorazione
