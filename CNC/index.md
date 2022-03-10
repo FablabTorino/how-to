@@ -82,10 +82,10 @@ Se il __piano martire__ non è regolare, vedere la sezione [spianatura del piano
 ![immagine view e piano](img/view-avanti.jpg)
 
 Fissare al __piano martire__ il pezzo da lavorare tramite __biadesivo__ o tramite __tasselli M6__ (corrispondenti al diametro dei fori del piano martire).
-![immagine pezzo fissato, vedere istruzioni](x-domani)
+![immagine pezzo fissato, vedere istruzioni](x-domaniok)
 
 __RIVEDERE CON DAMIANO__ Tenere premuto per 3 secondi il tasto _VIEW_ per far tornare il piano di lavoro alla posizione per la lavorazione.
-![immagine view off](x-domani)   
+![immagine view off](x-domani) non lo fa se non è durante la lavorazione, non torna indietro   
 
 ### Settare il punto di origine
 Dal computer aprire il software __VPanel__. Controllare che il computer comunichi correttamente con la fresa, cliccando su _Setup_ e selezionando _Selected automatically_ nella finestra _Command Set_. Confermare cliccando su _OK_.   
@@ -99,14 +99,25 @@ Per impostare un nuovo __punto di origine__ nella sezione _Set Origin Point_ sce
 In alternativa, per settare il punto z si può utilizzare il __sensore Z0__, vedere la [sezione dedicata](#settare-punto-di-origine-z-con-il-sensore).   
 ![screen v panel](img/vpanel-origine.png)
 
+__metterlo in user coordinate system__
+
 ### Preparare il file   
 Dal Computer aprire il software __SRP Player__.
 
-preferences? -> settare macchina, palette colori e unità di misura
+preferences? -> settare macchina, palette colori e unità di misura __non mettere__
+__mettere il tool path precision>preferences__ standard, fine o coarse
 
 add\remove tools
+per aggiungere utensili add remove tool>selez simile>copy>scrivee nome> impostare tool type e materiale>misurare e mod flute diam e lenght>register
+selez cutting parameters se vuoi cambiare materiale (cambia materiale cambiano i parametri di taglio in automatico)
 
-add material (surfacing)
+add remove material>new material>puoi aggiungere se hai nuovi materiali
+
+surfacingo o spianatura
+misurare punto più basso, option>surfacing, misurare pezzo e inserire le dimensioni in X Y. inserire quanto si vuole scavare in depth (in mm), selezionare lo start point. cutting parameters> variare cutting amount e indicare la distanza di taglio. scegliere anche se fare solo x o y o xy, scan line x per fare scavare x continuativo
+selezione del tipo di materiale
+surfacing>outputto file
+aprire vpanel cut>add>selez file (+screen come cancellare, importante se no fa i file vecchi!)
 
 Importare il modello .STL su __SRP Player__ trascinandolo dalla cartella alla schermata del programma, oppure premendo _Open_ nella colonna a destra e selezionando il file nella cartella.
 ![screen due modalità](x-domani)
@@ -114,13 +125,30 @@ Importare il modello .STL su __SRP Player__ trascinandolo dalla cartella alla sc
 importato il modello controllare (e se necessario modificare) le dimensioni dal pannello a destra, evidenziato in -colore-. Sempre dalla colonna a destra è possibile ruotare il pezzo (comandi evidenziati in -colore-). Se si hanno dubbi riguardo l'esatto orientamento del pezzo, cliccare sul punto interrogativo blu per informazioni dettagliate.
 ![screen scala e ruota](x-domani)
 
+per cambiare viste view e anche modi di visualizzare
+
 type of milling - punto?blu
+1-come elabora le curve, con che precisione
+2-scegliere se è un modello molto organico o geometrico
+3-scegliere se tagliare solo top o entrambi
 
 type of material - dimensioni pezzo - punto?blu
+scegliere materiali
+scegliere grandezza del pezzo iniziale di materiale (con altezza dopo sainatura)
+model placement
 
 ### Impostare i dettagli della fresatura
 create tool path - edit
-visualizzare e modificare processi (roughing e finishing)
+top surface>modelling> scegliere l'areadi lavoro > scegliere se si vuole un margine
+partial area, se si vuole fresare solo una area
+partial depth, selez flag per partire dal top
+selez punta (impostata prima)
+upcut o downcut - scegliere in base al materiale (es, venature legno)
+cutting parameters - impostati prima, si possono cambiare -> qui c'è il margine da lasciare per il rough
+infine create toolpath
+
+dopo averlo calcolato si può vedere il percorso edit>icona blu in alto
+
 modifiche per il roughing - surface - margins - partial area - partial depth - tool - process (sono sempre disponibili?) - parametri di taglio
 modifiche per il finishing -> stesse possibilità, inserirle??
 
@@ -128,11 +156,17 @@ modifiche per il finishing -> stesse possibilità, inserirle??
 •Spindle speed is how fast the tool spinning Cutting-in Amount is spinning.
 •Cutting in amount is the depth of cut for that tool.
 •The Path interval is the distance between tool passes. Finishing passes are usually much smaller than roughing passes. -->
+!pc fablab poco potente, per percorsi complessi usare un pc in grado di farlo
 
 ### Fresare
-Preview results
+!aspirare le polveri e salvare!!
 
-Perform cutting
+Preview results si può vedere tempo e prewiev taglio
+per vedere solo uno dei processi da edit togliere il cutting al processo che non interessa
+
+Perform cutting fare output to file>startcutting>selezione 0 -> fa un file per ogni lavorazione, rinominarlo con numerazione progressiva!!!
+aprire VPANEL>rifare lo 0>cut>importare i file in ordine, scegliere se si deve fermare dopo ogni lavorazione(per cambio utensile)
+si può salvare come lista per poterlo rifresare la prox volta
 __ATTENZIONE!__ mai aprire lo sportello durante la lavorazione, o il macchinario eseguirà un arresto di emergenza.
 
 ### Controllare nel mezzo della lavorazione
@@ -142,7 +176,7 @@ Per controllare come procede la lavorazione senza rischiare di compromettere il 
 Per riportareil piano in posizione e far ripartire la lavorazione dal punto di interruzione, richiudere il __vetro protettivo__ e tenere premuto il tasto __VIEW__ per 3 secondi.
 ![foto view](x-domani)
 
-### Rimuovere il pezzo fresato?
+rimuovere il prezzo fresato facendo attenzione a non danneggiarlo
 
 ### Spegnimento 
 Per spegnere il macchinario chiudere il programma __VPanel__ da pc, quindi spegnere il macchinario dal __main power switch__ (interruttore di alimentazione) sul retro.
@@ -159,7 +193,9 @@ A questo punto l'utensile si abbasserà fino a toccare il __Sensore Z0__ e a def
 Nella finestra di dialogo che compare premere __Continue__ e rimuovere il sensore dal piano di lavoro.   
 ![schema z0 detection](img/vpanel-z0-sensor.png)
 
-<!-- ## Spianatura del piano martire -->
+### modalità hole
+da SRP, option>hole
+scegliere tipo di pin, materiale e profondità
 
 
 ## FAQ
@@ -173,3 +209,5 @@ __Come scelgo il numero di lame di una end mill?__
 Il numero di lame utili a fresare dipende dal tipo di materiale che si sta fresando e dalla lavorazione in corso. Alcuni esempi pratici:   
 - un utensile a tre lame ha una maggiore resistenza meccanica rispetto ad uno con due lame.
 - quattro o più lame sono ideali per lavori di finitura.
+
+__come fare un foro__
