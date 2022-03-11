@@ -153,19 +153,31 @@ importato il modello controllare (e se necessario modificare) le dimensioni dal 
 È anche possibile cambiare lo stile di visualizzazione del modello, andando su _View_ e scegliendo tra le modalità _Wireframe_ o _Shading_ e le viste _Top_, _Front_ e _Side_ (in rosso).
 ![screen scala e ruota](img/SRP-initial.png)
 
+Nella colonna a destra selezionare _Type of Milling_ per ampliare la finestra di dialogo e procedere con la preparazione del modello.
+Verranno ora visualizzate diverse spunte:
+- la prima, evidenziata in verde permette di decidere come elaborare le curve, con che grado di precisione
+- la seconda, in blu, chiede di indicare se il modello ha forme organiche o è geometrico
+- la terza, in rosa, chiede innanzitutto di scegliere se il blocco è cilindrico (nel caso si disponga dell'asse rotazionale) o un parallelepipedo. Nel caso del parallelepipedo chiede anche di indicare se si ha intenzione di fresare solo la faccia superiore o anche quella inferiore.
 
-type of milling - punto?blu
-1-come elabora le curve, con che precisione
-2-scegliere se è un modello molto organico o geometrico
-3-scegliere se tagliare solo top o entrambi
+Come si può notare, a destra di ogni selezione c'è un punto interrogativo blu. In caso di dubbi, cliccandolo, si apre una finestra di dialogo con informazioni più dettagliate riguardo le scelte da fare.
+![type of milling](img/SRP-type-milling.png)
 
-type of material - dimensioni pezzo - punto?blu
-scegliere materiali
-scegliere grandezza del pezzo iniziale di materiale (con altezza dopo sainatura)
-model placement
+Nella colonna a destra selezionare _Create ToolPath_ per ampliare la finestra di dialogo e procedere con la preparazione del modello.
+Nella sezione in blu viene chiesto di selezionare tramite _menù a tendina_ il tipo di materiale che si sta per fresare.
+Appena sotto, in rosa, bisogna misurare e inserire le grandezze del pezzo iniziale di materiale, tenendo conto che se si è fatta la __spianatura__ è meglio misurare nuovamente l'altezza Z.
+Infine dal _menù a tendina_ in verde viene chiesto di indicare dove si colloca il modello all'interno del blocco di partenza, potendo scegliere tra tre opzioni:
+- _Align Top_ per allineare la faccia superiore del modello con quella del blocco
+- _Center_ per centrare il modello nel blocco
+- _Align Bottom_ per allineare la faccia inferiore del modello con quella del blocco
+
+![type of material](img/SRP-type-material.jpg)
 
 ### Impostare i dettagli della fresatura
-create tool path - edit
+Nella colonna a destra, dalla finestra _Create Tool Path_ selezionare _Edit..._ cerchiato in rosso. 
+La colonna a destra ora si colorerà di verde e mostrerà una lista espandibile, formata dalle lavorazioni attualmente attive ma modificabili. In alto ci sono diverse icone ( in rosa), da sinistra verso destra sono: _nuovo processo_ per aggiungere un nuovo processo alla lista, _abilita/disabilita processo_ per eseguire o meno uno dei processi, _copia processo_, _elimina processo_ e infine le frecce per riordinare la lista dei processi.
+Evidenziate in blu ci sono le due tipologie di lavorazioni, _Roughing_ per la __sgrossatura__ e il _Finishing_ per la __finitura__, sotto di esse una lista di caratteristiche impostabili, che ora vedremo una ad una.
+![toolpath1](img/SRP-toolpath1.png)
+
 top surface>modelling> scegliere l'areadi lavoro > scegliere se si vuole un margine
 partial area, se si vuole fresare solo una area
 partial depth, selez flag per partire dal top
