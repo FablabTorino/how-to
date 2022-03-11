@@ -2,13 +2,11 @@
 
 La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario sottrattivo a controllo numerico che utilizza una fresa per __asportare materiale nella quantità e forma richieste__. Questa tecnologia funziona applicando l'utensile all'albero della fresatrice e facendolo ruotare a varie velocità. I denti dotati di filo tagliente erodono e asportano il materiale seguendo un tracciato definito, permettedo di incidere, sagomare, tagliare e fresare una forma.
 
-
 ### Indice degli argomenti:
 - [Applicazioni](#applicazioni)
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
 - [Processo di fresatura](#processo-di-fresatura)
 - [Settare Z con il sensore Z0](#settare-punto-di-origine-z-con-il-sensore)
-- 
 - [FAQ](#faq)
 
 ## Applicazioni
@@ -225,10 +223,10 @@ In laboratorio c'è un __aspiratore a bidone__ che deve essere utilizzato per as
 
 ### Controllare nel mezzo della lavorazione
 Per controllare come procede la lavorazione senza rischiare di compromettere il lavoro, premere il pulsante __VIEW__ e attendere che il macchinario finisca di lampeggiare. Quando il piano di lavoro sarà fermo e il led vicino al tasto __VIEW__ avrà smesso di lampeggiare, si può aprire il __vetro protettivo__.   
-![foto view e vetro](x-domani)
+![foto view e vetro](img/view-avanti-pezzo.jpg)
 
 Per riportareil piano in posizione e far ripartire la lavorazione dal punto di interruzione, richiudere il __vetro protettivo__ e tenere premuto il tasto __VIEW__ per 3 secondi.
-![foto view](x-domani)
+![foto view](img/view-indietro-pezzo.jpg)
 
 ### Spegnimento 
 Aspirare i residui sul pezzo e rimuovere il pezzo fresato facendo attenzione a non danneggiarlo.
@@ -249,9 +247,9 @@ A questo punto l'utensile si abbasserà fino a toccare il __Sensore Z0__ e a def
 Nella finestra di dialogo che compare premere __Continue__ e rimuovere il sensore dal piano di lavoro.   
 ![schema z0 detection](img/vpanel-z0-sensor.png)
 
-### modalità hole
+<!--### modalità hole
 da SRP, option>hole
-scegliere tipo di pin, materiale e profondità
+scegliere tipo di pin, materiale e profondità -->
 
 
 ## FAQ
