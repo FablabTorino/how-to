@@ -178,13 +178,22 @@ La colonna a destra ora si colorerà di verde e mostrerà una lista espandibile,
 Evidenziate in blu ci sono le due tipologie di lavorazioni, _Roughing_ per la __sgrossatura__ e il _Finishing_ per la __finitura__, sotto di esse una lista di caratteristiche impostabili, che ora vedremo una ad una.
 ![toolpath1](img/SRP-toolpath1.png)
 
-top surface>modelling> scegliere l'areadi lavoro > scegliere se si vuole un margine
-partial area, se si vuole fresare solo una area
-partial depth, selez flag per partire dal top
+La prima caratteristica è _Top Surface_ che permette di decidere su quale faccia lavorare, nella maggior parte dei casi sarà la faccia superiore. Sotto questa possiamo trovare _Modeling Form_, da qui possiamo stabilire se vogliamo tenere un margine (flaggando _Add a margin_) e nel caso di che entità lo vogliamo. Con l'opzione _Make sloped_ è anche possibile stabilire se fare le pareti esterne con una inclinazione.
+Premere _Apply_ per confermare le scelte fatte.
+![toolpath modling form](img/SRP-toolpath2.png)
+
+Successivamente troviamo _Partial Area_ e _Partial Depth_, ci consentono entrambe di scegliere se la lavorazione in questione deve essere su tutto il blocco (_All_) o applicata solo su alcune parti (_Partial_), ma _Area_ si riferisce agli assi X-Y mentre _Depth_ solo all'asse Z. 
+In questo caso applichiamo la fresatura su tutta l'area X-Y. Per impostare la profondità a 10 mm, si seleziona _Partial_, flaggare la casella _Use model top as zero point_ per indicare la profondità rispetto alla faccia superiore e infine inserire il valore desiderato.
+Finito di impostare, premere _Apply_ per confermare le scelte fatte.
+![toolpath partials](img/SRP-toolpath3.png)
+
+
 selez punta (impostata prima)
+
 upcut o downcut - scegliere in base al materiale (es, venature legno)
 cutting parameters - impostati prima, si possono cambiare -> qui c'è il margine da lasciare per il rough
-infine create toolpath
+
+prima salvare infine create toolpath
 
 dopo averlo calcolato si può vedere il percorso edit>icona blu in alto
 
@@ -195,14 +204,16 @@ modifiche per il finishing -> stesse possibilità, inserirle??
 !pc fablab poco potente, per percorsi complessi usare un pc in grado di farlo
 
 ### Fresare
-!aspirare le polveri e salvare!!
-
 Preview results si può vedere tempo e prewiev taglio
-per vedere solo uno dei processi da edit togliere il cutting al processo che non interessa
+
 
 Perform cutting fare output to file>startcutting>selezione 0 -> fa un file per ogni lavorazione, rinominarlo con numerazione progressiva!!!
+
+
 aprire VPANEL>rifare lo 0>cut>importare i file in ordine, scegliere se si deve fermare dopo ogni lavorazione(per cambio utensile)
 si può salvare come lista per poterlo rifresare la prox volta
+
+
 __ATTENZIONE!__ mai aprire lo sportello durante la lavorazione, o il macchinario eseguirà un arresto di emergenza.Se si vuole interrompere momentaneamente la lavorazione per controllare la fresatura o aspirare i residui, seguire le istruzioni riportate nella sezione [Controllare nel mezzo della lavorazione](#controllare-nel-mezzo-della-lavorazione).
 
 __ATTENZIONE!__ pulire sempre il macchinario durante e dopo le lavorazioni, per evitare di accumulare troppa polvere che potrebbe costituire un rischio.
