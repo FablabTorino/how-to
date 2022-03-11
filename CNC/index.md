@@ -187,32 +187,35 @@ In questo caso applichiamo la fresatura su tutta l'area X-Y. Per impostare la pr
 Finito di impostare, premere _Apply_ per confermare le scelte fatte.
 ![toolpath partials](img/SRP-toolpath3.png)
 
+Si arriva quindi all'impostazione dell'utensile per fresare. Dal _menù a tendina_ (in rosso) è possibile scegliere l'utensile che è stato creato nella sezione [Impostare l'utensile](#impostare-lutensile), se si ha necessità è comunque possibile cambiare le caratteristiche. Premere _Aplly_ per confermare.
+Dall'opzione _Contour Lines_ si può decidere se si vuole fresare con _Up Cut_ (anche detto __modalità convenzionale__) o _Down Cut_ (detta __modalità climb__), per informazioni più dettagliate riguardo queste due modalità fare riferimento alla sezione [FAQ](#faq). Premere _Apply_ per confermare.
+![toolpath punta](img/SRP-toolpath4.png)
 
-selez punta (impostata prima)
+L'ultima voce dell'elenco è _Cutting Parameters_, da qui è possibile variare i parametri di taglio già impostati nella sezione [Impostare l'utensile](#impostare-lutensile). L'ultimo parametro, denominato _Finish Margin_ (in blu) permette di effettuare la lavorazione lasciando un margine stabilito dalla mesh finale, è perciò molto utile nelle fasi di __sgrossatura__. Premere _Apply_ per confermare le scelte.
+![toolpath parameters](img/SRP-toolpath5.png)
 
-upcut o downcut - scegliere in base al materiale (es, venature legno)
-cutting parameters - impostati prima, si possono cambiare -> qui c'è il margine da lasciare per il rough
+Impostati tutti i processi necessari, si può chiudere l'_Edit_ premendo su _Close_. 
+__ATTENZIONE!__ prima di calcolare il percorso macchina conviene salvare il file, per non rischiare di perdere il lavoro. Inoltre il PC collegato alla macchina è poco potente, in caso di percorsi complessi è consigliato usare un pc in grado di calcolarli.
+Premere quindi su _Create Tool Path_ e attendere che il PC finisca di processare. Una volta creato il percorso l'icona evidenziata sarà colorata di rosso.
+![create toolpath](img/SRP-create-toolpath.png)
 
-prima salvare infine create toolpath
-
-dopo averlo calcolato si può vedere il percorso edit>icona blu in alto
-
-modifiche per il roughing - surface - margins - partial area - partial depth - tool - process (sono sempre disponibili?) - parametri di taglio FAQ
-modifiche per il finishing -> stesse possibilità, inserirle??
-
-
-!pc fablab poco potente, per percorsi complessi usare un pc in grado di farlo
+Tornando ora su _Edit_ e cliccando sulle lavorazioni, sarà possibile vedere una preview del percorso utensile, segnalato da delle righe blu come in foto.
+![preview path](img/SRP-preview-path.png)
 
 ### Fresare
-Preview results si può vedere tempo e prewiev taglio
+Nella colonna a destra cliccare su _Preview Results_ per aprire la finestra e procedere.
+Da qui sarà possibile avere una anteprima del pezzo fresato premendo sul bottone _Preview Cutting_ e aspettando che finisca di processare. Inoltre è possibile vedere una stima del tempo che impiegherà il macchinario a fresare il tutto, leggendo il valore affianco a _Estimated cutting time_ evidenziato in verde.
+![preview cut](img/SRP-preview-cut.png)
 
+Nella colonna a destra selezionare _Perform Cutting_, l'ultimo step del processo.
+Mettere il flag alla casella _Output to file_, quindi premere il pulsante _Start Cutting.._. A questo punto si aprirà una finestra di dialogo, selezionare dove è posizionato il punto di origine rispetto al blocco di partenza (rappresentato da un parallelepipedo azzurro) e premere _Avanti>_.
+![start cutting](img/SRP-esporta.png)
 
-Perform cutting fare output to file>startcutting>selezione 0 -> fa un file per ogni lavorazione, rinominarlo con numerazione progressiva!!!
-
-
-aprire VPANEL>rifare lo 0>cut>importare i file in ordine, scegliere se si deve fermare dopo ogni lavorazione(per cambio utensile)
-si può salvare come lista per poterlo rifresare la prox volta
-
+Salvare i file con una numerazione progressiva come in foto, poichè __SRP Player__ farà un file per ogni lavorazione e si rischia di sbagliare l'ordine di esecuzione.
+Aprire __VPanel__ e controllare che il punto di origine sia settato nella posizione giusta, in caso contrario tornare alla sezione [Settare il punto d'origine](#settare-il-punto-di-origine). Premere quindi _Cut_, nella finestra appena comparsa rimuovere eventuali file residui e importare (cliccando su _Add_) i file da fresare in ordine di esecuzione. 
+Tra le impostazioni presenti in questa finestra c'è _Save List..._ evidenziato in rosa, utile per salvare la lista di lavorazioni ed eventalmente eseguirla in futuro. C'è inoltre la casella _Pause at Each File_, nel caso si avesse necessità di cambiare punta ad ogni lavorazione la si deve spuntare.
+Infine premere il tasto _Output_ per avviare la macchina.
+![eseguire](img/vpanel-esegui.png)
 
 __ATTENZIONE!__ mai aprire lo sportello durante la lavorazione, o il macchinario eseguirà un arresto di emergenza.Se si vuole interrompere momentaneamente la lavorazione per controllare la fresatura o aspirare i residui, seguire le istruzioni riportate nella sezione [Controllare nel mezzo della lavorazione](#controllare-nel-mezzo-della-lavorazione).
 
@@ -271,3 +274,4 @@ Il numero di lame utili a fresare dipende dal tipo di materiale che si sta fresa
 
 __come fare un foro__
 
+__Up Cut e Down Cut__
