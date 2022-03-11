@@ -145,13 +145,14 @@ In laboratorio c'è un __aspiratore a bidone__ che deve essere utilizzato per as
 ![aspirapolvere](img/aspirazione-spianatura.jpg)
 
 ### Preparare il file
-Importare il modello .STL su __SRP Player__ trascinandolo dalla cartella alla schermata del programma, oppure premendo _Open_ nella colonna a destra e selezionando il file nella cartella.
-![screen due modalità](x-domani)
+Riaprire __SRP Player__.
+Importare il modello .STL sul software trascinandolo dalla cartella alla schermata del programma, oppure premendo _Open_ nella colonna a destra e selezionando il file nella cartella.
+![screen due modalità](img/SRP-open.png)
 
-importato il modello controllare (e se necessario modificare) le dimensioni dal pannello a destra, evidenziato in -colore-. Sempre dalla colonna a destra è possibile ruotare il pezzo (comandi evidenziati in -colore-). Se si hanno dubbi riguardo l'esatto orientamento del pezzo, cliccare sul punto interrogativo blu per informazioni dettagliate.
-![screen scala e ruota](x-domani)
+importato il modello controllare (e se necessario modificare) le dimensioni dal pannello a destra, evidenziato in blu. Sempre dalla colonna a destra è possibile ruotare il pezzo (comandi evidenziati in verde). Se si hanno dubbi riguardo l'esatto orientamento del pezzo, cliccare sul punto interrogativo blu per informazioni dettagliate.
+È anche possibile cambiare lo stile di visualizzazione del modello, andando su _View_ e scegliendo tra le modalità _Wireframe_ o _Shading_ e le viste _Top_, _Front_ e _Side_ (in rosso).
+![screen scala e ruota](img/SRP-initial.png)
 
-per cambiare viste view e anche modi di visualizzare
 
 type of milling - punto?blu
 1-come elabora le curve, con che precisione
