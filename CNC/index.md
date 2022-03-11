@@ -95,7 +95,7 @@ Per impostare un nuovo __punto di origine__ nella sezione _Set Origin Point_ sce
 In alternativa, per settare il punto z si può utilizzare il __sensore Z0__, vedere la [sezione dedicata](#settare-punto-di-origine-z-con-il-sensore).   
 ![screen v panel](img/vpanel-origine.png)
 
-### Preparare il file   
+### Impostare l'utensile   
 Dal Computer aprire il software __SRP Player__.   
 Seguendo il percorso _File_>_Preferences_ è possibile modificare le impostazioni generali, delle unità di misura e dello schema colori. Cliccando sul tab _Advanced_ è possibile variare la precisione del percorso di fresatura (__Tool path Precision__ evidenziata in blu), scegliendo tra _Fine_, _Standard_ o _Coarse_ (ovvero Sgrossatura).
 ![screen preferences](img/SRP-preferences.png)
@@ -107,19 +107,38 @@ A questo punto si può selezionare un utensile simile e premere _Copy_, nella zo
 - in _Material_ scegliere il materiale di cui è fatto l'utensile
 - in _Flute Diameter_ e _Flute Lenght_ misurare e inserire le dimensioni dell'utensile, fare riferimento alla sezione [Caratteristiche delle End Mills](#caratteristiche-delle-end-mills) per eventuali dubbi riguardo le misure.   
 
-Premere infine _Register_ per salvare l'utensile impostato.
+Premere infine _Register_ per salvare l'utensile impostato.   
+Se si vuole eliminare un utensile creato selezionarlo e premere _Delete_.
 ![screen add tool](img/SRP-add-tool.png)
 
-selez cutting parameters se vuoi cambiare materiale (cambia materiale cambiano i parametri di taglio in automatico)
+Rimanendo nella finestra di dialogo _Add/Remove Tool_, cliccare su _Cutting Parameters..._ per aprire una nuova finestra, evidenziata in rosso. Da qui è possibile cambiare il materiale che si ha intenzione di fresare e se necessario variare i parametri di taglio (evidenziati in verde, per maggiori informazioni a riguardo andare nella sezione [FAQ](#faq)).
+Notare che cambiando il materiale da fresare, __SRP Player__ varia già i parametri, basandoli su punte similari a quella che si sta utilizzando.
+Premere infine _Register_ e quindi _OK_ per chiudere entrambe le finestre di dialogo.
+![screen parametri punte](img/SRP-cutting-parameters.png)
 
-add remove material>new material>puoi aggiungere se hai nuovi materiali
+### Fare la spianatura del materiale
+Prima di iniziare a impostare il file da fresare è bene __spianare__ il blocco di materiale che si intende utilizzare, assicurandosi di avere ogni punto della faccia superiore allineato.   
+Da __SRP Player__ eseguire il percorso _Options_>_Surfacing_ aprendo la finestra di dialogo mostrata in foto. Selezionare dalla tendina _Material_ (in verde) il tipo di materiale che si sta per lavorare e da _Tool_ (in giallo) la punta che si utilizza per spianare. Quindi misurare la X e la Y del blocco e riportarla in mm (come evidenziato in blu).
+![screen surf1](img/SRP-surf1.jpg)
 
-surfacingo o spianatura
-misurare punto più basso, option>surfacing, misurare pezzo e inserire le dimensioni in X Y. inserire quanto si vuole scavare in depth (in mm), selezionare lo start point. cutting parameters> variare cutting amount e indicare la distanza di taglio. scegliere anche se fare solo x o y o xy, scan line x per fare scavare x continuativo
-selezione del tipo di materiale
-surfacing>outputto file
-aprire vpanel cut>add>selez file (+screen come cancellare, importante se no fa i file vecchi!)
+Misurare l'altezza del blocco nel punto più basso e inserire quanto lo si vuole scavare nel campo _Depht_ evidenziato in blu. Nella parte destra della finestra si può decidere come sarà lo spostamento del __surfacing__ (evidenziati in giallo, _scan lines_: l'utensile fresa con un movimento continuo; _Unidirectional_: l'utensile fresa solo in una direzione e poi fa uno spostamento per tornare indietro), qui ci sono anche le impostazioni di _Cutting Start Position_ (in verde) per decidere da che posizione inizierà la __spianatura__.
+![screen surf2](img/SRP-surf2.jpg)
 
+Premere ora su _Cutting Parameters_, facendo comparire una nuova finestra per poter modificare i parametri di taglio. Nello specifico, ci interessa avere il minor numero si passate per non impiegare troppo tempo a spianare il blocco. Andiamo quindi a modificare il campo _Cutting-in Amount_ evidenziato in verde: In questo caso vogliamo la spianatura di 5 mm, contando che non conviene avere il _Cutting-in Amount_ maggiore di 2.5 mm, avremo due soli passaggi di spianatura da 2.5 mm.
+Premere quindi _OK_ e di nuovo _OK_.
+![screen surf3](img/SRP-surf3.png)
+
+A questo punto si aprirà la finestra mostrata un foto. Selezionare uno dei due punti postu sul parallelepipedo azzurro, in base a dove è stato posizionato il punto di origine (in caso di dubbi, vedere la [sezione dedicata](#settare-il-punto-di-origine)), in questo caso il punto d'origine è sullo spigolo. Quindi flaggare la casella _Output to file_ e premere _Start Surfacing_. 
+Se questo passaggio è andato a buon fine la macchina non inizierà a fare la spianatura ma si sarà generato un file .GCODE, in caso contrario __bloccare immediatamente la macchina!__
+![screen surf4](img/SRP-surf4.png)
+
+Aprire infine __VPanel__ e cliccare su _Cut.._. 
+Nella nuova finestra premere _Add_ e scegliere il file .GCODE di spianatura dalla cartella di destinazione.
+__ATTENZIONE!__ il software tiene in memoria le lavorazioni dell'ultima sessione, assicurarsi di cancellare le lavorazioni che non devono essere eseguite. Per farlo selezionare gli elementi da eliminare e selezionare _Delete_ (evidenziato in blu, nel caso si volessero eliminare tutte selezionare _Delete All_).
+Dopo essersi assicurati che il punto d'origine sia settato e la lavorazione in lista sia solo la spianatura, Premere su _Output_ per far partire la fresatura.
+![screen surf5](img/SRP-surf5.jpg)
+
+### Preparare il file
 Importare il modello .STL su __SRP Player__ trascinandolo dalla cartella alla schermata del programma, oppure premendo _Open_ nella colonna a destra e selezionando il file nella cartella.
 ![screen due modalità](x-domani)
 
@@ -150,13 +169,10 @@ infine create toolpath
 
 dopo averlo calcolato si può vedere il percorso edit>icona blu in alto
 
-modifiche per il roughing - surface - margins - partial area - partial depth - tool - process (sono sempre disponibili?) - parametri di taglio
+modifiche per il roughing - surface - margins - partial area - partial depth - tool - process (sono sempre disponibili?) - parametri di taglio FAQ
 modifiche per il finishing -> stesse possibilità, inserirle??
 
-<!-- •Feed Rate is the speed the tool is moving.
-•Spindle speed is how fast the tool spinning Cutting-in Amount is spinning.
-•Cutting in amount is the depth of cut for that tool.
-•The Path interval is the distance between tool passes. Finishing passes are usually much smaller than roughing passes. -->
+
 !pc fablab poco potente, per percorsi complessi usare un pc in grado di farlo
 
 ### Fresare
@@ -201,6 +217,12 @@ scegliere tipo di pin, materiale e profondità
 
 
 ## FAQ
+__Quali sono precisamente i parametri di taglio?__
+•Feed Rate is the speed the tool is moving.
+•Spindle speed is how fast the tool spinning Cutting-in Amount is spinning.
+•Cutting in amount is the depth of cut for that tool.
+•The Path interval is the distance between tool passes. Finishing passes are usually much smaller than roughing passes.
+
 __Quali sono i limiti di una end mill?__   
 Un utensile ha principalmente tre limiti di cui tenere conto:   
 - non può fresare un foro o un particolare più piccolo del suo diametro.
@@ -213,3 +235,4 @@ Il numero di lame utili a fresare dipende dal tipo di materiale che si sta fresa
 - quattro o più lame sono ideali per lavori di finitura.
 
 __come fare un foro__
+
