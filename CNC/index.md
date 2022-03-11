@@ -138,6 +138,12 @@ __ATTENZIONE!__ il software tiene in memoria le lavorazioni dell'ultima sessione
 Dopo essersi assicurati che il punto d'origine sia settato e la lavorazione in lista sia solo la spianatura, Premere su _Output_ per far partire la fresatura.
 ![screen surf5](img/SRP-surf5.jpg)
 
+__ATTENZIONE!__ mai aprire lo sportello durante la lavorazione, o il macchinario eseguirà un arresto di emergenza. Se si vuole interrompere momentaneamente la lavorazione per controllare la fresatura o aspirare i residui, seguire le istruzioni riportate nella sezione [Controllare nel mezzo della lavorazione](#controllare-nel-mezzo-della-lavorazione).
+
+__ATTENZIONE!__ pulire sempre il macchinario durante e dopo le lavorazioni, per evitare di accumulare troppa polvere che potrebbe costituire un rischio.
+In laboratorio c'è un __aspiratore a bidone__ che deve essere utilizzato per aspirare i residui di lavorazione.
+![aspirapolvere](img/aspirazione-spianatura.jpg)
+
 ### Preparare il file
 Importare il modello .STL su __SRP Player__ trascinandolo dalla cartella alla schermata del programma, oppure premendo _Open_ nella colonna a destra e selezionando il file nella cartella.
 ![screen due modalità](x-domani)
@@ -184,7 +190,11 @@ per vedere solo uno dei processi da edit togliere il cutting al processo che non
 Perform cutting fare output to file>startcutting>selezione 0 -> fa un file per ogni lavorazione, rinominarlo con numerazione progressiva!!!
 aprire VPANEL>rifare lo 0>cut>importare i file in ordine, scegliere se si deve fermare dopo ogni lavorazione(per cambio utensile)
 si può salvare come lista per poterlo rifresare la prox volta
-__ATTENZIONE!__ mai aprire lo sportello durante la lavorazione, o il macchinario eseguirà un arresto di emergenza.
+__ATTENZIONE!__ mai aprire lo sportello durante la lavorazione, o il macchinario eseguirà un arresto di emergenza.Se si vuole interrompere momentaneamente la lavorazione per controllare la fresatura o aspirare i residui, seguire le istruzioni riportate nella sezione [Controllare nel mezzo della lavorazione](#controllare-nel-mezzo-della-lavorazione).
+
+__ATTENZIONE!__ pulire sempre il macchinario durante e dopo le lavorazioni, per evitare di accumulare troppa polvere che potrebbe costituire un rischio.
+In laboratorio c'è un __aspiratore a bidone__ che deve essere utilizzato per aspirare i residui di lavorazione.
+![aspirapolvere](img/aspirazione-post.jpg)
 
 ### Controllare nel mezzo della lavorazione
 Per controllare come procede la lavorazione senza rischiare di compromettere il lavoro, premere il pulsante __VIEW__ e attendere che il macchinario finisca di lampeggiare. Quando il piano di lavoro sarà fermo e il led vicino al tasto __VIEW__ avrà smesso di lampeggiare, si può aprire il __vetro protettivo__.   
@@ -193,10 +203,11 @@ Per controllare come procede la lavorazione senza rischiare di compromettere il 
 Per riportareil piano in posizione e far ripartire la lavorazione dal punto di interruzione, richiudere il __vetro protettivo__ e tenere premuto il tasto __VIEW__ per 3 secondi.
 ![foto view](x-domani)
 
-rimuovere il prezzo fresato facendo attenzione a non danneggiarlo
-![foto finale pezzo](x)
-
 ### Spegnimento 
+Aspirare i residui sul pezzo e rimuovere il pezzo fresato facendo attenzione a non danneggiarlo.
+Aspirare quindi anche il resto del macchinario con cura per evitare l'accumulo di polveri.
+![finito e aspirazione](img/aspirazione-finale.jpg)
+
 Per spegnere il macchinario chiudere il programma __VPanel__ da pc, quindi spegnere il macchinario dal __main power switch__ (interruttore di alimentazione) sul retro.
 Spegnere il PC arrestando il sistema e lo schermo dall'apposito tasto. Spegnere infine la ciabatta elettrica collegata al macchinario.
 ![screen](img/spegnimento.jpg)
