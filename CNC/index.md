@@ -8,7 +8,7 @@ La [Fresatrice CNC](https://it.wikipedia.org/wiki/Fresatrice) è un macchinario 
 - [Strumenti, materiali e file](#strumenti-materiali-e-file)
 - [Processo di fresatura](#processo-di-fresatura)
 - [Settare Z con il sensore Z0](#settare-punto-di-origine-z-con-il-sensore)
-  <!-- - [Spianatura piano martire](#Spianatura del piano martire) -->
+- 
 - [FAQ](#faq)
 
 ## Applicazioni
@@ -40,7 +40,7 @@ Per ulteriori informazioni consultare la scheda tecnica sul [sito del rivenditor
 ### Materiali lavorabili
 La fresa Roland Modela è adatta alla fresatura di materiali quali il __legno__, la __cera da prototipazione__ e i __materiali plastici__. Il blocco di partenza deve avere misura massima di __300x300x100 mm__.   
 
-### caratteristiche delle end mills   
+### Caratteristiche delle end mills   
 L'__end mill__ (utensile per la fresatura o fresa a candela) è un utensile da taglio che erode in direzione radiale il materiale. I vari utensili si distinguono tra di loro per diametro e lunghezze differenti, ma anche in base al numero di __lame__ che possiedono e al tipo di __punta__.   
 ![schema end mill](img/end_mill_scheme.png)    
 In base al numero di lame (__flutes__), le __end mills__ si dividono in:
@@ -77,38 +77,39 @@ Scelto l'utensile più adatto al materiale e alla finitura che si vuole ottenere
 ![schema chiavi inglesi](img/end-mil-inserimento.png)
 
 ### Preparare il piano martire e il materiale da fresare
-Portare in avanti il piano di lavoro premendo il tasto _VIEW_ dal pannello di controllo. Su questo è generalmente fissato il __piano sacrificale__ (piano martire, cerchiato in -colore-), un piano regolato secondo gli assi x-y del macchinario e che garantisce la perpendicolarità del pezzo rispetto al __mandrino__.   
-Se il __piano martire__ non è regolare, vedere la sezione [spianatura del piano martire](#spianatura-del-piano-martire).   
+Portare in avanti il piano di lavoro premendo il tasto _VIEW_ dal pannello di controllo. Su questo è generalmente fissato il __piano sacrificale__ (piano martire), un piano regolato secondo gli assi x-y del macchinario e che garantisce la perpendicolarità del pezzo rispetto al __mandrino__.      
 ![immagine view e piano](img/view-avanti.jpg)
 
-Fissare al __piano martire__ il pezzo da lavorare tramite __biadesivo__ o tramite __tasselli M6__ (corrispondenti al diametro dei fori del piano martire).
-![immagine pezzo fissato, vedere istruzioni](x-domaniok)
-
-__RIVEDERE CON DAMIANO__ Tenere premuto per 3 secondi il tasto _VIEW_ per far tornare il piano di lavoro alla posizione per la lavorazione.
-![immagine view off](x-domani) non lo fa se non è durante la lavorazione, non torna indietro   
+Fissare al __piano martire__ il pezzo da lavorare tramite __biadesivo__ (evidenziati in blu) o tramite __tasselli M6__ (corrispondenti al diametro dei fori del piano martire, cerchiati in rosso).   
+![immagine pezzo fissato, vedere istruzioni](img/fissaggio-piano.jpg)
 
 ### Settare il punto di origine
 Dal computer aprire il software __VPanel__. Controllare che il computer comunichi correttamente con la fresa, cliccando su _Setup_ e selezionando _Selected automatically_ nella finestra _Command Set_. Confermare cliccando su _OK_.   
 ![v panel setup e selezione](img/vpanel-command-set.png)
 
-Per muovere manualmente il __mandrino__ si può utilizzare il set di frecce (evidenziato in giallo) presente sull'interfaccia di __VPanel__. Dalle voci sotto (evidenziate in blu) si può impostare l'entità del movimento e la velocità di esecuzione, inoltre nella colonna a sinistra vengono mostrate le coordinate relative dal __punto di origine__ selezionato (dal _menù a tendina_ evidenziato in verde si può scegliere un altro punto d'origine).   
-Per visualizzare una posizione specifica settata precedentemente, aprire il _menù a tendina_ di fianco alla voce _Move to_ e premere il tasto _Move_ (evidenziato in rosso).
+Per muovere manualmente il __mandrino__ si può utilizzare il set di frecce (evidenziato in giallo) presente sull'interfaccia di __VPanel__, dalle voci sotto (evidenziate in blu) si può impostare l'entità del movimento e la velocità di esecuzione. Inoltre nella colonna a sinistra vengono mostrate le coordinate relative dal __punto di origine__ selezionato  e dal _menù a tendina_ in alto si può scegliere un altro punto d'origine (questo set di comandi è evidenziato in verde).   
+Per visualizzare una posizione specifica settata precedentemente, aprire il _menù a tendina_ di fianco alla voce _Move to_, selezionare quali coordinate si vogliono visualizzare e premere il tasto _Move_ (evidenziato in rosso).
 ![v panel frecce](img/vpanel-frecce.png)
   
-Per impostare un nuovo __punto di origine__ nella sezione _Set Origin Point_ scegliere dalla tendina la voce da modificare (__ATTENZIONE!__ non modificare le impostazioni _Machine Coordinate System_), spostare il mandrino nella posizione desiderata con le frecce già citate precedentemente. Selezionando l'opzione _Set X-Y Origin_ (cerchiato in -colore-) e cliccando quindi sul tasto _Apply_ si impostano le coordinate degli assi x e y, si può fare lo stesso per l'asse z, selezionando _Set Z Origin_>_Apply_.   
+Per impostare un nuovo __punto di origine__ nella sezione _Set Origin Point_ scegliere dalla tendina la voce _User Coordinate System_ da modificare, spostare il mandrino nella posizione desiderata con le frecce già citate precedentemente. Selezionando l'opzione _Set X-Y Origin_ (cerchiato in rosso) e cliccando quindi sul tasto _Apply_ si impostano le coordinate degli assi x e y, si può fare lo stesso per l'asse z, selezionando _Set Z Origin_>_Apply_.   
 In alternativa, per settare il punto z si può utilizzare il __sensore Z0__, vedere la [sezione dedicata](#settare-punto-di-origine-z-con-il-sensore).   
 ![screen v panel](img/vpanel-origine.png)
 
-__metterlo in user coordinate system__
-
 ### Preparare il file   
-Dal Computer aprire il software __SRP Player__.
+Dal Computer aprire il software __SRP Player__.   
+Seguendo il percorso _File_>_Preferences_ è possibile modificare le impostazioni generali, delle unità di misura e dello schema colori. Cliccando sul tab _Advanced_ è possibile variare la precisione del percorso di fresatura (__Tool path Precision__ evidenziata in blu), scegliendo tra _Fine_, _Standard_ o _Coarse_ (ovvero Sgrossatura).
+![screen preferences](img/SRP-preferences.png)
 
-preferences? -> settare macchina, palette colori e unità di misura __non mettere__
-__mettere il tool path precision>preferences__ standard, fine o coarse
+Nel caso si voglia utilizzare un utensile che non risulta in lista (visibile seguendo il percorso _Options_>_My Tools_), bisogna aggiungerlo da _Options_>_Add/Remove Tool..._ e aprendo così la finestra di dialogo in foto (percorso evidenziato in rosso).   
+A questo punto si può selezionare un utensile simile e premere _Copy_, nella zona evidenziata in verde cambiare il nome in _Tool Name_ per evitare confusione e procedere quindi a impostare le caratteristiche proprie dell'utensile:
 
-add\remove tools
-per aggiungere utensili add remove tool>selez simile>copy>scrivee nome> impostare tool type e materiale>misurare e mod flute diam e lenght>register
+- in _Tool Type_ scegliere se la punta è flat, ball o engraving
+- in _Material_ scegliere il materiale di cui è fatto l'utensile
+- in _Flute Diameter_ e _Flute Lenght_ misurare e inserire le dimensioni dell'utensile, fare riferimento alla sezione [Caratteristiche delle End Mills](#caratteristiche-delle-end-mills) per eventuali dubbi riguardo le misure.   
+
+Premere infine _Register_ per salvare l'utensile impostato.
+![screen add tool](img/SRP-add-tool.png)
+
 selez cutting parameters se vuoi cambiare materiale (cambia materiale cambiano i parametri di taglio in automatico)
 
 add remove material>new material>puoi aggiungere se hai nuovi materiali
@@ -177,6 +178,7 @@ Per riportareil piano in posizione e far ripartire la lavorazione dal punto di i
 ![foto view](x-domani)
 
 rimuovere il prezzo fresato facendo attenzione a non danneggiarlo
+![foto finale pezzo](x)
 
 ### Spegnimento 
 Per spegnere il macchinario chiudere il programma __VPanel__ da pc, quindi spegnere il macchinario dal __main power switch__ (interruttore di alimentazione) sul retro.
