@@ -66,13 +66,16 @@ Il Fablab dispone di un macchinario a CO<sub>2</sub>, di seguito una lista compl
 | Vetroresina            | __O__ | __O__ |   
 
 ### PC con installati i software necessari
-Al Fablab hai la possibilità di utilizzare il computer collegato alla Laser Cutter, nel quale sono già presenti i drivers e i software necessari.   
-Il macchinario è compatibile con computer con sistemi operativi successivi a Windows XP, equipaggiati con il software __Lasercut 6.1__.   
+<!--OLD_Al Fablab hai la possibilità di utilizzare il computer collegato alla Laser Cutter, nel quale sono già presenti i drivers e i software necessari.   
+Il macchinario è compatibile con computer con sistemi operativi successivi a Windows XP, equipaggiati con il software __Lasercut 6.1__. -->
+Al Fablab hai la possibilità di utilizzare il computer collegato alla Laser Cutter, nel quale sono già presenti i drivers e i software necessari. 
+Il macchinario è compatibile con computer con sistemi operativi successivi a Windows XP, equipaggiati con il software __RDworks__.  
 
 ### File da tagliare
-Le lavorazioni della Laser Cutter si basano su tracciati vettoriali, perciò il file utilizzato deve contenere contorni definiti e privi di doppie linee e riempimenti.   
-Il software __Lasercut 6.1__ supporta file di formato DXF (si consiglia il DXF 2000/LT2000).   
-<!-- controllare che ai e jpg funzionino, bpm funziona? -->
+<!--OLD_Le lavorazioni della Laser Cutter si basano su tracciati vettoriali, perciò il file utilizzato deve contenere contorni definiti e privi di doppie linee e riempimenti.   
+Il software __Lasercut 6.1__ supporta file di formato DXF (si consiglia il DXF 2000/LT2000). -->  
+Le lavorazioni della Laser Cutter si basano su tracciati vettoriali, perciò il file utilizzato deve contenere __RDworks__ supporta file di formato DXF (si consiglia il DXF 2000/LT2000). 
+
 
 ### Accessori
 Gli oggetti esterni richiesti da questa lavorazione sono: delle barre di ferro per evitare l'imbarcamento del pezzo da tagliare, un fondale rigido in [metallo alveolare](https://www.cel.eu/it/prodotti/alveolari/alluminio) per supportare i materiali poco rigidi. In alcuni casi potrebbe servire anche un taglierino (o Cutter) per aiutare la separazione dei pezzi.   
