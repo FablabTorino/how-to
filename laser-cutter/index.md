@@ -145,33 +145,50 @@ Bloccare quindi il materiale utilizzando le __sbarre di ferro__ (poste a lato de
 ![foto materiale ben fissato](img/laser-cutter-caricamento.jpg)
 
 La forma conica del laser richiede anche una regolazione dell'asse z.   
-Muovere il piano dal __pannello di controllo__ premendo il tasto `Z` e poi le freccie `↑` e `↓`, posizionandolo il più in alto possibile senza danneggiare il __cannone del laser__. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo). La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.   
-Infine premere il tasto `Z` per uscire dalla selezione.
-![foto regolazione, tastierino con tasti da premere, blocchetto tra materiale e cannone](img/laser-cutter-asse-z.jpg)
+Muovere il piano dal __pannello di controllo__ premendo i tasti `z+` `z-` posizionandolo il più in alto possibile senza danneggiare il __cannone del laser__. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al __pannello di controllo__). La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.
+<!--premendo il tasto `Z` e poi le freccie `↑` e `↓`, posizionandolo il più in alto possibile senza danneggiare il __cannone del laser__. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo). La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.Infine premere il tasto `Z` per uscire dalla selezione.-->
+![img]--
+<!--![foto regolazione, tastierino con tasti da premere, blocchetto tra materiale e cannone](img/laser-cutter-asse-z.jpg)-->
 
 
 ### Tagliare
-Prima di procedere al taglio è buona pratica fare dei test. Premere il tasto `Esc` per uscire dalla selezione, poi tramite i tasti `↑`, `↓`, `←` e `→` posizionare la testina contenente il laser sul materiale. Quindi premere il tasto `Test` e osservare se l'area descritta dalla testina rientra completamente nel materiale.   
+Prima di procedere al taglio è buona pratica fare dei test. Tramite i tasti `↑`, `↓`, `←` e `→` posizionare la __testina__ contenente il laser sul materiale. Quindi premere il tasto `Origin` per settare l’__origine__, poi il tasto `Frame` e osservare se l’area descritta dalla testina rientra completamente nel materiale.   
+Per un’ulteriore conferma si può verificare l’esatta posizione del punto di partenza del laser. A __coperchio__ chiuso e __testina__ nella posizione desiderata, premere brevemente il tasto `Pulse` per emettere un raggio e segnare il punto di partenza. 
+<!--Premere il tasto `Esc` per uscire dalla selezione, poi tramite i tasti `↑`, `↓`, `←` e `→` posizionare la testina contenente il laser sul materiale. Quindi premere il tasto `Test` e osservare se l'area descritta dalla testina rientra completamente nel materiale.   
 Per un'ulteriore conferma si può verificare l'esatta posizione del punto di partenza del laser. A __coperchio__ chiuso e __testina__ nella posizione desiderata, premere brevemente il tasto `Laser` per emettere un raggio e segnare il punto di partenza.   
-![foto tastierino con tasto da premere, foto piano con freccia di traiettoria](img/laser-cutter-test.jpg)
+![foto tastierino con tasto da premere, foto piano con freccia di traiettoria](img/laser-cutter-test.jpg)-->
+![img]---
 
 Ricordarsi sempre di accendere l'__aspiratore__ dallo switch posto dietro al computer (in foto).   
-![foto, evidenziare tasto](img/laser-cutter-accensione-aspiratore.jpg)
+<!--![foto, evidenziare tasto](img/laser-cutter-accensione-aspiratore.jpg)-->
+![img]---
 
 Si può quindi avviare il macchinario premendo il tasto `Start/Pause` sul __pannello di controllo__. Mentre la Laser Cutter esegue il taglio bisogna controllare che la pressione indicata sia a 2, se necessario modificarla agendo sulla __valvola__ indicata in foto.   
-![foto tastierino](img/laser-cutter-avviamento-macchina.jpg)
+<!--![foto tastierino](img/laser-cutter-avviamento-macchina.jpg)-->
+![img]--
 
-A taglio e incisione terminati premere `Datum` sul __pannello di controllo__ per inviare la testina nell'angolo in alto a destra.   
+A taglio e incisione terminati è bene fare l'__autohome__ della testina prima di prelevare il materiale tagliato. Per farlo seguire il seguente percorso dal pannello di controllo della macchina: _Menù_>_Function set_>_Axes reset_>_XY axis reset_. <!--premere `Datum` sul __pannello di controllo__ per inviare la testina nell'angolo in alto a destra.-->   
 Si può quindi prelevare il materiale dal macchinario e separare e rimuovere i pezzi in eccesso.   
-![foto tastierino e posizione autohome](img/laser-cutter-pezzi-finiti.jpg)
+<!--![foto tastierino e posizione autohome](img/laser-cutter-pezzi-finiti.jpg)-->
+![img]---
 
 ### Spegnimento 
-Finito il processo si può spegnere l'__aspiratore__, se invece non si utilizza più il macchinario si deve spegnere anche il __Chiller__ e la Laser Cutter, girando la chiave di __avviamento__.   
-![foto tasto](img/laser-cutter-spegnimento-macchinario.jpg)
+Finito il processo si può spegnere l'__aspiratore__, se invece non si utilizza più il macchinario si deve spegnere la __Laser Cutter__, girando la chiave di __avviamento__.   
+<!--![foto tasto](img/laser-cutter-spegnimento-macchinario.jpg)-->
+![img]---
 
 Spegnere infine anche il Computer, il monitor e infine anche la ciabatta elettrica posizionata dietro, visibile nella [fase di accensione](#accensione).   
 
 
 ## FAQ
 __Perchè non posso tagliare il PVC?__   
-Il PVC non è adatto per l'incisione o il taglio laser a causa di sostanze specifiche che contiene e la formazione di acido cloridrico e gas velenosi.
+Il PVC non è adatto per l'incisione o il taglio laser a causa di sostanze specifiche che contiene e la formazione di acido cloridrico e gas velenosi quando raggionge temperature troppo alte.
+
+__Come modifico i parametri di taglio durante il processo di taglio?__
+Per modificare i parametri di taglio dalla macchina seguire questo procedimento:
+premere il tasto `enter` e con le frecce `↑` `↓` `←` `→` posizionarsi sul __layer__ da modificare. Premere nuovamente `enter` e con le frecce `↑` `↓` `←` `→`posizionarsi sul __parametro__ da modificare. Confermare con `enter` e con le frecce `←` e `→` selezionare la __cifra__ da modificare. con le frecce `↑` e `↓` cambiare il __valore del parametro__.   
+Permere infine `enter`, con la `↓` selezionare il tasto _confirm the
+enter_ e per terminare premere `esc`.
+
+__Attenzione!__ questo processo va eseguito solo con il macchinario in modalità __Pause__
+<!--inserire qui una foto del pannello-->
