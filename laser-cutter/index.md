@@ -117,21 +117,26 @@ Inoltre, avere doppie linee nel file potrebbe creare problemi o allungare i temp
 ![screen]--- 
 
 Dalla colonna a destra è possibile dividere le linee dell'oggetto in base a diversi __profili di taglio o incisione__. Selezionando la linea da isolare [1] e assegnandole un colore dalla barra in basso [2], il programma la inserisce in un profilo di taglio separato e modificabile in modo individuale [3].   
+Nel pannello sottostante si può modificare la priorità di taglio.   
 <!--Con i tasti _Sposta Su_ e _Sposta Giù_ si possono ordinare i colori in base all'ordine di esecuzione desiderato.  
 ![screen](img/laser-cutter-lasercut-layers.jpg)-->
+![img]---
 
 Assegnate le varie linee ai __profili di taglio o incisione__, facendo doppio click sui colori dei profili si possono impostare le caratteristiche in base al tipo di lavorazione desiderata. Nelle immagini di seguito, sono evidenziate in giallo le voci da modificare per le __lavorazioni di taglio e raster__.   
-__Attenzione!__  non modificare gli altri parametri!
-![screen profili](img/laser-cutter-lasercut-taglio.png)
-![screen profili](img/laser-cutter-lasercut-raster.jpg)
+Il profilo consigliato per effettuare il taglio è _Cut_, mentre quello per l’incisione raster è _Scan_.   __Attenzione!__  non modificare gli altri parametri!   
+__Attenzione!__ Modificare solo la potenza _1_ evidenziata in viola e assicurarsi che sia flaggata.   
+<!--![screen profili](img/laser-cutter-lasercut-taglio.png)
+![screen profili](img/laser-cutter-lasercut-raster.jpg)-->
+![screen1]--
+![screen2]--
 
-Controllare sempre dove è il __punto di origine del taglio__, segnato con un pallino blu. È possibile modificarne la posizione premendo il comando in alto e scegliendo la posizione desiderata dalla finestra di dialogo, premere infine _Ok_ per confermare.
-![screen comando](img/laser-cutter-lasercut-origine.png)
+Controllare sempre dove è il __punto di origine del taglio__, segnato con un quadrato verde. <!-- È possibile modificarne la posizione premendo il comando in alto e scegliendo la posizione desiderata dalla finestra di dialogo, premere infine _Ok_ per confermare.-->È consigliato lasciare il __punto di origine del taglio__ in alto a destra del tracciato di taglio.
+<!--![screen comando](img/laser-cutter-lasercut-origine.png)-->
 
-
-Per inviare il file al macchinario si deve seguire il percorso _Download_>_Download File Corrente_>scegliere un nome, infine confermare l'azione.   
-![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)
-
+Per inviare il file al macchinario si deve seguire il percorso _Download_> scegliere un nome, infine confermare l’azione premendo _Ok_.
+<!--Per inviare il file al macchinario si deve seguire il percorso _Download_>_Download File Corrente_>scegliere un nome, infine confermare l'azione.   
+![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)-->
+![img]--
 
 ### Caricare il materiale 
 Aprire quindi il __coperchio__ del macchinario per inserire il materiale da tagliare e incidere.     
