@@ -25,11 +25,11 @@ Prima di iniziare assicurati di avere tutto il necessario:
 - Accessori (barre per fissare il materiale, fondale rigido)  
 
 ### Laser Cutter CO<sub>2</sub> WL1290
-![fronte lasercutter](img/laser-cutter-matilda.jpg)   
+<!--![fronte lasercutter](img/laser-cutter-matilda.jpg) -->
+![fronte pinta](img/new_laser-cutter-pinta.jpg)  
 
 Il laser taglia concentrando un'alta energia in un piccolo spot, sciogliendo, bruciando o vaporizzando il materiale che viene poi soffiato via da un getto di aria compressa, lasciando un bordo di taglio di ottima qualità.   
 ![schema cono laser](img/laser-cutter-cono-laser.jpg) 
-<!-- inserire foto del cono laser, slide marco -->
 
 | Caratteristiche tecniche           | Valori                                   |   
 |:-----------------------------------|:-----------------------------------------|   
@@ -86,12 +86,12 @@ Per tagliare con la Laser Cutter segui i passaggi illustrati di seguito.
 ### Accensione
 Accendere la ciabatta elettrica collegata alla macchina, quindi accendere anche il computer e lo schermo alla destra della Laser Cutter.   
 <!--OLD_![foto, indicare tasti di accensione](img/laser-cutter-accensione-pc.jpg)-->
-![foto]---
+![foto](img/new_laser-cutter-accensione-pc.jpg)
 
 __ATTENZIONE!__ Prima di avviare la macchina assicurarsi che il piano di lavoro sia completamente sgombro e privo di ostacoli.    
 Accendere quindi la macchina girando in senso orario la chiave dell'__interruttore generale__, sopra il __pannello di controllo__, in automatico si accenderà anche il __chiller__.  
 <!--OLD_![foto, girare chiave](img/laser-cutter-accensione-macchina.jpg)-->
-![foto]---
+![foto](img/new_laser-cutter-accensione-macchina.jpg)
 
 ### Preparare il file   
 <!--OLD_Inserire la chiavetta USB contenente il file e avviare __Lasercut 6.1__.   
@@ -99,22 +99,22 @@ Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _File_
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-importa.png)-->
 Inserire la chiavetta USB contenente il file e avviare __RDworks__
 Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _File_>_Importa_>selezionare il file.
-![screen]--- 
+![screen](img/new_laser-cutter-importa.png)
 
 <!--È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinistra raffigurante un rettangolo quotato.   
 ![screen, evidenziare posizione comandi](img/laser-cutter-lasercut-move-scale.png)-->
 È possibile muovere il soggetto trascinandolo dalla _X_ fucsia posta al suo centro e ruotarlo scrivendo i gradi nella parte alta della schermata. Si può inoltre scalarlo utilizzando i riquadri in alto a sinistra.
-![screen]---
+![screen](img/new_laser-cutter-move-scale.png)
 
 <!--È consigliato avere un file di taglio composto da linee continue e non frammentate. Per unire automaticamente dei segmenti vicini selezionare le linee e seguire il percorso _Strumenti_>_Unisci Linee_> nella finestra di dialogo inserire distanza massima tra le linee da unire >_Ok_.
 ![screen](img/laser-cutter-lasercut-unisci-linee.png) -->
 È consigliato avere un file di taglio composto da linee continue e non frammentate. Per unire automaticamente dei segmenti vicini selezionare le linee e seguire il percorso _Handle_>_Combine curve_>nella finestra di dialogo inserire distanza massima tra le linee da unire >_Ok_.
-![screen]--- 
+![screen](img/new_laser-cutter-unisci-linee.png) 
 
 <!--Inoltre, avere doppie linee nel file potrebbe creare problemi o allungare i tempi durante il taglio. È perciò consigliato eseguire un controllo delle doppie linee seguendo il percorso _Strumenti_>_Cancella Linee Sovrapposte_, il programma selezionerà tutte le linee sovrapposte e basterà premere il tasto _CANC_ per eliminarle.   
 ![screen](img/laser-cutter-lasercut-doppie-linee.png)-->
 Inoltre, avere doppie linee nel file potrebbe creare problemi o allungare i tempi durante il taglio. È perciò consigliato eseguire un controllo delle doppie linee seguendo il percorso _Handle_>_Delete overlap_, il programma selezionerà tutte le linee sovrapposte e basterà premere il _Ok_ nella finestra di dialogo per eliminarle.
-![screen]--- 
+![screen](img/new_laser-cutter-doppie-linee.png)
 
 Dalla colonna a destra è possibile dividere le linee dell'oggetto in base a diversi __profili di taglio o incisione__. Selezionando la linea da isolare [1] e assegnandole un colore dalla barra in basso [2], il programma la inserisce in un profilo di taglio separato e modificabile in modo individuale [3].   
 Nel pannello sottostante si può modificare la priorità di taglio.   
