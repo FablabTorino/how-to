@@ -101,38 +101,38 @@ Inserire la chiavetta USB contenente il file e avviare __RDworks__
 Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _File_>_Importa_>selezionare il file.
 ![screen importa](img/new_laser-cutter-importa.png)
 
-<!--È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinistra raffigurante un rettangolo quotato.   
+<!--OLD_È possibile muovere il soggetto trascinandolo dalla _X_ blu posta al suo centro e ruotarlo utilizzando l'icona a sinistra raffigurante una freccia. Si può inoltre scalarlo utilizzando il comando nella colonna a sinistra raffigurante un rettangolo quotato.   
 ![screen, evidenziare posizione comandi](img/laser-cutter-lasercut-move-scale.png)-->
 È possibile muovere il soggetto trascinandolo dalla _X_ fucsia posta al suo centro e ruotarlo scrivendo i gradi nella parte alta della schermata. Si può inoltre scalarlo utilizzando i riquadri in alto a sinistra.
 ![screen essenziali](img/new_laser-cutter-move-scale.png)
 
-<!--È consigliato avere un file di taglio composto da linee continue e non frammentate. Per unire automaticamente dei segmenti vicini selezionare le linee e seguire il percorso _Strumenti_>_Unisci Linee_> nella finestra di dialogo inserire distanza massima tra le linee da unire >_Ok_.
+<!--OLD_È consigliato avere un file di taglio composto da linee continue e non frammentate. Per unire automaticamente dei segmenti vicini selezionare le linee e seguire il percorso _Strumenti_>_Unisci Linee_> nella finestra di dialogo inserire distanza massima tra le linee da unire >_Ok_.
 ![screen](img/laser-cutter-lasercut-unisci-linee.png) -->
 È consigliato avere un file di taglio composto da linee continue e non frammentate. Per unire automaticamente dei segmenti vicini selezionare le linee e seguire il percorso _Handle_>_Combine curve_>nella finestra di dialogo inserire distanza massima tra le linee da unire >_Ok_.
 ![screen unisci linee](img/new_laser-cutter-unisci-linee.png) 
 
-<!--Inoltre, avere doppie linee nel file potrebbe creare problemi o allungare i tempi durante il taglio. È perciò consigliato eseguire un controllo delle doppie linee seguendo il percorso _Strumenti_>_Cancella Linee Sovrapposte_, il programma selezionerà tutte le linee sovrapposte e basterà premere il tasto _CANC_ per eliminarle.   
+<!--OLD_Inoltre, avere doppie linee nel file potrebbe creare problemi o allungare i tempi durante il taglio. È perciò consigliato eseguire un controllo delle doppie linee seguendo il percorso _Strumenti_>_Cancella Linee Sovrapposte_, il programma selezionerà tutte le linee sovrapposte e basterà premere il tasto _CANC_ per eliminarle.   
 ![screen](img/laser-cutter-lasercut-doppie-linee.png)-->
 Inoltre, avere doppie linee nel file potrebbe creare problemi o allungare i tempi durante il taglio. È perciò consigliato eseguire un controllo delle doppie linee seguendo il percorso _Handle_>_Delete overlap_, il programma selezionerà tutte le linee sovrapposte e basterà premere il _Ok_ nella finestra di dialogo per eliminarle.
 ![screen doppie linee](img/new_laser-cutter-doppie-linee.png)
 
 Dalla colonna a destra è possibile dividere le linee dell'oggetto in base a diversi __profili di taglio o incisione__. Selezionando la linea da isolare [1] e assegnandole un colore dalla barra in basso [2], il programma la inserisce in un profilo di taglio separato e modificabile in modo individuale [3].   
 Nel pannello sottostante si può modificare la priorità di taglio.   
-<!--Con i tasti _Sposta Su_ e _Sposta Giù_ si possono ordinare i colori in base all'ordine di esecuzione desiderato.  
+<!--OLD_Con i tasti _Sposta Su_ e _Sposta Giù_ si possono ordinare i colori in base all'ordine di esecuzione desiderato.  
 ![screen](img/laser-cutter-lasercut-layers.jpg)-->
 ![screen profili](img/new_laser-cutter-layers.png)
 
 Assegnate le varie linee ai __profili di taglio o incisione__, facendo doppio click sui colori dei profili si possono impostare le caratteristiche in base al tipo di lavorazione desiderata. Nelle immagini di seguito, sono evidenziate in giallo le voci da modificare per le __lavorazioni di taglio e raster__.   
 Il profilo consigliato per effettuare il taglio è _Cut_, mentre quello per l’incisione raster è _Scan_.   __Attenzione!__  non modificare gli altri parametri!   
 __Attenzione!__ Modificare solo la potenza _1_ evidenziata in viola e assicurarsi che sia flaggata.   
-<!--![screen profili](img/laser-cutter-lasercut-taglio.png)
+<!--OLD_![screen profili](img/laser-cutter-lasercut-taglio.png)
 ![screen profili](img/laser-cutter-lasercut-raster.jpg)-->
 ![screen taglio](img/new_laser-cutter-taglio.png)
 ![screen raster](img/new_laser-cutter-raster.png)
 
-Controllare sempre dove è il __punto di origine del taglio__, segnato con un quadrato verde. <!-- È possibile modificarne la posizione premendo il comando in alto e scegliendo la posizione desiderata dalla finestra di dialogo, premere infine _Ok_ per confermare.-->È consigliato lasciare il __punto di origine del taglio__ in alto a destra del tracciato di taglio.<!--![screen comando](img/laser-cutter-lasercut-origine.png)-->
+Controllare sempre dove è il __punto di origine del taglio__, segnato con un quadrato verde. <!--OLD_ È possibile modificarne la posizione premendo il comando in alto e scegliendo la posizione desiderata dalla finestra di dialogo, premere infine _Ok_ per confermare.-->È consigliato lasciare il __punto di origine del taglio__ in alto a destra del tracciato di taglio.<!--OLD_![screen comando](img/laser-cutter-lasercut-origine.png)-->
 Per inviare il file al macchinario si deve seguire il percorso _Download_> scegliere un nome, infine confermare l’azione premendo _Ok_.
-<!--Per inviare il file al macchinario si deve seguire il percorso _Download_>_Download File Corrente_>scegliere un nome, infine confermare l'azione.   
+<!--OLD_Per inviare il file al macchinario si deve seguire il percorso _Download_>_Download File Corrente_>scegliere un nome, infine confermare l'azione.   
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-download.png)-->
 ![screen download](img/new_laser-cutter-download.png)
 
@@ -144,9 +144,9 @@ Bloccare quindi il materiale utilizzando le __sbarre di ferro__ (poste a lato de
 
 La forma conica del laser richiede anche una regolazione dell'asse z.   
 Muovere il piano dal __pannello di controllo__ premendo i tasti `z+` `z-` posizionandolo il più in alto possibile senza danneggiare il __cannone del laser__. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al __pannello di controllo__). La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.
-<!--premendo il tasto `Z` e poi le freccie `↑` e `↓`, posizionandolo il più in alto possibile senza danneggiare il __cannone del laser__. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo). La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.Infine premere il tasto `Z` per uscire dalla selezione.-->
+<!--OLD_premendo il tasto `Z` e poi le freccie `↑` e `↓`, posizionandolo il più in alto possibile senza danneggiare il __cannone del laser__. Quindi regolare la distanza tra il materiale e la punta del cannone utilizzando il blocchetto di legno (in genere appoggiato vicino al pannello di controllo). La misura adatta si ha quando il blocchetto è libero di passare tra i due ma sfiorandoli.Infine premere il tasto `Z` per uscire dalla selezione.-->
 ![img](img/new_laser-cutter-asse-z.jpg)
-<!--![foto regolazione, tastierino con tasti da premere, blocchetto tra materiale e cannone](img/laser-cutter-asse-z.jpg)-->
+<!--OLD_![foto regolazione, tastierino con tasti da premere, blocchetto tra materiale e cannone](img/laser-cutter-asse-z.jpg)-->
 
 
 ### Tagliare
@@ -154,27 +154,27 @@ Prima di procedere al taglio è buona pratica fare dei test. Tramite i tasti `�
 ![img frame](img/new_laser-cutter-test.jpg)
 
 Per un’ulteriore conferma si può verificare l’esatta posizione del punto di partenza del laser. A __coperchio__ chiuso e __testina__ nella posizione desiderata, premere brevemente il tasto `Pulse` per emettere un raggio e segnare il punto di partenza. 
-<!--Premere il tasto `Esc` per uscire dalla selezione, poi tramite i tasti `↑`, `↓`, `←` e `→` posizionare la testina contenente il laser sul materiale. Quindi premere il tasto `Test` e osservare se l'area descritta dalla testina rientra completamente nel materiale.   
+<!--OLD_Premere il tasto `Esc` per uscire dalla selezione, poi tramite i tasti `↑`, `↓`, `←` e `→` posizionare la testina contenente il laser sul materiale. Quindi premere il tasto `Test` e osservare se l'area descritta dalla testina rientra completamente nel materiale.   
 Per un'ulteriore conferma si può verificare l'esatta posizione del punto di partenza del laser. A __coperchio__ chiuso e __testina__ nella posizione desiderata, premere brevemente il tasto `Laser` per emettere un raggio e segnare il punto di partenza.   
 ![foto tastierino con tasto da premere, foto piano con freccia di traiettoria](img/laser-cutter-test.jpg)-->
 ![img pulse](img/new_laser-cutter-pulse.jpg)
 
 Ricordarsi sempre di accendere l'__aspiratore__ dallo switch posto dietro al computer (in foto).   
-<!--![foto, evidenziare tasto](img/laser-cutter-accensione-aspiratore.jpg)-->
+<!--OLD_![foto, evidenziare tasto](img/laser-cutter-accensione-aspiratore.jpg)-->
 ![img accensione aspirazione](img/new_laser-cutter-accensione-aspiratore.jpg)
 
 Si può quindi avviare il macchinario premendo il tasto `▶️/⏸` sul __pannello di controllo__. Mentre la Laser Cutter esegue il taglio bisogna controllare che la pressione indicata sia a 2, se necessario modificarla agendo sulla __valvola__ cerchiata in foto.   
-<!--![foto tastierino](img/laser-cutter-avviamento-macchina.jpg)-->
+<!--OLD_![foto tastierino](img/laser-cutter-avviamento-macchina.jpg)-->
 ![img](img/new_laser-cutter-avviamento-macchina.jpg)
 
-A taglio e incisione terminati è bene fare l'__autohome__ della testina prima di prelevare il materiale tagliato. Per farlo seguire il seguente percorso dal pannello di controllo della macchina: `Menù`>_Function set_>`Enter`>_Axes reset_>`Enter`>_XY axis reset_>`Enter`. <!--premere `Datum` sul __pannello di controllo__ per inviare la testina nell'angolo in alto a destra.-->   
+A taglio e incisione terminati è bene fare l'__autohome__ della testina prima di prelevare il materiale tagliato. Per farlo seguire il seguente percorso dal pannello di controllo della macchina: `Menù`>_Function set_>`Enter`>_Axes reset_>`Enter`>_XY axis reset_>`Enter`. <!--OLD_premere `Datum` sul __pannello di controllo__ per inviare la testina nell'angolo in alto a destra.-->   
 Si può quindi prelevare il materiale dal macchinario e separare e rimuovere i pezzi in eccesso.   
-<!--![foto tastierino e posizione autohome](img/laser-cutter-pezzi-finiti.jpg)-->
+<!--OLD_![foto tastierino e posizione autohome](img/laser-cutter-pezzi-finiti.jpg)-->
 ![img](img/new_laser-cutter-autohome.jpg)
 
 ### Spegnimento 
 Finito il processo si può spegnere l'__aspiratore__, se invece non si utilizza più il macchinario si deve spegnere la __Laser Cutter__, girando la chiave di __avviamento__.   
-<!--![foto tasto](img/laser-cutter-spegnimento-macchinario.jpg)-->
+<!--OLD_![foto tasto](img/laser-cutter-spegnimento-macchinario.jpg)-->
 ![img](img/new_laser-cutter-spegnimento-macchinario.jpg)
 
 Spegnere infine anche il Computer, il monitor e infine anche la ciabatta elettrica posizionata dietro, visibile nella [fase di accensione](#accensione).   
