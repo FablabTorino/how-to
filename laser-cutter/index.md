@@ -124,7 +124,7 @@ Nel pannello sottostante si può modificare la priorità di taglio.
 
 Assegnate le varie linee ai __profili di taglio o incisione__, facendo doppio click sui colori dei profili si possono impostare le caratteristiche in base al tipo di lavorazione desiderata. Nelle immagini di seguito, sono evidenziate in giallo le voci da modificare per le __lavorazioni di taglio e raster__.   
 Il profilo consigliato per effettuare il taglio è _Cut_, mentre quello per l’incisione raster è _Scan_.   __Attenzione!__  non modificare gli altri parametri!   
-__Attenzione!__ Modificare solo la potenza _1_ evidenziata in viola e assicurarsi che sia flaggata.   
+__Attenzione!__ Modificare solo la potenza _1_ evidenziata in giallo e assicurarsi che sia flaggata.   
 <!--OLD_![screen profili](img/laser-cutter-lasercut-taglio.png)
 ![screen profili](img/laser-cutter-lasercut-raster.jpg)-->
 ![screen taglio](img/new_laser-cutter-taglio.png)
