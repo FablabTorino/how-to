@@ -74,7 +74,7 @@ Il macchinario è compatibile con computer con sistemi operativi successivi a Wi
 ### File da tagliare
 <!--OLD_Le lavorazioni della Laser Cutter si basano su tracciati vettoriali, perciò il file utilizzato deve contenere contorni definiti e privi di doppie linee e riempimenti.   
 Il software __Lasercut 6.1__ supporta file di formato DXF (si consiglia il DXF 2000/LT2000). -->  
-Le lavorazioni della Laser Cutter si basano su tracciati vettoriali, perciò il file utilizzato deve contenere __RDworks__ supporta file di formato DXF (si consiglia il DXF 2000/LT2000). 
+Le lavorazioni della Laser Cutter si basano su tracciati vettoriali, perciò il file utilizzato deve contenere contorni definiti e privi di doppie linee e riempimenti. Si consiglia di impostare lo spessore delle linee a 0,1 pt e dividere già le lavorazioni in layer diversi.   __RDworks__ supporta file di formato DXF (si consiglia il DXF 2000/LT2000). 
 
 
 ### Accessori
@@ -97,7 +97,7 @@ Accendere quindi la macchina girando in senso orario la chiave dell'__interrutto
 <!--OLD_Inserire la chiavetta USB contenente il file e avviare __Lasercut 6.1__.   
 Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _File_>_Importa_>selezionare il file.   
 ![screen, evidenziare percorso](img/laser-cutter-lasercut-importa.png)-->
-Inserire la chiavetta USB contenente il file e avviare __RDworks__
+Inserire la chiavetta USB contenente il file e avviare __RDworks__. Si aprirà la finestra "User account control" che chiede conferma per avviare il programma, premere _Yes_.
 Per aprire il file vettoriale premere _CTRL+I_ oppure seguire il percorso _File_>_Importa_>selezionare il file.
 ![screen importa](img/new_laser-cutter-importa.png)
 
